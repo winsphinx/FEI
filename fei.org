@@ -1,0 +1,211 @@
+#+TITLE: F.E.I.
+#+SUBTITLE: Français & Español & Italiano
+#+AUTHOR: winsphinX
+#+DATE: \today
+#+LATEX_CLASS: report
+#+LATEX_CLASS_OPTIONS: [UTF8,a4paper,titlepage,10pt]
+#+LATEX_HEADER: \usepackage[heading]{ctex}
+#+LATEX_HEADER: \usepackage[left=3.2cm,right=3.2cm,top=2.5cm,bottom=2.5cm]{geometry}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue}
+
+#+LATEX_HEADER_EXTRA: \usepackage{tipa}     % 用于输入音标
+#+LATEX_HEADER_EXTRA: \usepackage{rotfloat} % 用于图表排版
+#+LATEX_HEADER_EXTRA: \usepackage{booktabs} % 用于图表美化
+#+LATEX_HEADER_EXTRA: \usepackage{tabularx} % 用于表格长行
+#+LATEX_HEADER_EXTRA: \usepackage{ltablex}  % 用于表格跨页
+#+LATEX_HEADER_EXTRA: \usepackage{makeidx}  % 用于创建索引
+#+LATEX_HEADER_EXTRA: \makeindex
+
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+
+#+LATEX: \pagestyle{plain}       % 定义页码位置
+#+LATEX: \pagenumbering{Roman}   % 目录页码格式
+#+LATEX: \newpage                % 目录之后换页
+#+LATEX: \setcounter{page}{1}    % 正文重新计数
+#+LATEX: \pagenumbering{arabic}  % 正文页码格式
+
+
+* 简介
+
+** 介绍
+
+  Français & Español & Italiano
+
+* 语音
+
+** 字母
+
+**** Français
+     #+NAME: alphabet-f
+     #+CAPTION: 法语字母表
+     #+ATTR_LATEX: :placement [H] :booktabs t :align lll|lll
+     | 字母 | 名称  | 读音                    | 字母 | 名称       | 读音                                       |
+     |------+-------+-------------------------+------+------------+--------------------------------------------|
+     | A a  | a     | [\textscripta]          | N n  | enne       | [\textepsilon n]                           |
+     | B b  | bé   | [be]                    | O o  | o          | [o]                                        |
+     | C c  | cé   | [se]                    | P p  | pé        | [pe]                                       |
+     | D d  | dé   | [de]                    | Q q  | qu         | [ky]                                       |
+     | E e  | e     | [\textschwa]            | R r  | erre       | [\textepsilon \textlengthmark \textinvscr] |
+     | F e  | eff   | [\textepsilon f]        | S s  | esse       | [\textepsilon s]                           |
+     | G g  | gé   | [\textipa{Z}e]          | T t  | té        | [te]                                       |
+     | H h  | hache | [\textscripta \textesh] | U u  | u          | [y]                                        |
+     | I i  | i     | [i]                     | V v  | vé        | [ve]                                       |
+     | J j  | ji    | [\textipa{Z}i]          | W w  | double vé | [dubl\textschwa ve]                        |
+     | K k  | ka    | [k\textscripta]         | X x  | ixe        | [iks]                                      |
+     | L l  | elle  | [\textepsilon l]        | Y y  | i grec     | [ig\textinvscr \textepsilon k]             |
+     | M m  | emme  | [\textepsilon m]        | Z z  | zède      | [z\textepsilon d]                          |
+
+**** Español[fn:1]
+     #+NAME: alphabet-e
+     #+CAPTION: 西班牙语字母表
+     #+ATTR_LATEX: :placement [H] :booktabs t :align lll|lll
+     | 字母  | 名称 | 读音                       | 字母  | 名称      | 读音                         |
+     |-------+------+----------------------------+-------+-----------+------------------------------|
+     | A a   | a    | [\textscripta]             | N n   | ene       | [ene]                        |
+     | B b   | be   | [be]                       | Ñ ñ   | eñe       | [e\textltailn e]             |
+     | C c   | ce   | [\texttheta e]             | O o   | o         | [o]                          |
+     | CH ch | che  | [t\textesh e]              | P p   | pe        | [pe]                         |
+     | D d   | de   | [de]                       | Q q   | cu        | [ku]                         |
+     | E e   | e    | [e]                        | R r   | ere       | [e\textfishhookr e]          |
+     | F e   | efe  | [efe]                      | RR rr | erre      | [ere]                        |
+     | G g   | ge   | [xe]                       | S s   | ese       | [ese]                        |
+     | H h   | ache | [\textscripta t\textesh e] | T t   | te        | [te]                         |
+     | I i   | i    | [i]                        | U u   | u         | [u]                          |
+     | J j   | hota | [xot\textscripta]          | V v   | uve       | [u\textbeta e]               |
+     | K k   | ka   | [k\textscripta]            | W w   | uve doble | [u\textbeta edo\textbeta le] |
+     | L l   | ele  | [ele]                      | X x   | ekis      | [ekis]                       |
+     | LL ll | elle | [e\textturny e]            | Y y   | y griega  | [igrieg\textscripta]         |
+     | M m   | eme  | [eme]                      | Z z   | zeta      | [\texttheta eta]             |
+
+**** Italiano
+     #+NAME: alphabet-e
+     #+CAPTION: 意大利语字母表
+     #+ATTR_LATEX: :placement [H] :booktabs t :align lll|lll
+     | 字母 | 名称 | 读音 | 字母 | 名称 | 读音 |
+     |------+------+------+------+------+------|
+     |      |      |      |      |      |      |
+
+** 发音
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+* 语法
+
+** 名词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+** 冠词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+** 代词
+
+*** 人称代词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+*** 主有代词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+*** 指示代词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+** 形容词
+
+*** 主有形容词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+*** 指示形容词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+** 数词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+** 动词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+** 副词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+** 介词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+* 句法
+
+* 参考文献
+
+  #+LATEX: \bibliographystyle{plain}
+  #+LATEX: \bibliography{publist}
+  #+LATEX: \nocite{*}
+
+#+LATEX: \newpage
+* 索引列表
+
+  # 生成表格索引
+  #+LATEX: \listoftables
+  # 生成标记索引
+  #+LATEX: \printindex
+
+* Footnotes
+
+[fn:1] 字母 "W" 和 "K" 平常时一般不用，它们只出现于外来词汇。
