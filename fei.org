@@ -8,12 +8,11 @@
 #+LATEX_HEADER: \usepackage[left=3.2cm,right=3.2cm,top=2.5cm,bottom=2.5cm]{geometry}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue}
 
-#+LATEX_HEADER_EXTRA: \usepackage{tipa}     % 用于输入音标
-#+LATEX_HEADER_EXTRA: \usepackage{rotfloat} % 用于图表排版
-#+LATEX_HEADER_EXTRA: \usepackage{booktabs} % 用于图表美化
-#+LATEX_HEADER_EXTRA: \usepackage{tabularx} % 用于表格长行
-#+LATEX_HEADER_EXTRA: \usepackage{ltablex}  % 用于表格跨页
-#+LATEX_HEADER_EXTRA: \usepackage{makeidx}  % 用于创建索引
+#+LATEX_HEADER_EXTRA: \usepackage{tipa}      % 用于输入音标
+#+LATEX_HEADER_EXTRA: \usepackage{rotfloat}  % 用于图表排版
+#+LATEX_HEADER_EXTRA: \usepackage{booktabs}  % 用于图表美化
+#+LATEX_HEADER_EXTRA: \usepackage{longtable} % 用于表格跨页
+#+LATEX_HEADER_EXTRA: \usepackage{makeidx}   % 用于创建索引
 #+LATEX_HEADER_EXTRA: \makeindex
 
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
@@ -41,49 +40,49 @@
 **** Français
      #+NAME: alphabet-f
      #+CAPTION: 法语字母表
-     #+ATTR_LATEX: :placement [H] :booktabs t :align lll|lll
-     | 字母 | 名称  | 读音                    | 字母 | 名称       | 读音                                       |
-     |------+-------+-------------------------+------+------------+--------------------------------------------|
-     | A a  | a     | [\textscripta]          | N n  | enne       | [\textepsilon n]                           |
-     | B b  | bé   | [be]                    | O o  | o          | [o]                                        |
-     | C c  | cé   | [se]                    | P p  | pé        | [pe]                                       |
-     | D d  | dé   | [de]                    | Q q  | qu         | [ky]                                       |
-     | E e  | e     | [\textschwa]            | R r  | erre       | [\textepsilon \textlengthmark \textinvscr] |
-     | F e  | eff   | [\textepsilon f]        | S s  | esse       | [\textepsilon s]                           |
-     | G g  | gé   | [\textipa{Z}e]          | T t  | té        | [te]                                       |
-     | H h  | hache | [\textscripta \textesh] | U u  | u          | [y]                                        |
-     | I i  | i     | [i]                     | V v  | vé        | [ve]                                       |
-     | J j  | ji    | [\textipa{Z}i]          | W w  | double vé | [dubl\textschwa ve]                        |
-     | K k  | ka    | [k\textscripta]         | X x  | ixe        | [iks]                                      |
-     | L l  | elle  | [\textepsilon l]        | Y y  | i grec     | [ig\textinvscr \textepsilon k]             |
-     | M m  | emme  | [\textepsilon m]        | Z z  | zède      | [z\textepsilon d]                          |
+     #+ATTR_LATEX: :environment longtable :placement [H] :booktabs t :align lll|lll
+     | 字母 | 名称  | 读音           | 字母 | 名称       | 读音                |
+     |------+-------+----------------+------+------------+---------------------|
+     | A a  | a     | [\textipa{A}]  | N n  | enne       | [\textipa{En}]      |
+     | B b  | bé   | [be]           | O o  | o          | [o]                 |
+     | C c  | cé   | [se]           | P p  | pé        | [pe]                |
+     | D d  | dé   | [de]           | Q q  | qu         | [ky]                |
+     | E e  | e     | [\textipa{@}]  | R r  | erre       | [\textipa{E:K}]     |
+     | F e  | eff   | [\textipa{Ef}] | S s  | esse       | [\textipa{Es}]      |
+     | G g  | gé   | [\textipa{Ze}] | T t  | té        | [te]                |
+     | H h  | hache | [\textipa{AS}] | U u  | u          | [y]                 |
+     | I i  | i     | [i]            | V v  | vé        | [ve]                |
+     | J j  | ji    | [\textipa{Zi}] | W w  | double vé | [\textipa{dubl@ve}] |
+     | K k  | ka    | [\textipa{kA}] | X x  | ixe        | [iks]               |
+     | L l  | elle  | [\textipa{El}] | Y y  | i grec     | [\textipa{igKEk}k]  |
+     | M m  | emme  | [\textipa{Em}] | Z z  | zède      | [\textipa{zEd}]     |
 
-**** Español[fn:1]
+**** Español
      #+NAME: alphabet-e
      #+CAPTION: 西班牙语字母表
-     #+ATTR_LATEX: :placement [H] :booktabs t :align lll|lll
-     | 字母  | 名称 | 读音                       | 字母  | 名称      | 读音                         |
-     |-------+------+----------------------------+-------+-----------+------------------------------|
-     | A a   | a    | [\textscripta]             | N n   | ene       | [ene]                        |
-     | B b   | be   | [be]                       | Ñ ñ   | eñe       | [e\textltailn e]             |
-     | C c   | ce   | [\texttheta e]             | O o   | o         | [o]                          |
-     | CH ch | che  | [t\textesh e]              | P p   | pe        | [pe]                         |
-     | D d   | de   | [de]                       | Q q   | cu        | [ku]                         |
-     | E e   | e    | [e]                        | R r   | ere       | [e\textfishhookr e]          |
-     | F e   | efe  | [efe]                      | RR rr | erre      | [ere]                        |
-     | G g   | ge   | [xe]                       | S s   | ese       | [ese]                        |
-     | H h   | ache | [\textscripta t\textesh e] | T t   | te        | [te]                         |
-     | I i   | i    | [i]                        | U u   | u         | [u]                          |
-     | J j   | hota | [xot\textscripta]          | V v   | uve       | [u\textbeta e]               |
-     | K k   | ka   | [k\textscripta]            | W w   | uve doble | [u\textbeta edo\textbeta le] |
-     | L l   | ele  | [ele]                      | X x   | ekis      | [ekis]                       |
-     | LL ll | elle | [e\textturny e]            | Y y   | y griega  | [igrieg\textscripta]         |
-     | M m   | eme  | [eme]                      | Z z   | zeta      | [\texttheta eta]             |
+     #+ATTR_LATEX: :environment longtable :placement [H] :booktabs t :align lll|lll
+     | 字母      | 名称 | 读音             | 字母      | 名称      | 读音                 |
+     |-----------+------+------------------+-----------+-----------+----------------------|
+     | A a       | a    | [\textipa{A}]    | N n       | ene       | [ene]                |
+     | B b       | be   | [be]             | Ñ ñ       | eñe       | [e\textltailn e]     |
+     | C c       | ce   | [\textipa{Te}]   | O o       | o         | [o]                  |
+     | CH ch     | che  | [\textipa{tSe}]  | P p       | pe        | [pe]                 |
+     | D d       | de   | [de]             | Q q       | cu        | [ku]                 |
+     | E e       | e    | [e]              | R r       | ere       | [\textipa{eRe}]      |
+     | F e       | efe  | [efe]            | RR rr     | erre      | [ere]                |
+     | G g       | ge   | [xe]             | S s       | ese       | [ese]                |
+     | H h       | ache | [\textipa{ASe}]  | T t       | te        | [te]                 |
+     | I i       | i    | [i]              | U u       | u         | [u]                  |
+     | J j       | hota | [\textipa{xotA}] | V v       | uve       | [\textipa{uBe}]      |
+     | K k[fn:1] | ka   | [\textipa{kA}]   | W w[fn:1] | uve doble | [\textipa{uBedoBle}] |
+     | L l       | ele  | [ele]            | X x       | ekis      | [ekis]               |
+     | LL ll     | elle | [\textipa{eLe}]  | Y y       | y griega  | [\textipa{igriegA}] |
+     | M m       | eme  | [eme]            | Z z       | zeta      | [\textipa{Teta}] |
 
 **** Italiano
      #+NAME: alphabet-e
      #+CAPTION: 意大利语字母表
-     #+ATTR_LATEX: :placement [H] :booktabs t :align lll|lll
+     #+ATTR_LATEX: :environment longtable :placement [H] :booktabs t :align lll|lll
      | 字母 | 名称 | 读音 | 字母 | 名称 | 读音 |
      |------+------+------+------+------+------|
      |      |      |      |      |      |      |
@@ -91,6 +90,129 @@
 ** 发音
 
 **** Français
+     #+NAME: pronounce-f-v
+     #+CAPTION: 法语元音表
+     #+ATTR_LATEX: :environment longtable :placement [H] :booktabs t :align p{16em}|l|p{20em}
+     | 字母组合                                                     | 读音            | 例词                                                                   |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | a, à, â                                                     | [\textipa{A}]   | banane, là, fâché                                                    |
+     | e 在 mm 或 nn 前（少数词）                                   |                 | femme, solennel                                                        |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | è, ê, ë                                                    | [\textipa{E}]   | mère, fête, noël                                                     |
+     | ai, aî, ei                                                   |                 | lait, maître, reine                                                    |
+     | e 在闭音节中                                                 |                 | mer, service, respect                                                  |
+     | e 在两个相同的辅音字母前（m, n 除外）                        |                 | belle, cette, adresse                                                  |
+     | -et 在词末                                                   |                 | poulet, filet                                                          |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | é                                                           | [e]             | été, léger                                                          |
+     | -er, -ez, -ed 在词尾                                         |                 | loger, visiter, parler, chez, pied                                     |
+     | es 在单音节词中                                              |                 | les, des, ces                                                          |
+     | ess-, eff-, desc-, dess- 在词首                              |                 | essai, effet, descendre, dessert                                       |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | i, î, ï 及 y                                                 | [i]             | petit, finir, île, maïs, bicyclette                                    |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | u 和 û                                                       | [y]             | tu, but, flûte, sûr, culture                                           |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | ou，où，oû                                                  | [u]             | loup, où, coût                                                        |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | ô                                                            | [o]             | tôt, allô                                                              |
+     | o 在[z]音前                                                  |                 | chose, rose                                                            |
+     | o 在词末开音节中                                             |                 | vélo, mot                                                             |
+     | au                                                           |                 | chaud, cause                                                           |
+     | eau                                                          |                 | beau, bureau                                                           |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | o 除发[o]音的情况以外                                        | [\textipa{O}]   | robe, porte, photo                                                     |
+     | au 在 r 前                                                   |                 | aurore, aurai                                                          |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | e 在单音节词中                                               | [\textipa{@}]   | le, te, de, ce                                                         |
+     | e 在词首开音节中                                             |                 | venir, lever, demain                                                   |
+     | e 在“辅辅-e-辅”结构中                                      |                 | entreprise, mercredi, partenaire                                       |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | eu, œu 在词末开音节中                                        | [\o]            | peu, deux, vœu, nœud                                                   |
+     | eu 在[z]前                                                   |                 | heureuse, vendeuse                                                     |
+     | eu 在[d][t][tr]前                                            |                 | jeudi, émeute, neutre                                                 |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | eu, œu 除了发[\o]音的情况以外                              | [\oe]           | fleur, peur, seuil, sœur                                               |
+     | ue 在 c, g 后                                                |                 | accueil, orgueil                                                       |
+     | œ 在少数单词中                                               |                 | œil                                                                    |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | in, im, yn, ym, aim, ain, ein, um, un（后面不是元音或 m, n） | [\textipa{\~E}] | fin, timbre, syndicat, symbole, faim, pain, plein, lundi, commun       |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | am, an, em, en（后面不是元音或 m, n）                        | [\textipa{\~A}] | chambre, champagne, ancre, chanter, emporter, remplir, entrer, content |
+     |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
+     | om, on（后面不是元音或 m, n）                                | [\textipa{\~O}] | ombre, tomber, rompre, oncle, salon, chanson                           |
+
+     #+NAME: pronounce-f-c
+     #+CAPTION: 法语辅音表
+     #+ATTR_LATEX: :environment longtable :placement [H] :booktabs t :align p{16em}|l|p{20em}
+     | 字母组合                          | 读音          | 例词                                                      |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | ou 在元音前                       | [w]           | jouer, mouette, oui, souhait                              |
+     | w 在少数外来词中                  |               | watt                                                      |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | i 在元音前                        | [j]           | lien, ciel, faïence                                       |
+     | il 在词末且在元音后               |               | réveil, travail                                          |
+     | ill 在元音后                      |               | bataille, travailler                                      |
+     | 字母 y 在元音前或在词首           |               | Lyon, yeux                                                |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | u 在元音前                        | [\textipa{4}] | nuit lui, fruit, juin                                     |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | p, pp                             | [p]           | pape, impact, palace, parc, Philippe, pratique            |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | b, bb                             | [b]           | banque, bicyclette, herbe, abbé, Bible                   |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | t, tt                             | [t]           | tête, table, thé, patte, maître                         |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | d, dd                             | [d]           | madame, date, déjà, addition, adresse                   |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | k, ck                             | [k]           | kilo, ticket                                              |
+     | c 在 a, o, u, 辅音字母前或词末    |               | casser, coller, cube, clé, lac                           |
+     | qu                                |               | tonique, qui, quel                                        |
+     | q 在词末                          |               | coq, cinq                                                 |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | g 在 a, o, u 及辅音字母前         | [g]           | gare, goûter, figure, jungle                              |
+     | gu 在 e, i, y 前                  |               | guetter, guide, Guy                                       |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | s, ss                             | [s]           | veste, système，adresse, messe                           |
+     | c 在 e, i, y 前                   |               | cinéma, cycle, scientifique, centre                      |
+     | ç                                 |               | français, leçon                                           |
+     | t 在 tion 和 tie 中（前面没有 s） |               | attention, nation, démocratie, patience                  |
+     | x 在少数词中                      |               | dix, six                                                  |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | z, zz                             | [z]           | gaz, seize, zéro, jazz                                   |
+     | s 在两个元音字母之间              |               | base, visage, paisible                                    |
+     | x 在个别词中                      |               | deuxième, sixième                                       |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | ch                                | [\textipa{S}] | Chine, douche                                             |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | j                                 | [\textipa{Z}] | je, jour                                              |
+     | g 在 e, i, y 前                   |               | geste, gilet, gymnastique                                 |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | f, ff, ph                         | [f]           | flamme, difficile, chef, philosophie                      |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | v                                 | [v]           | veste, vivre, voir                                        |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | l                                 | [l]           | loi, facile, allocution, fil, cil                         |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | m                                 | [m]           | ma, pomme, image, mythe                                   |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | n, nn                             | [n]           | minute, année                                            |
+     | mn 在少数单词中                   |               | condamner, automne                                        |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | gn                                | [\textltailn] | signe, campagne, gagner, magnifique, digne                |
+     |-----------------------------------+---------------+-----------------------------------------------------------|
+     | r, rr                             | [\textipa{K}] | rare, mer, gris, bracelet, prune, crèche, Méditerranée |
+
+     #+NAME: pronounce-f-a
+     #+CAPTION: 法语音符表
+     #+ATTR_LATEX: :environment longtable :placement [H] :booktabs t :align l|l|l
+     | 音符名                    | 适用字母      | 例词                        |
+     |---------------------------+---------------+-----------------------------|
+     | 尖音符 accent aigu        | e             | été                       |
+     | 钝音符 accent grave       | a, e, u       | là, père, où             |
+     | 长音符 accent circonflexe | a, e, i, o, u | pâte, être, île, rôle, sûr |
+     | 分音符 tréma             | e, i, u       | aiguë, naïve, würm         |
+     | 软音符 cédille           | c             | leçon                       |
 
 **** Español
 
@@ -194,9 +316,6 @@
 
 * 参考文献
 
-  #+LATEX: \bibliographystyle{plain}
-  #+LATEX: \bibliography{publist}
-  #+LATEX: \nocite{*}
 
 #+LATEX: \newpage
 * 索引列表
@@ -208,4 +327,4 @@
 
 * Footnotes
 
-[fn:1] 字母 "W" 和 "K" 平常时一般不用，它们只出现于外来词汇。
+[fn:1] 在西班牙语中，字母 "W" 和 "K" 平常时一般不用，它们只出现于外来词汇。
