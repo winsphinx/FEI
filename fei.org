@@ -84,9 +84,21 @@
      #+NAME: alphabet-e
      #+CAPTION: 意大利语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
-     | 字母 | 名称 | 读音 | 字母 | 名称 | 读音 |
-     |------+------+------+------+------+------|
-     |      |      |      |      |      |      |
+     | 字母      | 名称    | 读音              | 字母      | 名称      | 读音                 |
+     |-----------+---------+-------------------+-----------+-----------+----------------------|
+     | A a       | a       | [\textipa{A}]     | N n       | enne      | [enne]               |
+     | B b       | bi      | [bi]              | O o       | o         | [o]                  |
+     | C c       | ci      | [\textipa{tSi}]   | P p       | pi        | [pi]                 |
+     | D d       | di      | [di]              | Q q       | cu        | [ku]                 |
+     | E e       | e       | [e]               | R r       | erre      | [erre]               |
+     | F e       | effe    | [effe]            | S s       | esse      | [esse]               |
+     | G g       | gi      | [\textipa{dZi}]   | T t       | ti        | [ti]                 |
+     | H h       | acca    | [\textipa{AkkA}]  | U u       | u         | [u]                  |
+     | I i       | i       | [i]               | V v       | vu        | [vu]                 |
+     | J j[fn:2] | i lungo | [ilungo]          | W w[fn:2] | doppia vu | [\textipa{doppiAvu}] |
+     | K k[fn:2] | cappa   | [\textipa{kAppA}] | X x[fn:2] | ics       | [iks]                |
+     | L l       | elle    | [elle]            | Y y[fn:2] | ipsilon   | [ipsilon]            |
+     | M m       | emme    | [emme]            | Z z       | zeta      | [tseta] |
 
 ** 发音
 
@@ -206,7 +218,7 @@
 
      #+NAME: pronounce-f-a
      #+CAPTION: 法语音符表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|X|X
      | 音符名                    | 适用字母      | 例词                        |
      |---------------------------+---------------+-----------------------------|
      | 尖音符 accent aigu        | e             | été                       |
@@ -326,4 +338,5 @@
 
 * Footnotes
 
-[fn:1] 在西班牙语中，字母 "W" 和 "K" 平常时一般不用，它们只出现于外来词汇。
+[fn:2] 在意大利语中，字母 "J"、"K"、"W"、"X"、"Y" 只用于外来词汇。
+[fn:1] 在西班牙语中，字母 "K" 和 "W" 平常时一般不用，它们只出现于外来词汇。
