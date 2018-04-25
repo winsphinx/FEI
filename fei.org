@@ -2,7 +2,7 @@
 #+SUBTITLE: Français & Español & Italiano
 #+AUTHOR: winsphinX
 #+DATE: \today
-#+LATEX_CLASS: report
+#+LATEX_CLASS: book
 #+LATEX_CLASS_OPTIONS: [UTF8,a4paper,titlepage,10pt]
 #+LATEX_HEADER: \usepackage[heading]{ctex}
 #+LATEX_HEADER: \usepackage[left=3.2cm,right=3.2cm,top=2.5cm,bottom=2.5cm]{geometry}
@@ -26,6 +26,7 @@
 #+LATEX: \newpage                % 目录之后换页
 #+LATEX: \setcounter{page}{1}    % 正文重新计数
 #+LATEX: \pagenumbering{arabic}  % 正文页码格式
+#+LATEX: \tabulinesep=1.0mm      % 设置表格间隔
 
 
 * 简介
@@ -33,6 +34,12 @@
 ** 介绍
 
   Français & Español & Italiano
+
+  这三中语言通属于罗曼语。
+
+  共同点：
+
+  特点：
 
 * 语音
 
@@ -262,12 +269,53 @@
      | ai       | mai            | au       | paura           |
      | ei       | lèi           | eu       | Euròpa         |
      | oi       | pòi           |          |                 |
-     |----------+----------------+----------+-----------------|
 
+     二合元音、三合元音必须带有 i 或 u。
      - 两个元音连在一起，但其中没有元音 i 和 u 做半元音，就不是二合元音。
        - i 和 u 在另一个元音之前，如：ia, ie, io, iu; ua, ue, uo, ui，称为上升的二合元音，发音时要突出 i 和 u，然后自然地转为 a, e, o, u, i 等音。
        - i 和 u 若在另一个元音之后出现，如：ai, ei, oi, au, eu，称为下降的二合元音，发音时要重读 a, e, o 等元音，随后转发 i 和 u 的音，不要重读。
      - 三个元音连在一起同时出现，其中包括元音 i 和 u 的为三合元音。
+
+     #+NAME: pronounce-i-c
+     #+CAPTION: 意大利语辅音表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
+     | 字母组合                                              | 读音           | 例词                                                                         |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | p                                                     | [p]            | pa, pe, pi, po, pu, pane, pipa, pepe, pupa, lupo, penna, palla               |
+     | b                                                     | [b]            | ba, be, bi, bo, bu, basta, bene, bella, buono, bimbo, bomba                  |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | t                                                     | [t]            | ta, te, ti, to, tu, letto, lotta, tanto, tutto, notte, alto, molto           |
+     | d                                                     | [d]            | da, de, di, do, du, dente, modo, mondo, debole, dubbio, moda                 |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | s                                                     | [s]            | sa, se, si, so, su, sala, sole, sale, solo, testa, sedia                     |
+     | s 在两个元音之间, 或在浊辅音 b，d，g，l，m，n，v 之前 | [z]            | peso, naso, smalto, sviluppo                                                 |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | c 在 a, o, u 前, 或 ch 在 e, i 之前                   | [k]            | ca, che, chi, co, cu, come, casa, cosa, bocca, amico, pacco, anche, capo     |
+     | g 在 a, o, u 前, 或 gh 在 e, i 之前                   | [g]            | ga, ghe, ghi, go, gu, gamba, gonna, gola, gusto, gatto, gomma                |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | c 在 e, i 之前                                        | [\textipa{tS}] | ce, ci, cima, cinema, cemento, cibo, dolce, calcio                           |
+     | g 在 e, i 之前                                        | [\textipa{dZ}] | ge, gi, gita, gesto, oggi, giacca, giallo, gente, gentile                    |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | f                                                     | [f]            | fa, fe, fi, fo, fu, fame, fare, fumo, folla, fede, festa, frutta             |
+     | v                                                     | [v]            | va, ve, vi, vo, vu, vaso, vino, visa, voto, vuoto, vecchio, tavolo           |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | z                                                     | [ts]           | za, ze, zi, zo, zu, zappa, zoppo, zucca, zitto, pezzo, pazzo, zio            |
+     | z                                                     | [dz]           | za, ze, zi, zo, zu, zona, zelo, zoo, mezzo, zaino, bronzo                    |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | m                                                     | [m]            | ma, me, mi, mo, mu, mamma, amo, ama, mimo, mela, miele                       |
+     | n                                                     | [n]            | na, ne, ni, no, nu, nonno, nome, meno, uno, notte, mano, ninna               |
+     | gn                                                    | [\textltailn]  | gna, gne, gni, gno, gnu, ogni, ragno, sogna, legno, signore, bagno, montagna |
+     | l                                                     | [l]            | la, le, li, lo, lu, lana, male, lama, lino, luna, mille, mila                |
+     | r                                                     | [r]            | ra, re, ri, ro, ru                                                           |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | sc 在 e, i 之前                                       | [\textipa{S}]  | scia, sce, sci, scio, sciu, scimmia, sciopero, scena, pesce, ascia           |
+     | sc 在 a, o, u, he, hi 之前                            | [sk]           | sca, sco, scu, scuola, scherzo, schiuma, scopa, pesca                        |
+     |-------------------------------------------------------+----------------+------------------------------------------------------------------------------|
+     | gl 在 i 之前，或 gli 在 a, e, o, u 之前               | [\textipa{L}]  | glia, glie, gli, glio, gliu, maglia, moglie, luglio, meglio                  |
+     | gl 在 a, e, o, u 之前                                 | [gl]           | gloria, gleba, glucosio                                                      |
+
+     - 意大利语中 h 在任何位置都是不发音的，但是 h 起到指示发音的作用。
+     - 双辅音要适当延长其发音的阻塞时间。
 
 * 语法
 
@@ -367,7 +415,7 @@
 
 
 #+LATEX: \newpage
-* 索引列表
+* 附录
 
   # 生成表格索引
   #+LATEX: \listoftables
