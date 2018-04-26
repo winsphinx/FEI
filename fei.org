@@ -34,8 +34,8 @@
 ** 介绍
 
   Français & Español & Italiano
-
-  这三中语言通属于罗曼语。
+  # [[https://baike.baidu.com/item/罗曼语族]]
+  这三中语言同属 印欧语系-罗曼语族-西罗曼语支。
 
   共同点：
 
@@ -69,23 +69,23 @@
      #+NAME: alphabet-e
      #+CAPTION: 西班牙语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
-     | 字母  | 名称 | 读音             | 字母  | 名称      | 读音                 |
-     |-------+------+------------------+-------+-----------+----------------------|
-     | A a   | a    | [\textipa{A}]    | N n   | ene       | [ene]                |
-     | B b   | be   | [be]             | Ñ ñ   | eñe       | [e\textltailn e]     |
-     | C c   | ce   | [\textipa{Te}]   | O o   | o         | [o]                  |
-     | CH ch | che  | [\textipa{tSe}]  | P p   | pe        | [pe]                 |
-     | D d   | de   | [de]             | Q q   | cu        | [ku]                 |
-     | E e   | e    | [e]              | R r   | ere       | [\textipa{eRe}]      |
-     | F e   | efe  | [efe]            | RR rr | erre      | [ere]                |
-     | G g   | ge   | [xe]             | S s   | ese       | [ese]                |
-     | H h   | ache | [\textipa{ASe}]  | T t   | te        | [te]                 |
-     | I i   | i    | [i]              | U u   | u         | [u]                  |
-     | J j   | hota | [\textipa{xotA}] | V v   | uve       | [\textipa{uBe}]      |
-     | K k   | ka   | [\textipa{kA}]   | W w   | uve doble | [\textipa{uBedoBle}] |
-     | L l   | ele  | [ele]            | X x   | ekis      | [ekis]               |
-     | LL ll | elle | [\textipa{eLe}]  | Y y   | y griega  | [\textipa{igriegA}]  |
-     | M m   | eme  | [eme]            | Z z   | zeta      | [\textipa{Teta}]     |
+     | 字母  | 名称  | 读音             | 字母  | 名称      | 读音                 |
+     |-------+-------+------------------+-------+-----------+----------------------|
+     | A a   | a     | [\textipa{A}]    | N n   | ene       | [ene]                |
+     | B b   | be    | [be]             | Ñ ñ   | eñe       | [e\textltailn e]     |
+     | C c   | ce    | [\textipa{Te}]   | O o   | o         | [o]                  |
+     | CH ch | che   | [\textipa{tSe}]  | P p   | pe        | [pe]                 |
+     | D d   | de    | [de]             | Q q   | cu        | [ku]                 |
+     | E e   | e     | [e]              | R r   | ere       | [\textipa{eRe}]      |
+     | F e   | efe   | [efe]            | RR rr | erre      | [ere]                |
+     | G g   | ge    | [xe]             | S s   | ese       | [ese]                |
+     | H h   | hache | [\textipa{ASe}]  | T t   | te        | [te]                 |
+     | I i   | i     | [i]              | U u   | u         | [u]                  |
+     | J j   | jota  | [\textipa{xotA}] | V v   | uve       | [\textipa{uBe}]      |
+     | K k   | ca    | [\textipa{kA}]   | W w   | uve doble | [\textipa{uBedoBle}] |
+     | L l   | ele   | [ele]            | X x   | equis     | [ekis]               |
+     | LL ll | elle  | [\textipa{eLe}]  | Y y   | i griega  | [\textipa{igriegA}]  |
+     | M m   | eme   | [eme]            | Z z   | zeta      | [\textipa{Teta}]     |
 
      - 在西班牙语中，字母 "K" 和 "W" 平常时一般不用，它们只出现于外来词汇。
 
@@ -227,6 +227,8 @@
      |-------------------------------------+---------------+-------------------------------------------------------------|
      | - r, rr                             | [\textipa{K}] | - rare, mer, gris, bracelet, prune, crèche, Méditerranée |
 
+     - 词尾的 d, g, p, s, t, x 和 z 不读，除联诵时。在那时，[d]变成[t]、[s]变成[z]。
+
      #+NAME: pronounce-f-a
      #+CAPTION: 法语音符表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
@@ -239,6 +241,81 @@
      | 软音符 cédille           | c             | leçon                       |
 
 **** Español
+     #+NAME: pronounce-e-v
+     #+CAPTION: 西班牙语元音表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
+     | 字母组合 | 读音            | 例词           |
+     |----------+-----------------+----------------|
+     | a        | [\textipa{A}]   | ala, amigo     |
+     | e        | [\textipa{E}]   | eco, esta      |
+     | i        | [i]             | idea, isla     |
+     | o        | [o]             | oso, solo      |
+     | u        | [u]             | uva, luz       |
+     |----------+-----------------+----------------|
+     | ai, ay   | [\textipa{Ai}]  | aire, hay      |
+     | ei, ey   | [\textipa{Ei}]  | seis, peine    |
+     | oi, py   | [oi]            | oigo, hoy      |
+     | ui, uy   | [ui]            | ruido, muy     |
+     | au       | [\textipa{Au}]  | aula, autor    |
+     | eu       | [\textipa{Eu}]  | neuro, Europa  |
+     | ou       | [ou]            | bou            |
+     | ia       | [\textipa{iA}]  | Asia, limpia   |
+     | ie       | [\textipa{iE}]  | siete, pie     |
+     | io       | [io]            | Dios, sucio    |
+     | iu       | [iu]            | ciudad, viuda  |
+     | ua       | [\textipa{uA}]  | agua, cuatro   |
+     | ue       | [\textipa{uE}]  | nuevo, luego   |
+     | uo       | [uo]            | cuota, antiguo |
+     |----------+-----------------+----------------|
+     | iai      | [\textipa{iAi}] | cambiáis      |
+     | iei      | [\textipa{iEi}] | cambiéis      |
+     | uai, uay | [\textipa{uAi}] | Paraguay       |
+     | uei, uey | [\textipa{uEi}] | buey           |
+
+     - 以 n,s 或元音字母结尾的单词，重音一般在倒数第二个音节上，不用重音符号。
+     - 除了以 n,s 以外的以辅音字母结尾的词，重音位于最后一个音节上，不用重音符号。
+     - 上述两项以外的单词，重音都标出：á, é, í, ó, ú。
+
+     #+NAME: pronounce-e-c
+     #+CAPTION: 西班牙语辅音表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
+     | 字母组合                       | 读音           | 例词                                            |
+     |--------------------------------+----------------+-------------------------------------------------|
+     | p                              | [p]            | pa, pe, pi, po, pu, paja, pala, pasta, pata     |
+     | b, v 词首或者位于 m、n 之后时  | [b]            | ba, be, bi, bo, bu, bala, boca, voz, vuelo      |
+     | b, v 其他情况                  | [\textipa{B}]  | -ba, -be, -bi, -bo, -bu, abril, abeja, ava, eve |
+     | f                              | [f]            | fa, fe, fi,fo, fu, fama                         |
+     |--------------------------------+----------------+-------------------------------------------------|
+     | t                              | [t]            | ta, te, ti, to, tu, tres, talla                 |
+     | d 在词首及 n、l 之后           | [d]            | da, de, di, do, du, doce, ducha                 |
+     | d 位于其他字母之间时           | [\textipa{D}]  | -da, -de, -di, -do, -du, verde, lado            |
+     | d 位于词末                     | [\textipa{T}]  | red, pared                                      |
+     |--------------------------------+----------------+-------------------------------------------------|
+     | c 在 a, o, u 前、qu 在 e, i 前 | [k]            | ca, que, qui, co, cu, cabo, copa                |
+     | g 在 a, o, u 前、gu 在 e, i 前 | [g]            | ga, gue, gui, go, gu, gato, gana                |
+     | g 在 e, i 前                   | [x]            | ge, gi, gente, gesto                            |
+     | j                              | [x]            | ja, je, ji ,jo, ju, jada, jadea                 |
+     |--------------------------------+----------------+-------------------------------------------------|
+     | s、x 位于词首或者辅音前        | [s]            | sa, se, si, so, su, sol, seis, extra, sexto     |
+     | x 位于元音前                   | [ks]           | taxi, exacto                                    |
+     | z                              | [\textipa{T}]  | za, ze, zi, zo, zu, zumo, zapato                |
+     | c 在 e, i 前                   | [\textipa{T}]  | ce, ci, cero, ceja                              |
+     |--------------------------------+----------------+-------------------------------------------------|
+     | ch                             | [\textipa{tS}] | cha, che, chi, cho, chu, chica, chapa           |
+     |--------------------------------+----------------+-------------------------------------------------|
+     | m                              | [m]            | ma, me, mi, mo, mu, mes, madre                  |
+     | n                              | [n]            | na, ne, ni, no, nu, nada, ingenio               |
+     | ñ                              | [\textltailn]  | ña, ñe, ñi, ño, ñu, año, niño                   |
+     | l                              | [l]            | la, le, li, lo, lu, ley, labio                 |
+     | ll、y 在元音前                 | [\textipa{L}]  | lla, lle, lli, llo, llu, llave, llanto, yeso    |
+     | y 在元音后或单独出现           | [i]            | y, hay                                          |
+     | r 在词首、rr                   | [r]            | ra, re, ri, ro, ru, corre, Andorra              |
+     | r 不在词首                     | [\textipa{R}]  | caro, pero                                      |
+
+     - gue, gui 发音为[\textipa{gE}], [gi]；güe, güi 发音为[\textipa{guE}], [gui]。
+     - 在西班牙南部、南美，没有[\textipa{T}]这个音，都发成[s]。
+     - -ción 发音为[sion]。
+     - w 用来拼写外来词，发音为[w]，如 watt, whisky。
 
 **** Italiano
      #+NAME: pronounce-i-v
@@ -254,6 +331,7 @@
      | ó 闭口音, o | [o]           | bótte, óra, scópo, lóro, cóme    |
      | u                  | [u]           | bue, muto, luna, lupo, duro           |
 
+     - 意大利语有七个元音，其中[\textipa{E}]和[\textipa{O}]只出现在重音节。
      - 只有重读音节上的元音 e、o 才有开口音和闭口音之分，非重读音节（包括单音节词）上的元音 e、o 永远发闭口音。
 
      #+NAME: pronounce-i-v2
@@ -270,11 +348,11 @@
      | ei       | lèi           | eu       | Euròpa         |
      | oi       | pòi           |          |                 |
 
-     二合元音、三合元音必须带有 i 或 u。
      - 两个元音连在一起，但其中没有元音 i 和 u 做半元音，就不是二合元音。
        - i 和 u 在另一个元音之前，如：ia, ie, io, iu; ua, ue, uo, ui，称为上升的二合元音，发音时要突出 i 和 u，然后自然地转为 a, e, o, u, i 等音。
        - i 和 u 若在另一个元音之后出现，如：ai, ei, oi, au, eu，称为下降的二合元音，发音时要重读 a, e, o 等元音，随后转发 i 和 u 的音，不要重读。
      - 三个元音连在一起同时出现，其中包括元音 i 和 u 的为三合元音。
+     - 二合元音、三合元音必须带有 i 或 u。
 
      #+NAME: pronounce-i-c
      #+CAPTION: 意大利语辅音表
@@ -315,7 +393,7 @@
      | gl 在 a, e, o, u 之前                                 | [gl]           | gloria, gleba, glucosio                                                      |
 
      - 意大利语中 h 在任何位置都是不发音的，但是 h 起到指示发音的作用。
-     - 双辅音要适当延长其发音的阻塞时间。
+     - 双辅音要适当延长其发音的阻塞时间。辅音都能延长，除了[z]。
 
 * 语法
 
