@@ -321,33 +321,35 @@
      #+NAME: pronounce-i-v
      #+CAPTION: 意大利语元音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
-     | 字母组合           | 读音          | 例词                                  |
-     |--------------------+---------------+---------------------------------------|
-     | à, a              | [\textipa{A}] | mamma, papà, vacca, fama, sala       |
-     | è 开口音    | [\textipa{E}] | bène, sètte, bèllo, pèsca, vènto |
-     | é 闭口音, e | [e]           | pésca, vénti, véla, céna, pépe   |
-     | ì, i              | [i]           | tigre, pini, nidi, lì, sì           |
-     | ò 开口音    | [\textipa{O}] | gònna, mòdo, òtto, nòtte, bòtte  |
-     | ó 闭口音, o | [o]           | bótte, óra, scópo, lóro, cóme    |
-     | u                  | [u]           | bue, muto, luna, lupo, duro           |
+     | 字母组合     | 读音           | 例词                                  |
+     |--------------+----------------+---------------------------------------|
+     | à, a        | [\textipa{A}]  | mamma, papà, vacca, fama, sala       |
+     | è 开口音    | [\textipa{E}]  | bène, sètte, bèllo, pèsca, vènto |
+     | é 闭口音, e | [e]            | pésca, vénti, véla, céna, pépe   |
+     | ì, i        | [i]            | tigre, pini, nidi, lì, sì           |
+     | ò 开口音    | [\textipa{O}]  | gònna, mòdo, òtto, nòtte, bòtte  |
+     | ó 闭口音, o | [o]            | bótte, óra, scópo, lóro, cóme    |
+     | u            | [u]            | bue, muto, luna, lupo, duro           |
+     |--------------+----------------+---------------------------------------|
+     | ia           | [\textipa{iA}] | piano, piaga                          |
+     | ie           | [\textipa{iE}] | liève, pièno                        |
+     | io           | [io]           | òdio, Dio                            |
+     | iu           | [iu]           | piùma, fiume                         |
+     |--------------+----------------+---------------------------------------|
+     | ua           | [\textipa{uA}] | mutua, uguale                         |
+     | ue           | [\textipa{uE}] | duèllo, duetto                       |
+     | ui           | [ui]           | suino, guida                          |
+     | uo           | [uo]           | tuòno, duolo                         |
+     |--------------+----------------+---------------------------------------|
+     | ai           | [\textipa{Ai}] | mai                                   |
+     | ei           | [\textipa{Ei}] | lèi                                  |
+     | oi           | [oi]           | pòi                                  |
+     |--------------+----------------+---------------------------------------|
+     | au           | [\textipa{Au}] | paura                                 |
+     | eu           | [\textipa{Eu}] | Euròpa                               |
 
      - 意大利语有七个元音，其中[\textipa{E}]和[\textipa{O}]只出现在重音节。
      - 只有重读音节上的元音 e、o 才有开口音和闭口音之分，非重读音节（包括单音节词）上的元音 e、o 永远发闭口音。
-
-     #+NAME: pronounce-i-v2
-     #+CAPTION: 意大利语二合元音表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align lX|lX
-     | 二合元音 | 例词           | 二合元音 | 例词            |
-     |----------+----------------+----------+-----------------|
-     | ia       | piano, piaga   | ua       | mutua, uguale   |
-     | ie       | liève, pièno | ue       | duèllo, duetto |
-     | io       | òdio, Dio     | ui       | suino, guida    |
-     | iu       | piùma, fiume  | uo       | tuòno, duolo   |
-     |----------+----------------+----------+-----------------|
-     | ai       | mai            | au       | paura           |
-     | ei       | lèi           | eu       | Euròpa         |
-     | oi       | pòi           |          |                 |
-
      - 两个元音连在一起，但其中没有元音 i 和 u 做半元音，就不是二合元音。
        - i 和 u 在另一个元音之前，如：ia, ie, io, iu; ua, ue, uo, ui，称为上升的二合元音，发音时要突出 i 和 u，然后自然地转为 a, e, o, u, i 等音。
        - i 和 u 若在另一个元音之后出现，如：ai, ei, oi, au, eu，称为下降的二合元音，发音时要重读 a, e, o 等元音，随后转发 i 和 u 的音，不要重读。
