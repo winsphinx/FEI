@@ -42,7 +42,7 @@
   #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
   [[file:World-Map.png]]
 
-****  分类：
+**** 分类：
      - 东罗曼语支
        - 罗马尼亚语
        - 伊斯特拉-罗马尼亚语（Romanian, Istro）
@@ -109,7 +109,7 @@
        - 古科西嘉语
        - 萨丁尼亚语（Sardinian）
 
-  #+BEGIN_SRC dot :file family.png
+  #+BEGIN_SRC dot :file family.png :exports results
     digraph D{
      拉丁语->古典拉丁语;
      拉丁语->罗曼祖语;
