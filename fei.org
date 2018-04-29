@@ -38,7 +38,7 @@
   #+NAME: Language_Map
   #+CAPTION: 分布图
   #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
-  [[file:World-Map.png]]
+  [[file:images/WorldMap.png]]
 
   这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
 
@@ -117,7 +117,7 @@
 
      在罗曼诸语言发展的历史中，最先从拉丁语中分裂出来成为独立语言的是薩丁尼亞語，随之而来的是东部的罗马尼亚语也与拉丁语脱离，成为独立语言。第三个重要过程是意大利语与高卢-伊比利亚语言的分离。这个时候，法国和伊比利亚半岛诸国的语言仍然具有高度的一致性。罗曼语言的第四次重大变化是伊比利亚半岛的语言和法语脱离，逐渐形成非常相似的两种现代语言：西班牙语和葡萄牙语。而通行于西班牙东部的加泰罗尼亚语则被认为是法语和伊比利亚语言的中间产物，因为这种语言融合了法语和西、葡两种语言的很多特征。
 
-    #+BEGIN_SRC dot :file family.png :exports results
+    #+BEGIN_SRC dot :file images/Family.png :exports results
     digraph D{
      拉丁语->古典拉丁语;
      拉丁语->罗曼祖语;
@@ -151,7 +151,7 @@
     #+END_SRC
 
     #+RESULTS:
-    [[file:family.png]]
+    [[file:images/Family.png]]
 
 **** 共同点
      - 语法上：
@@ -207,7 +207,7 @@
      | 字母  | 名称  | 读音             | 字母  | 名称      | 读音                       |
      |-------+-------+------------------+-------+-----------+----------------------------|
      | A a   | a     | \textipa{[A]}    | N n   | ene       | \textipa{[ene]}            |
-     | B b   | be    | \textipa{[be]}   | Ñ ñ   | eñe       | \textipa{[e{\textltailn}e]} |
+     | B b   | be    | \textipa{[be]}   | Ñ ñ   | eñe       | \textipa{[e\textltailn e]} |
      | C c   | ce    | \textipa{[Te]}   | O o   | o         | \textipa{[o]}              |
      | CH ch | che   | \textipa{[tSe]}  | P p   | pe        | \textipa{[pe]}             |
      | D d   | de    | \textipa{[de]}   | Q q   | cu        | \textipa{[ku]}             |
