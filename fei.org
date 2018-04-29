@@ -35,12 +35,12 @@
 
   =Français & Español & Italiano=
 
-  这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
-
   #+NAME: Language_Map
   #+CAPTION: 分布图
   #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
   [[file:World-Map.png]]
+
+  这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
 
 **** 分类：
      - 东罗曼语支
@@ -239,7 +239,7 @@
 
 **** 音符
      #+NAME: accent-all
-     #+CAPTION: 音符总表
+     #+CAPTION: 音符汇总表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|X|X|X
      | 音符名 | 法语适用字母   | 西班牙语适用字母      | 意大利语适用字母   |
      |--------+----------------+-----------------------+--------------------|
@@ -556,25 +556,50 @@
 
 **** 总结
      #+NAME: pronounce-all
-     #+CAPTION: 辅音总表
+     #+CAPTION: 辅音汇总表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     | 音标          | 法语                 | 西班牙语     | 意大利语     |
-     |---------------+----------------------+--------------+--------------|
-     | \textipa{[p]} | p                    | p            | p            |
-     | \textipa{[b]} | b                    | b, v         | b            |
-     | \textipa{[B]} | -                    | b, v         | -            |
-     |---------------+----------------------+--------------+--------------|
-     | \textipa{[t]} | t                    | t            | t            |
-     | \textipa{[d]} | d                    | d            | d            |
-     | \textipa{[D]} | -                    | d            | -            |
-     |---------------+----------------------+--------------+--------------|
-     | \textipa{[k]} | c-aou, k, ck, qu, -q | c-aou, qu-ei | c-aou, ch-ei |
-     | \textipa{[g]} | g-aou, gu-eiy        | g-aou, gu-ei | g-aou, gh-ei |
-     | \textipa{[s]} | s, ss, c-eiy, ç, x   | s, x         | s            |
-     | \textipa{[z]} | z, zz, -s-, x        | -            | -s-          |
-     |---------------+----------------------+--------------+--------------|
-     | \textipa{[f]} | f, ff, ph            | f            | f            |
-     | \textipa{[v]} | v                    | -            | v            |
+     | 音标                    | 法语                 | 西班牙语     | 意大利语     |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[p]}           | p                    | p            | p            |
+     | \textipa{[b]}           | b                    | b, v         | b            |
+     | \textipa{[B]}           | -                    | b, v         | -            |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[t]}           | t                    | t            | t            |
+     | \textipa{[d]}           | d                    | d            | d            |
+     | \textipa{[D]}           | -                    | d            | -            |
+     | \textipa{[T]}           | -                    | z, c-ei      | -            |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[k]}           | c-aou, k, ck, qu, -q | c-aou, qu-ei | c-aou, ch-ei |
+     | \textipa{[g]}           | g-aou, gu-eiy        | g-aou, gu-ei | g-aou, gh-ei |
+     | \textipa{[x]}           | -                    | j, g-ei      | -            |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[s]}           | s, ss, c-eiy, ç, x   | s, x         | s            |
+     | \textipa{[z]}           | z, zz, -s-, x        | -            | -s-          |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[f]}           | f, ff, ph            | f            | f            |
+     | \textipa{[v]}           | v                    | -            | v            |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[S]}           | ch                   | -            | sc-ei        |
+     | \textipa{[Z]}           | j, g-eiy             | -            | -            |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[tS]}          | -                    | ch           | c-ei         |
+     | \textipa{[dZ]}          | -                    | -            | g-ei         |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[ts]}          | -                    | -            | z            |
+     | \textipa{[dz]}          | -                    | -            | z            |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[m]}           | m                    | m            | m            |
+     | \textipa{[n]}           | n                    | n            | n            |
+     | \textipa{[\textltailn]} | gn                   | ñ            | gn           |
+     | \textipa{[l]}           | l                    | l            | l            |
+     | \textipa{[L]}           | -                    | -            | gli          |
+     | \textipa{[J]}           | -                    | ll, y-       | -            |
+     | \textipa{[r]}           | -                    | r            | r            |
+     | \textipa{[K]}           | r                    | -            | -            |
+     |-------------------------+----------------------+--------------+--------------|
+     | \textipa{[j]}           | i-, -il, -ill, y     | i-           | i-           |
+     | \textipa{[w]}           | ou-, w               | u-, w        | u-, w        |
+     | \textipa{[4]}           | u-                   | -            | -            |
 
 * 语法
 
