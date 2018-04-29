@@ -13,6 +13,7 @@
 #+LATEX_HEADER_EXTRA: \usepackage{booktabs}  % 用于表格美化
 #+LATEX_HEADER_EXTRA: \usepackage{tabu}      % 用于表格跨行
 #+LATEX_HEADER_EXTRA: \usepackage{longtable} % 用于表格跨页
+#+LATEX_HEADER_EXTRA: \usepackage{enumitem}  % 用于多级列表
 #+LATEX_HEADER_EXTRA: \usepackage{makeidx}   % 用于创建索引
 #+LATEX_HEADER_EXTRA: \makeindex
 
@@ -43,6 +44,8 @@
   这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
 
 **** 分类
+     #+LATEX: \renewlist{itemize}{itemize}{9}
+     #+LATEX: \setlist[itemize]{label=$\circ$}
      - 东罗曼语支
        - 罗马尼亚语 (ron)
        - 伊斯特拉-罗马尼亚语（Romanian, Istro）(ruo)
