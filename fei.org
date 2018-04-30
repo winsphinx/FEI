@@ -1,8 +1,8 @@
 #+TITLE: F.E.I.
 #+SUBTITLE: Français & Español & Italiano
 #+AUTHOR: winsphinX
-#+DATE: \today
-#+LATEX_CLASS: book
+#+DATE:
+#+LATEX_CLASS: report
 #+LATEX_CLASS_OPTIONS: [UTF8,a4paper,titlepage,10pt]
 #+LATEX_HEADER: \usepackage[heading]{ctex}
 #+LATEX_HEADER: \usepackage[left=3.2cm,right=3.2cm,top=2.5cm,bottom=2.5cm]{geometry}
@@ -45,6 +45,7 @@
   这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
 
 **** 分类
+
      - 东罗曼语支
        - 罗马尼亚语 (ron)
        - 伊斯特拉-罗马尼亚语（Romanian, Istro）(ruo)
@@ -113,49 +114,56 @@
            - 坎皮达诺方言（Sardinian, Campidanese）(sro)
 
 **** 演化
+
      罗曼诸语言中使用者最多的是西班牙语，其后依次是葡萄牙语、法语、意大利语和罗马尼亚语。
 
-     在现代的罗曼诸语言中，拉丁语复杂的屈折变化和语法结构已经被大大简化。意大利语、薩丁尼亞語和古典拉丁语最接近。
+     在现代的罗曼诸语言中，拉丁语复杂的屈折变化和语法结构已经被大大简化。意大利语、萨丁尼亚语和古典拉丁语最接近。
 
-     在罗曼诸语言发展的历史中，最先从拉丁语中分裂出来成为独立语言的是薩丁尼亞語，随之而来的是东部的罗马尼亚语也与拉丁语脱离，成为独立语言。第三个重要过程是意大利语与高卢-伊比利亚语言的分离。这个时候，法国和伊比利亚半岛诸国的语言仍然具有高度的一致性。罗曼语言的第四次重大变化是伊比利亚半岛的语言和法语脱离，逐渐形成非常相似的两种现代语言：西班牙语和葡萄牙语。而通行于西班牙东部的加泰罗尼亚语则被认为是法语和伊比利亚语言的中间产物，因为这种语言融合了法语和西、葡两种语言的很多特征。
+     在罗曼诸语言发展的历史中，最先从拉丁语中分裂出来成为独立语言的是萨丁尼亚語，随之而来的是东部的罗马尼亚语也与拉丁语脱离，成为独立语言。第三个重要过程是意大利语与高卢-伊比利亚语言的分离。这个时候，法国和伊比利亚半岛诸国的语言仍然具有高度的一致性。罗曼语言的第四次重大变化是伊比利亚半岛的语言和法语脱离，逐渐形成非常相似的两种现代语言：西班牙语和葡萄牙语。而通行于西班牙东部的加泰罗尼亚语则被认为是法语和伊比利亚语言的中间产物，因为这种语言融合了法语和西、葡两种语言的很多特征。
 
-    #+BEGIN_SRC dot :file images/Family.png :exports results
-    digraph D{
-     拉丁语->古典拉丁语;
-     拉丁语->罗曼祖语;
-     罗曼祖语->萨丁尼亚祖语;
-     萨丁尼亚祖语->萨丁尼亚方言;
-     罗曼祖语->罗曼大陆祖语;
-     罗曼大陆祖语->东罗曼祖语;
-     东罗曼祖语->巴尔干罗曼祖语;
-     巴尔干罗曼祖语->罗马尼亚祖语;
-     罗马尼亚祖语->罗马尼亚方言;
-     巴尔干罗曼祖语->达尔马提亚祖语;
-     达尔马提亚祖语->阿尔巴尼亚罗曼语借词;
-     达尔马提亚祖语->古达尔马提亚语;
-     罗曼大陆祖语->意大利－西罗曼祖语（通俗拉丁语）;
-     意大利－西罗曼祖语（通俗拉丁语）->意大利罗曼祖语;
-     意大利罗曼祖语->意大利方言;
-     意大利－西罗曼祖语（通俗拉丁语）->西罗曼祖语;
-     西罗曼祖语->伊比利亚罗曼祖语;
-     伊比利亚罗曼祖语->南伊比利亚罗曼语;
-     伊比利亚罗曼祖语->北伊比利亚罗曼语;
-     北伊比利亚罗曼语->葡萄牙方言;
-     北伊比利亚罗曼语->西班牙方言;
-     北伊比利亚罗曼语->加泰罗尼牙语;
-     西罗曼祖语->高卢罗曼祖语;
-     高卢罗曼祖语->北高卢罗曼祖语;
-     北高卢罗曼祖语->罗曼什语;
-     北高卢罗曼祖语->法语;
-     高卢罗曼祖语->南高卢罗曼祖语;
-     南高卢罗曼祖语->奥克语;
-    }
-    #+END_SRC
+     #+BEGIN_SRC dot :file images/Family.png :exports none
+       digraph D{
+       拉丁语->古典拉丁语;
+       拉丁语->罗曼祖语;
+       罗曼祖语->萨丁尼亚祖语;
+       萨丁尼亚祖语->萨丁尼亚方言;
+       罗曼祖语->罗曼大陆祖语;
+       罗曼大陆祖语->东罗曼祖语;
+       东罗曼祖语->巴尔干罗曼祖语;
+       巴尔干罗曼祖语->罗马尼亚祖语;
+       罗马尼亚祖语->罗马尼亚方言;
+       巴尔干罗曼祖语->达尔马提亚祖语;
+       达尔马提亚祖语->阿尔巴尼亚罗曼语借词;
+       达尔马提亚祖语->古达尔马提亚语;
+       罗曼大陆祖语->意大利－西罗曼祖语（通俗拉丁语）;
+       意大利－西罗曼祖语（通俗拉丁语）->意大利罗曼祖语;
+       意大利罗曼祖语->意大利方言;
+       意大利－西罗曼祖语（通俗拉丁语）->西罗曼祖语;
+       西罗曼祖语->伊比利亚罗曼祖语;
+       伊比利亚罗曼祖语->南伊比利亚罗曼语;
+       伊比利亚罗曼祖语->北伊比利亚罗曼语;
+       北伊比利亚罗曼语->葡萄牙方言;
+       北伊比利亚罗曼语->西班牙方言;
+       北伊比利亚罗曼语->加泰罗尼牙语;
+       西罗曼祖语->高卢罗曼祖语;
+       高卢罗曼祖语->北高卢罗曼祖语;
+       北高卢罗曼祖语->罗曼什语;
+       北高卢罗曼祖语->法语;
+       高卢罗曼祖语->南高卢罗曼祖语;
+       南高卢罗曼祖语->奥克语;
+       }
+     #+END_SRC
 
-    #+RESULTS:
-    [[file:images/Family.png]]
+     #+RESULTS:
+     [[file:images/Family.png]]
+
+     #+NAME: Language_Map
+     #+CAPTION: 演化图
+     #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
+     [[file:images/Family.png]]
 
 **** 共同点
+
      - 语法上：
        - 对动作的描述更多的依赖动词自身的变化。语法变化主要依靠动词的词形变化，而非依靠粘着成分。这也是罗曼语言构词法的重要特征。
        - 通常频繁使用两个助动词来构成时态，都是从拉丁语的不定词 esse 和 stare 改变而来的，一个用于描述本质，一个用于描述状态。
@@ -172,6 +180,7 @@
        - 一些表示国籍的形容词、表示星期、月份和年份的名词通常首字母不需大写。
 
 **** 差异点
+
      - 在一些罗曼语中，名词复数是由名词单数词尾加字母 s 构成的，这是从拉丁语中宾格名词的复数形式演化而来的，以这种方式构成名词复数的罗曼语言包括葡萄牙语、西班牙语、加泰罗尼亚语、普罗旺斯语和法语。也有一些语言的名词复数是由词尾的元音字母变化而构成的，这一特征则是从拉丁语中主格名词的复数形式演化而来。如意大利语和罗马尼亚语等。
      - 一些罗曼语言摈弃了语言词汇的词尾非重读元音。例如欧洲语言的词汇月亮在意大利语中仍是 luna，而在法语中则变成了 lune。仍然保留了词尾元音的语言包括葡萄牙语、西班牙语、意大利语和罗马尼亚语。而法语则摈弃了词尾元音。
      - 罗曼诸语言的比较级构成词也有两种，一种是语言词汇 plus 的，一种则是 magis 一词的。采用前一种构成方式的语言包括法语（plus）和意大利语（più）；而采用后一种构成方式的则包括葡萄牙语（mais）、西班牙语（más）、加泰罗尼亚语（més）等。
@@ -183,6 +192,7 @@
 ** 字母
 
 **** Français
+
      #+NAME: alphabet-f
      #+CAPTION: 法语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
@@ -203,6 +213,7 @@
      | M m  | emme  | \textipa{[Em]} | Z z  | zède      | \textipa{[zEd]}   |
 
 **** Español
+
      #+NAME: alphabet-e
      #+CAPTION: 西班牙语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
@@ -227,6 +238,7 @@
      - 在西班牙语中，字母 "K" 和 "W" 平常时一般不用，它们只出现于外来词汇。
 
 **** Italiano
+
      #+NAME: alphabet-e
      #+CAPTION: 意大利语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
@@ -249,6 +261,7 @@
      - 在意大利语中，字母 "J"、"K"、"W"、"X"、"Y" 只用于外来词汇。
 
 **** 音符
+
      #+NAME: accent-all
      #+CAPTION: 音符汇总表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|X|X|X
@@ -264,6 +277,7 @@
 ** 发音
 
 **** Français
+
      #+NAME: pronounce-f-v
      #+CAPTION: 法语元音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
@@ -381,6 +395,7 @@
      # | 软音符 cédille           | c             | leçon                       |
 
 **** Español
+
      #+NAME: pronounce-e-v
      #+CAPTION: 西班牙语元音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
@@ -468,6 +483,7 @@
      # | _音符  | n                | ñ    |
 
 **** Italiano
+
      #+NAME: pronounce-i-v
      #+CAPTION: 意大利语元音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
@@ -556,6 +572,7 @@
      # | 钝音符 | a, e, i, o, u |à     |
 
 **** 总结
+
      #+NAME: pronounce-all
      #+CAPTION: 辅音汇总表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
@@ -704,6 +721,8 @@
 
   # 生成表格索引
   #+LATEX: \listoftables
+  # 生成插图索引
+  #+LATEX: \listoffigures
   # 生成标记索引
   #+LATEX: \printindex
 
