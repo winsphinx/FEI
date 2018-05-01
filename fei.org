@@ -4,48 +4,99 @@
 #+DATE:
 #+LATEX_CLASS: report
 #+LATEX_CLASS_OPTIONS: [UTF8,a4paper,titlepage,10pt]
-#+LATEX_HEADER: \usepackage[heading]{ctex}
 #+LATEX_HEADER: \usepackage[left=3.2cm,right=3.2cm,top=2.5cm,bottom=2.5cm]{geometry}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue}
+#+LATEX_HEADER: \usepackage[heading]{ctex}                % 用于处理中文
+#+LATEX_HEADER: \usepackage{tipa}                         % 用于输入音标
+#+LATEX_HEADER: \usepackage{rotfloat}                     % 用于图表排版
+#+LATEX_HEADER: \usepackage{booktabs}                     % 用于表格美化
+#+LATEX_HEADER: \usepackage{tabu}                         % 用于表格跨行
+#+LATEX_HEADER: \usepackage{longtable}                    % 用于表格跨页
+#+LATEX_HEADER: \usepackage{enumitem}                     % 用于多级列表
+#+LATEX_HEADER: \usepackage{makeidx}                      % 用于创建索引
 
-#+LATEX_HEADER_EXTRA: \usepackage{tipa}      % 用于输入音标
-#+LATEX_HEADER_EXTRA: \usepackage{rotfloat}  % 用于图表排版
-#+LATEX_HEADER_EXTRA: \usepackage{booktabs}  % 用于表格美化
-#+LATEX_HEADER_EXTRA: \usepackage{tabu}      % 用于表格跨行
-#+LATEX_HEADER_EXTRA: \usepackage{longtable} % 用于表格跨页
-#+LATEX_HEADER_EXTRA: \usepackage{enumitem}  % 用于多级列表
-#+LATEX_HEADER_EXTRA: \usepackage{makeidx}   % 用于创建索引
-#+LATEX_HEADER_EXTRA: \makeindex
+#+LATEX_HEADER: \makeindex                                % 开始生成索引
+#+LATEX_HEADER: \tabulinesep=1.0mm                        % 设置表格间隔
+#+LATEX_HEADER: \renewlist{itemize}{itemize}{9}           % 设置列表层级
+#+LATEX_HEADER: \setlist[itemize]{label=$\circ$}          % 设置列表标记
+
+#+LATEX: \pagestyle{plain}                                % 定义页码位置
+#+LATEX: \pagenumbering{Roman}                            % 目录页码格式
+#+LATEX: \newpage                                         % 目录之后换页
+#+LATEX: \setcounter{page}{1}                             % 正文重新计数
+#+LATEX: \pagenumbering{arabic}                           % 正文页码格式
 
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t c:nil d:(not "LOGBOOK") date:t
 #+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
 #+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
 
-#+LATEX: \pagestyle{plain}                   % 定义页码位置
-#+LATEX: \pagenumbering{Roman}               % 目录页码格式
-#+LATEX: \newpage                            % 目录之后换页
-#+LATEX: \setcounter{page}{1}                % 正文重新计数
-#+LATEX: \pagenumbering{arabic}              % 正文页码格式
-#+LATEX: \tabulinesep=1.0mm                  % 设置表格间隔
-#+LATEX: \renewlist{itemize}{itemize}{9}     % 设置列表层级
-#+LATEX: \setlist[itemize]{label=$\circ$}    % 设置列表标记
 
-* 简介
+* 序言
 
-** 介绍
+** 简介
 
   =Français & Español & Italiano=
+
+  这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
 
   #+NAME: Language_Map
   #+CAPTION: 分布图
   #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
   [[file:images/WorldMap.png]]
 
-  这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
+*** 发展
+
+**** 演化
+
+     罗曼诸语言中使用者最多的是西班牙语，其后依次是葡萄牙语、法语、意大利语和罗马尼亚语。
+
+     在现代的罗曼诸语言中，拉丁语复杂的屈折变化和语法结构已经被大大简化。意大利语、萨丁尼亚语和古典拉丁语最接近。
+
+     在罗曼诸语言发展的历史中，最先从拉丁语中分裂出来成为独立语言的是萨丁尼亚語，随之而来的是东部的罗马尼亚语也与拉丁语脱离，成为独立语言。第三个重要过程是意大利语与高卢-伊比利亚语言的分离。这个时候，法国和伊比利亚半岛诸国的语言仍然具有高度的一致性。罗曼语言的第四次重大变化是伊比利亚半岛的语言和法语脱离，逐渐形成非常相似的两种现代语言：西班牙语和葡萄牙语。而通行于西班牙东部的加泰罗尼亚语则被认为是法语和伊比利亚语言的中间产物，因为这种语言融合了法语和西、葡两种语言的很多特征。
+
+     #+BEGIN_SRC dot :file images/Family.png :exports none
+       digraph D{
+       拉丁语->古典拉丁语;
+       拉丁语->罗曼祖语;
+       罗曼祖语->萨丁尼亚祖语;
+       萨丁尼亚祖语->萨丁尼亚方言;
+       罗曼祖语->罗曼大陆祖语;
+       罗曼大陆祖语->东罗曼祖语;
+       东罗曼祖语->巴尔干罗曼祖语;
+       巴尔干罗曼祖语->罗马尼亚祖语;
+       罗马尼亚祖语->罗马尼亚方言;
+       巴尔干罗曼祖语->达尔马提亚祖语;
+       达尔马提亚祖语->阿尔巴尼亚罗曼语借词;
+       达尔马提亚祖语->古达尔马提亚语;
+       罗曼大陆祖语->意大利－西罗曼祖语（通俗拉丁语）;
+       意大利－西罗曼祖语（通俗拉丁语）->意大利罗曼祖语;
+       意大利罗曼祖语->意大利方言;
+       意大利－西罗曼祖语（通俗拉丁语）->西罗曼祖语;
+       西罗曼祖语->伊比利亚罗曼祖语;
+       伊比利亚罗曼祖语->南伊比利亚罗曼语;
+       伊比利亚罗曼祖语->北伊比利亚罗曼语;
+       北伊比利亚罗曼语->葡萄牙方言;
+       北伊比利亚罗曼语->西班牙方言;
+       北伊比利亚罗曼语->加泰罗尼牙语;
+       西罗曼祖语->高卢罗曼祖语;
+       高卢罗曼祖语->北高卢罗曼祖语;
+       北高卢罗曼祖语->罗曼什语;
+       北高卢罗曼祖语->法语;
+       高卢罗曼祖语->南高卢罗曼祖语;
+       南高卢罗曼祖语->奥克语;
+       }
+     #+END_SRC
+
+     #+RESULTS:
+     [[file:images/Family.png]]
+
+     #+NAME: Language_Map
+     #+CAPTION: 演化图
+     #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
+     [[file:images/Family.png]]
 
 **** 分类
-
      - 东罗曼语支
        - 罗马尼亚语 (ron)
        - 伊斯特拉-罗马尼亚语（Romanian, Istro）(ruo)
@@ -113,54 +164,7 @@
            - 劳古多罗方言（Sardinian, Logudorese）(src)
            - 坎皮达诺方言（Sardinian, Campidanese）(sro)
 
-**** 演化
-
-     罗曼诸语言中使用者最多的是西班牙语，其后依次是葡萄牙语、法语、意大利语和罗马尼亚语。
-
-     在现代的罗曼诸语言中，拉丁语复杂的屈折变化和语法结构已经被大大简化。意大利语、萨丁尼亚语和古典拉丁语最接近。
-
-     在罗曼诸语言发展的历史中，最先从拉丁语中分裂出来成为独立语言的是萨丁尼亚語，随之而来的是东部的罗马尼亚语也与拉丁语脱离，成为独立语言。第三个重要过程是意大利语与高卢-伊比利亚语言的分离。这个时候，法国和伊比利亚半岛诸国的语言仍然具有高度的一致性。罗曼语言的第四次重大变化是伊比利亚半岛的语言和法语脱离，逐渐形成非常相似的两种现代语言：西班牙语和葡萄牙语。而通行于西班牙东部的加泰罗尼亚语则被认为是法语和伊比利亚语言的中间产物，因为这种语言融合了法语和西、葡两种语言的很多特征。
-
-     #+BEGIN_SRC dot :file images/Family.png :exports none
-       digraph D{
-       拉丁语->古典拉丁语;
-       拉丁语->罗曼祖语;
-       罗曼祖语->萨丁尼亚祖语;
-       萨丁尼亚祖语->萨丁尼亚方言;
-       罗曼祖语->罗曼大陆祖语;
-       罗曼大陆祖语->东罗曼祖语;
-       东罗曼祖语->巴尔干罗曼祖语;
-       巴尔干罗曼祖语->罗马尼亚祖语;
-       罗马尼亚祖语->罗马尼亚方言;
-       巴尔干罗曼祖语->达尔马提亚祖语;
-       达尔马提亚祖语->阿尔巴尼亚罗曼语借词;
-       达尔马提亚祖语->古达尔马提亚语;
-       罗曼大陆祖语->意大利－西罗曼祖语（通俗拉丁语）;
-       意大利－西罗曼祖语（通俗拉丁语）->意大利罗曼祖语;
-       意大利罗曼祖语->意大利方言;
-       意大利－西罗曼祖语（通俗拉丁语）->西罗曼祖语;
-       西罗曼祖语->伊比利亚罗曼祖语;
-       伊比利亚罗曼祖语->南伊比利亚罗曼语;
-       伊比利亚罗曼祖语->北伊比利亚罗曼语;
-       北伊比利亚罗曼语->葡萄牙方言;
-       北伊比利亚罗曼语->西班牙方言;
-       北伊比利亚罗曼语->加泰罗尼牙语;
-       西罗曼祖语->高卢罗曼祖语;
-       高卢罗曼祖语->北高卢罗曼祖语;
-       北高卢罗曼祖语->罗曼什语;
-       北高卢罗曼祖语->法语;
-       高卢罗曼祖语->南高卢罗曼祖语;
-       南高卢罗曼祖语->奥克语;
-       }
-     #+END_SRC
-
-     #+RESULTS:
-     [[file:images/Family.png]]
-
-     #+NAME: Language_Map
-     #+CAPTION: 演化图
-     #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
-     [[file:images/Family.png]]
+*** 比较
 
 **** 共同点
 
@@ -191,6 +195,7 @@
 
 ** 字母
 
+*** 字母表
 **** Français
 
      #+NAME: alphabet-f
@@ -260,21 +265,78 @@
 
      - 在意大利语中，字母 "J"、"K"、"W"、"X"、"Y" 只用于外来词汇。
 
-**** 音符
+*** 音符表
 
-     #+NAME: accent-all
-     #+CAPTION: 音符汇总表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|X|X|X
-     | 音符名 | 法语适用字母   | 西班牙语适用字母      | 意大利语适用字母   |
-     |--------+----------------+-----------------------+--------------------|
-     | 尖音符 | é             | á, é, í, ó, ú, ý | é, í, ó, ú     |
-     | 钝音符 | à, è, ù     | -                     | à, è, ì, ò, ù |
-     | 长音符 | â, ê, î, ô, û | -                     | -                  |
-     | 分音符 | ë, ï, ü, ÿ    | ï, ü                 | -                  |
-     | 软音符 | ç              | -                     | -                  |
-     | 软音符 | -              | ñ                     | -                  |
+    #+NAME: accent-all
+    #+CAPTION: 音符汇总表
+    #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|X|X|X
+    | 音符名         | 法语适用字母   | 西班牙语适用字母      | 意大利语适用字母   |
+    |----------------+----------------+-----------------------+--------------------|
+    | 锐音符、尖音符 | é             | á, é, í, ó, ú, ý | é, í, ó, ú     |
+    | 钝音符、重音符 | à, è, ù     | -                     | à, è, ì, ò, ù |
+    | 折音符、扬抑符 | â, ê, î, ô, û | -                     | -                  |
+    | 分音符、曲音符 | ë, ï, ü, ÿ    | ï, ü                 | -                  |
+    | 软音符         | ç              | -                     | -                  |
+    | 颚化符         | -              | ñ                     | -                  |
 
 ** 发音
+
+*** 发音总表
+
+    #+NAME: pronounce-v
+    #+CAPTION: 元音汇总表
+    #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+    | 音标 | 法语 | 西班牙语 | 意大利语 |
+    |------+------+----------+----------|
+    |      |      |          |          |
+
+    #+NAME: pronounce-all-c
+    #+CAPTION: 辅音汇总表
+    #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+    | 音标                    | 法语                 | 西班牙语     | 意大利语     |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[p]}           | p                    | p            | p            |
+    | \textipa{[b]}           | b                    | b-, v-       | b            |
+    | \textipa{[B]}           | -                    | -b, -v       | -            |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[t]}           | t                    | t            | t            |
+    | \textipa{[d]}           | d                    | d-           | d            |
+    | \textipa{[D]}           | -                    | -d-          | -            |
+    | \textipa{[T]}           | -                    | -d, z, c-ei  | -            |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[k]}           | c-aou, k, ck, qu, -q | c-aou, qu-ei | c-aou, ch-ei |
+    | \textipa{[g]}           | g-aou, gu-eiy        | g-aou, gu-ei | g-aou, gh-ei |
+    | \textipa{[x]}           | -                    | j, g-ei      | -            |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[s]}           | s, ss, c-eiy, ç, x   | s, x         | s            |
+    | \textipa{[z]}           | z, zz, -s-, x        | -            | -s-          |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[f]}           | f, ff, ph            | f            | f            |
+    | \textipa{[v]}           | v                    | -            | v            |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[S]}           | ch                   | -            | sc-ei        |
+    | \textipa{[Z]}           | j, g-eiy             | -            | -            |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[tS]}          | -                    | ch           | c-ei         |
+    | \textipa{[dZ]}          | -                    | -            | g-ei         |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[ts]}          | -                    | -            | z            |
+    | \textipa{[dz]}          | -                    | -            | z            |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[m]}           | m                    | m            | m            |
+    | \textipa{[n]}           | n                    | n            | n            |
+    | \textipa{[\textltailn]} | gn                   | ñ            | gn           |
+    | \textipa{[l]}           | l                    | l            | l            |
+    | \textipa{[L]}           | -                    | -            | gli          |
+    | \textipa{[J]}           | -                    | ll, y-       | -            |
+    | \textipa{[r]}           | -                    | r            | r            |
+    | \textipa{[K]}           | r                    | -            | -            |
+    |-------------------------+----------------------+--------------+--------------|
+    | \textipa{[j]}           | i-, -il, -ill, y-    | i-           | i-           |
+    | \textipa{[w]}           | ou-, w               | u-, w        | u-, w        |
+    | \textipa{[4]}           | u-                   | -            | -            |
+
+*** 发音规则
 
 **** Français
 
@@ -342,24 +404,24 @@
      | d, dd                             | \textipa{[d]}           | madame, date, déjà, addition, adresse                   |
      |-----------------------------------+-------------------------+-----------------------------------------------------------|
      | k, ck                             | \textipa{[k]}           | kilo, ticket                                              |
-     | c 在 a, o, u, 辅音字母前或词末    |                         | casser, coller, cube, clé, lac                           |
-     | qu                                |                         | tonique, qui, quel                                        |
-     | q 在词末                          |                         | coq, cinq                                                 |
+     | c 在 a, o, u, 辅音字母前或词末    | \textipa{[k]}           | casser, coller, cube, clé, lac                           |
+     | qu                                | \textipa{[k]}           | tonique, qui, quel                                        |
+     | q 在词末                          | \textipa{[k]}           | coq, cinq                                                 |
      | g 在 a, o, u 及辅音字母前         | \textipa{[g]}           | gare, goûter, figure, jungle                              |
-     | gu 在 e, i, y 前                  |                         | guetter, guide, Guy                                       |
+     | gu 在 e, i, y 前                  | \textipa{[g]}           | guetter, guide, Guy                                       |
      |-----------------------------------+-------------------------+-----------------------------------------------------------|
      | s, ss                             | \textipa{[s]}           | veste, système，adresse, messe                           |
-     | c 在 e, i, y 前                   |                         | cinéma, cycle, scientifique, centre                      |
-     | ç                                 |                         | français, leçon                                           |
-     | t 在 tion 和 tie 中（前面没有 s） |                         | attention, nation, démocratie, patience                  |
-     | x 在少数词中                      |                         | dix, six                                                  |
+     | c 在 e, i, y 前                   | \textipa{[s]}           | cinéma, cycle, scientifique, centre                      |
+     | ç                                 | \textipa{[s]}           | français, leçon                                           |
+     | t 在 tion 和 tie 中（前面没有 s） | \textipa{[s]}           | attention, nation, démocratie, patience                  |
+     | x 在少数词中                      | \textipa{[s]}           | dix, six                                                  |
      | z, zz                             | \textipa{[z]}           | gaz, seize, zéro, jazz                                   |
-     | s 在两个元音字母之间              |                         | base, visage, paisible                                    |
-     | x 在个别词中                      |                         | deuxième, sixième                                       |
+     | s 在两个元音字母之间              | \textipa{[z]}           | base, visage, paisible                                    |
+     | x 在个别词中                      | \textipa{[z]}           | deuxième, sixième                                       |
      |-----------------------------------+-------------------------+-----------------------------------------------------------|
      | ch                                | \textipa{[S]}           | Chine, douche                                             |
      | j                                 | \textipa{[Z]}           | je, jour                                                  |
-     | g 在 e, i, y 前                   |                         | geste, gilet, gymnastique                                 |
+     | g 在 e, i, y 前                   | \textipa{[Z]}           | geste, gilet, gymnastique                                 |
      |-----------------------------------+-------------------------+-----------------------------------------------------------|
      | f, ff, ph                         | \textipa{[f]}           | flamme, difficile, chef, philosophie                      |
      | v                                 | \textipa{[v]}           | veste, vivre, voir                                        |
@@ -367,17 +429,17 @@
      | l                                 | \textipa{[l]}           | loi, facile, allocution, fil, cil                         |
      | m                                 | \textipa{[m]}           | ma, pomme, image, mythe                                   |
      | n, nn                             | \textipa{[n]}           | minute, année                                            |
-     | mn 在少数单词中                   |                         | condamner, automne                                        |
+     | mn 在少数单词中                   | \textipa{[n]}           | condamner, automne                                        |
      | gn                                | \textipa{[\textltailn]} | signe, campagne, gagner, magnifique, digne                |
      | r, rr                             | \textipa{[K]}           | rare, mer, gris, bracelet, prune, crèche, Méditerranée |
      |-----------------------------------+-------------------------+-----------------------------------------------------------|
      | ou 在元音前                       | \textipa{[w]}           | jouer, mouette, oui, souhait                              |
-     | w 在少数外来词中                  |                         | watt                                                      |
+     | w 在少数外来词中                  | \textipa{[w]}           | watt                                                      |
      |-----------------------------------+-------------------------+-----------------------------------------------------------|
      | i 在元音前                        | \textipa{[j]}           | lien, ciel, faïence                                       |
-     | il 在词末且在元音后               |                         | réveil, travail                                          |
-     | ill 在元音后                      |                         | bataille, travailler                                      |
-     | 字母 y 在元音前或在词首           |                         | Lyon, yeux                                                |
+     | il 在词末且在元音后               | \textipa{[j]}           | réveil, travail                                          |
+     | ill 在元音后                      | \textipa{[j]}           | bataille, travailler                                      |
+     | 字母 y 在元音前或在词首           | \textipa{[j]}           | Lyon, yeux                                                |
      |-----------------------------------+-------------------------+-----------------------------------------------------------|
      | u 在元音前                        | \textipa{[4]}           | nuit lui, fruit, juin                                     |
 
@@ -570,54 +632,6 @@
      # |--------+---------------+------|
      # | 尖音符 | e, i, o       |é     |
      # | 钝音符 | a, e, i, o, u |à     |
-
-**** 总结
-
-     #+NAME: pronounce-all
-     #+CAPTION: 辅音汇总表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     | 音标                    | 法语                 | 西班牙语     | 意大利语     |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[p]}           | p                    | p            | p            |
-     | \textipa{[b]}           | b                    | b-, v-       | b            |
-     | \textipa{[B]}           | -                    | -b, -v       | -            |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[t]}           | t                    | t            | t            |
-     | \textipa{[d]}           | d                    | d-           | d            |
-     | \textipa{[D]}           | -                    | -d-          | -            |
-     | \textipa{[T]}           | -                    | -d, z, c-ei  | -            |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[k]}           | c-aou, k, ck, qu, -q | c-aou, qu-ei | c-aou, ch-ei |
-     | \textipa{[g]}           | g-aou, gu-eiy        | g-aou, gu-ei | g-aou, gh-ei |
-     | \textipa{[x]}           | -                    | j, g-ei      | -            |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[s]}           | s, ss, c-eiy, ç, x   | s, x         | s            |
-     | \textipa{[z]}           | z, zz, -s-, x        | -            | -s-          |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[f]}           | f, ff, ph            | f            | f            |
-     | \textipa{[v]}           | v                    | -            | v            |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[S]}           | ch                   | -            | sc-ei        |
-     | \textipa{[Z]}           | j, g-eiy             | -            | -            |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[tS]}          | -                    | ch           | c-ei         |
-     | \textipa{[dZ]}          | -                    | -            | g-ei         |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[ts]}          | -                    | -            | z            |
-     | \textipa{[dz]}          | -                    | -            | z            |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[m]}           | m                    | m            | m            |
-     | \textipa{[n]}           | n                    | n            | n            |
-     | \textipa{[\textltailn]} | gn                   | ñ            | gn           |
-     | \textipa{[l]}           | l                    | l            | l            |
-     | \textipa{[L]}           | -                    | -            | gli          |
-     | \textipa{[J]}           | -                    | ll, y-       | -            |
-     | \textipa{[r]}           | -                    | r            | r            |
-     | \textipa{[K]}           | r                    | -            | -            |
-     |-------------------------+----------------------+--------------+--------------|
-     | \textipa{[j]}           | i-, -il, -ill, y-    | i-           | i-           |
-     | \textipa{[w]}           | ou-, w               | u-, w        | u-, w        |
-     | \textipa{[4]}           | u-                   | -            | -            |
 
 * 语法
 
