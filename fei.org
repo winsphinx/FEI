@@ -17,6 +17,7 @@
 
 #+LATEX_HEADER: \makeindex                                % 开始生成索引
 #+LATEX_HEADER: \tabulinesep=1.0mm                        % 设置表格间隔
+#+LATEX_HEADER: \setlistdepth{9}                          % 设置列表深度
 #+LATEX_HEADER: \renewlist{itemize}{itemize}{9}           % 设置列表层级
 #+LATEX_HEADER: \setlist[itemize]{label=$\circ$}          % 设置列表标记
 
@@ -97,6 +98,7 @@
      [[file:images/Family.png]]
 
 **** 分类
+
      - 东罗曼语支
        - 罗马尼亚语 (ron)
        - 伊斯特拉-罗马尼亚语（Romanian, Istro）(ruo)
@@ -270,14 +272,14 @@
     #+NAME: accent-all
     #+CAPTION: 音符汇总表
     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|X|X|X
-    | 音符名         | 法语适用字母   | 西班牙语适用字母      | 意大利语适用字母   |
-    |----------------+----------------+-----------------------+--------------------|
-    | 锐音符、尖音符 | é             | á, é, í, ó, ú, ý | é, í, ó, ú     |
-    | 钝音符、重音符 | à, è, ù     | -                     | à, è, ì, ò, ù |
-    | 折音符、扬抑符 | â, ê, î, ô, û | -                     | -                  |
-    | 分音符、曲音符 | ë, ï, ü, ÿ    | ï, ü                 | -                  |
-    | 软音符         | ç              | -                     | -                  |
-    | 颚化符         | -              | ñ                     | -                  |
+    | 音符名 | 法语适用字母   | 西班牙语适用字母      | 意大利语适用字母   |
+    |--------+----------------+-----------------------+--------------------|
+    | 闭音符 | é             | á, é, í, ó, ú, ý | é, í, ó, ú     |
+    | 开音符 | à, è, ù     | -                     | à, è, ì, ò, ù |
+    | 长音符 | â, ê, î, ô, û | -                     | -                  |
+    | 分音符 | ë, ï, ü, ÿ    | ï, ü                 | -                  |
+    | 软音符 | ç              | -                     | -                  |
+    | 颚化符 | -              | ñ                     | -                  |
 
 ** 发音
 
@@ -286,9 +288,22 @@
     #+NAME: pronounce-v
     #+CAPTION: 元音汇总表
     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-    | 音标 | 法语 | 西班牙语 | 意大利语 |
-    |------+------+----------+----------|
-    |      |      |          |          |
+    | 音标            | 法语                                  | 西班牙语 | 意大利语  |
+    |-----------------+---------------------------------------+----------+-----------|
+    | \textipa{[A]}   | a, à, â                              | a        | a, à     |
+    | \textipa{[E]}   | è, ê, ë, ai, aî, ei, -et            | e        | è        |
+    | \textipa{[e]}   | é, -er, -ez, -ed, es-                | -        | e, é     |
+    | \textipa{[i]}   | i, î, ï                               | i        | i, ì, í |
+    | \textipa{[O]}   | o, au[r],                             | -        | ò        |
+    | \textipa{[o]}   | o, ô, o[z], au, eau                   | o        | o, ó     |
+    | \textipa{[u]}   | ou, où, oû                           | u        | u, ù, ú |
+    | \textipa{[y]}   | u, û                                  | -        | -         |
+    | \textipa{[@]}   | e                                     | -        | -         |
+    | \textipa{[\o]}  | eu, œu, eu[zdt]                       | -        | -         |
+    | \textipa{[\oe]} | eu, œu, [cg]ue, œ                     | -        | -         |
+    | \textipa{[\~E]} | in, im, yn, ym, ain, aim, ein, un, um | -        | -         |
+    | \textipa{[\~A]} | an, am, en, em                        | -        | -         |
+    | \textipa{[\~O]} | on, om                                | -        | -         |
 
     #+NAME: pronounce-all-c
     #+CAPTION: 辅音汇总表
@@ -386,7 +401,7 @@
      | ue 在 c, g 后                                                |                 | accueil, orgueil                                                       |
      | œ 在少数单词中                                               |                 | œil                                                                    |
      |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
-     | in, im, yn, ym, aim, ain, ein, um, un（后面不是元音或 m, n） | \textipa{[\~E]} | fin, timbre, syndicat, symbole, faim, pain, plein, lundi, commun       |
+     | im, in, ym, yn, aim, ain, ein, um, un（后面不是元音或 m, n） | \textipa{[\~E]} | fin, timbre, syndicat, symbole, faim, pain, plein, lundi, commun       |
      |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
      | am, an, em, en（后面不是元音或 m, n）                        | \textipa{[\~A]} | chambre, champagne, ancre, chanter, emporter, remplir, entrer, content |
      |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
@@ -637,6 +652,8 @@
 
 ** 名词
 
+*** 概述
+
 **** Français
 
 **** Español
@@ -644,6 +661,8 @@
 **** Italiano
 
 ** 冠词
+
+*** 概述
 
 **** Français
 
@@ -697,6 +716,8 @@
 
 ** 数词
 
+*** 概述
+
 **** Français
 
 **** Español
@@ -704,6 +725,8 @@
 **** Italiano
 
 ** 动词
+
+*** 概述
 
 **** Français
 
@@ -713,6 +736,8 @@
 
 ** 副词
 
+*** 概述
+
 **** Français
 
 **** Español
@@ -721,6 +746,8 @@
 
 ** 介词
 
+*** 概述
+
 **** Français
 
 **** Español
@@ -728,7 +755,6 @@
 **** Italiano
 
 * 句法
-
 
 #+LATEX: \newpage
 * 附录
