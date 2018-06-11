@@ -1,0 +1,30 @@
+version: '1.0.{build}'
+skip_tags: true
+
+install:
+  - ps: choco install -y miktex
+  - cmd: refreshenv
+
+before_build:
+
+build_script:
+  - cmd: pdflatex  --synctex=1 -interaction=nonstopmode -file-line-error -recorder  fei.tex
+  - cmd: pdflatex  --synctex=1 -interaction=nonstopmode -file-line-error -recorder  fei.tex
+  - cmd: pdflatex  --synctex=1 -interaction=nonstopmode -file-line-error -recorder  fei.tex
+
+after_build:
+
+artifacts:
+  - path: fei.pdf
+
+deploy:
+  release: fei-v$(appveyor_build_version)
+  description: ''
+  provider: GitHub
+  auth_token:
+    secure: x2VCjhjls6MUIYqj+WN0D5Db4HA3hTIep++8jGWbSQtnGcPMfzj5gWW39ZNg1z/5
+  artifact: fei.pdf
+  force_update: true
+  draft: false
+  prerelease: false
+  appveyor_repo_tag: false
