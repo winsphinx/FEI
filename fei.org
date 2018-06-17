@@ -22,7 +22,6 @@
 #+LATEX_HEADER: \setlist[itemize]{label=$\circ$}          % 设置列表标记
 
 #+LATEX: \pagestyle{plain}                                % 定义页码位置
-#+LATEX: \pagenumbering{Roman}                            % 目录页码格式
 #+LATEX: \newpage                                         % 目录之后换页
 #+LATEX: \setcounter{page}{1}                             % 正文重新计数
 #+LATEX: \pagenumbering{arabic}                           % 正文页码格式
