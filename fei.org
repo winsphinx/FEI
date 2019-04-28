@@ -225,8 +225,8 @@
      | I i  | i     | \textipa{[i]}  | V v  | vé        | \textipa{[ve]}      |
      | J j  | ji    | \textipa{[Zi]} | W w  | double vé | \textipa{[dubl@ve]} |
      | K k  | ka    | \textipa{[kA]} | X x  | ixe        | \textipa{[iks]}     |
-     | L l  | elle  | \textipa{[El]} | Y y  | i grec     | \textipa{[igKEk]} |
-     | M m  | emme  | \textipa{[Em]} | Z z  | zède      | \textipa{[zEd]}   |
+     | L l  | elle  | \textipa{[El]} | Y y  | i grec     | \textipa{[igKEk]}   |
+     | M m  | emme  | \textipa{[Em]} | Z z  | zède      | \textipa{[zEd]}     |
 
 **** Español
 
@@ -353,7 +353,8 @@
     | \textipa{[l]}           | l                    | l            | l            |
     | \textipa{[L]}           | -                    | -            | gli          |
     | \textipa{[J]}           | -                    | ll, y-       | -            |
-    | \textipa{[r]}           | -                    | r            | r            |
+    | \textipa{[r]}           | -                    | rr           | r            |
+    | \textipa{[R]}           | -                    | r            | -            |
     | \textipa{[K]}           | r                    | -            | -            |
     |-------------------------+----------------------+--------------+--------------|
     | \textipa{[j]}           | i-, -il, -ill, y-    | i-           | i-           |
@@ -415,6 +416,8 @@
      | am, an, em, en（后面不是元音或 m, n）                        | \textipa{[\~A]} | chambre, champagne, ancre, chanter, emporter, remplir, entrer, content |
      |--------------------------------------------------------------+-----------------+------------------------------------------------------------------------|
      | om, on（后面不是元音或 m, n）                                | \textipa{[\~O]} | ombre, tomber, rompre, oncle, salon, chanson                           |
+
+     - 字母组合 um, un，其发音\textipa{[\~\oe]}，已有被\textipa{[\~E]}替代的趋势。
 
      #+NAME: pronounce-f-c
      #+CAPTION: 法语辅音表
