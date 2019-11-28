@@ -1,24 +1,23 @@
 version: '1.0.{build}'
 skip_tags: true
 
-install:
-  - ps: choco install -y miktex
-  - cmd: refreshenv
+image:
+  - Ubuntu
 
-before_build:
+install:
+  - sh: sudo apt-get update -y
+  - sh: sudo apt-get install texlive-lang-all texlive-latex-extra texlive-xetex -y
 
 build_script:
-  - cmd: pdflatex  --synctex=1 -interaction=nonstopmode -file-line-error -recorder  fei.tex
-  - cmd: pdflatex  --synctex=1 -interaction=nonstopmode -file-line-error -recorder  fei.tex
-  - cmd: pdflatex  --synctex=1 -interaction=nonstopmode -file-line-error -recorder  fei.tex
-
-after_build:
+  - sh: xelatex fei.tex
+  - sh: xelatex fei.tex
+  - sh: xelatex fei.tex
 
 artifacts:
   - path: fei.pdf
+    name: fei
 
 deploy:
-  release: fei-v$(appveyor_build_version)
   description: ''
   provider: GitHub
   auth_token:
