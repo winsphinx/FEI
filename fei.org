@@ -678,9 +678,42 @@
 
 **** Français
 
+     #+NAME: d-artical-f
+     #+CAPTION: 法语定冠词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     |      | 规则           | 单数 | 复数 |
+     |------+----------------+------+------|
+     | 阳性 | 元音前、哑音前 | l'   | les  |
+     |      | 辅音前、嘘音前 | le   |      |
+     |------+----------------+------+------|
+     | 阴阳 | 元音前、哑音前 | l'   | les  |
+     |      | 辅音前、嘘音前 | la   |      |
+
 **** Español
 
+     #+NAME: d-artical-e
+     #+CAPTION: 西班牙定语冠词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     |      | 规则 | 单数 | 复数 |
+     |------+------+------+------|
+     | 阳性 |      | el   | los  |
+     |------+------+------+------|
+     | 阴性 |      | la   | las  |
+
 **** Italiano
+
+     #+NAME: d-artical-i
+     #+CAPTION: 意大利语定冠词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     |      | 规则               | 单数 | 复数 |
+     |------+--------------------+------+------|
+     | 阳性 | 元音前             | l'   | gli  |
+     |      | s, z, x, ps, gn 前 | lo   | gli  |
+     |      | 其他辅音前         | il   | i    |
+     |------+--------------------+------+------|
+     | 阴性 | 元音前             | l'   | le   |
+     |      | 辅音前             | la   | le   |
+
 
 ** 代词
 
