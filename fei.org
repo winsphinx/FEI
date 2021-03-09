@@ -251,7 +251,7 @@
      | LL ll | elle  | \textipa{[eJe]}  | Y y   | i griega  | \textipa{[igriegA]}        |
      | M m   | eme   | \textipa{[eme]}  | Z z   | zeta      | \textipa{[Teta]}           |
 
-     - 在西班牙语中，字母 "K" 和 "W" 平常时一般不用，它们只出现于外来词汇。
+     - 在西班牙语中，字母 ``K'' 和 ``W'' 平常时一般不用，它们只出现于外来词汇。
 
 **** Italiano
 
@@ -274,7 +274,7 @@
      | L l  | elle    | \textipa{[elle]}   | Y y  | ipsilon   | \textipa{[ipsilon]}  |
      | M m  | emme    | \textipa{[emme]}   | Z z  | zeta      | \textipa{[tseta]}    |
 
-     - 在意大利语中，字母 "J"、"K"、"W"、"X"、"Y" 只用于外来词汇。
+     - 在意大利语中，字母 ``J''、``K''、``W''、``X''、``Y'' 只用于外来词汇。
 
 *** 音符表
 
