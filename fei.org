@@ -714,6 +714,17 @@
      | 阴性 | 元音前                     | l'   | le   |
      |      | 辅音前                     | la   | le   |
 
+     #+NAME: i-artical-i
+     #+CAPTION: 意大利语不定冠词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     |      | 规则                       | 单数 | 复数  |
+     |------+----------------------------+------+-------|
+     | 阳性 | 元音前                     | un   | degli |
+     |      | s+辅音, z, x, y, ps, gn 前 | uno  | degli |
+     |      | 其他辅音前                 | un   | dei   |
+     |------+----------------------------+------+-------|
+     | 阴性 | 元音前                     | un'  | delle |
+     |      | 辅音前                     | una  | delle |
 
 ** 代词
 
