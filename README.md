@@ -1,3 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/sm0y8cvycasnxo63?svg=true)](https://ci.appveyor.com/project/winsphinx/fei)
+[![Build LaTeX](https://github.com/winsphinx/fei/actions/workflows/latex-building.yml/badge.svg)](https://github.com/winsphinx/fei/actions/workflows/latex-building.yml)
+
 # F.E.I.
 ## Français & Español & Italiano
