@@ -736,7 +736,7 @@
 
 **** Italiano
      #+NAME: person-i
-     #+CAPTION: 意大利语人称代词词表
+     #+CAPTION: 意大利语人称代词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
      |      | 人称 | 主格 | 直接宾语 | 间接宾语   |
      |------+------+------+----------+------------|
@@ -825,6 +825,17 @@
 **** Español
 
 **** Italiano
+     #+NAME: verb-present-i
+     #+CAPTION: 意大利语直陈式动词变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     | 人称    | -are  | -ere  | -ire |
+     |---------+-------+-------+------|
+     | io      | -o    | -o    | -o   |
+     | tu      | -i    | -i    | -i   |
+     | lui/lei | -a    | -e    | -e   |
+     | noi     | -iamo | -iamo | -iamo |
+     | voi     | -ate  | -ete  | -ite |
+     | loro    | -ano  | -ono  | -ono |
 
 ** 副词
 
