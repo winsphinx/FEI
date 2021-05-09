@@ -40,7 +40,6 @@
 
   这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
 
-  #+NAME: WorldMap
   #+CAPTION: 分布图
   #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
   [[file:images/WorldMap.png]]
@@ -93,7 +92,6 @@
      #+RESULTS:
      [[file:images/FamilyMap.png]]
 
-     #+NAME: FamilyMap
      #+CAPTION: 演化图
      #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
      [[file:images/FamilyMap.png]]
@@ -209,7 +207,6 @@
 *** 字母表
 **** Français
 
-     #+NAME: alphabet-f
      #+CAPTION: 法语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
      | 字母 | 名称  | 读音           | 字母 | 名称       | 读音                |
@@ -230,7 +227,6 @@
 
 **** Español
 
-     #+NAME: alphabet-e
      #+CAPTION: 西班牙语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
      | 字母  | 名称  | 读音             | 字母  | 名称      | 读音                       |
@@ -255,7 +251,6 @@
 
 **** Italiano
 
-     #+NAME: alphabet-e
      #+CAPTION: 意大利语字母表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align XXX|XXX
      | 字母 | 名称    | 读音               | 字母 | 名称      | 读音                 |
@@ -278,7 +273,6 @@
 
 *** 音符表
 
-    #+NAME: accent-all
     #+CAPTION: 音符汇总表
     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|X|X|X
     | 音符名 | 法语适用字母   | 西班牙语适用字母      | 意大利语适用字母 |
@@ -294,7 +288,6 @@
 
 *** 发音总表
 
-    #+NAME: pronounce-v
     #+CAPTION: 元音汇总表
     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
     | 音标            | 法语                                  | 西班牙语 | 意大利语  |
@@ -314,7 +307,6 @@
     | \textipa{[\~A]} | an, am, en, em                        | -        | -         |
     | \textipa{[\~O]} | on, om                                | -        | -         |
 
-    #+NAME: pronounce-all-c
     #+CAPTION: 辅音汇总表
     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
     | 音标                    | 法语                 | 西班牙语     | 意大利语     |
@@ -365,7 +357,6 @@
 
 **** Français
 
-     #+NAME: pronounce-f-v
      #+CAPTION: 法语元音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      | 字母组合                                                     | 读音            | 例词                                                                   |
@@ -419,7 +410,6 @@
 
      - 字母组合 um, un，其发音\textipa{[\~\oe]}，已有被\textipa{[\~E]}替代的趋势。
 
-     #+NAME: pronounce-f-c
      #+CAPTION: 法语辅音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      | 字母组合                          | 读音                    | 例词                                                      |
@@ -472,7 +462,6 @@
 
      - 除联诵时，词尾的 d, g, p, s, t, x 和 z 一般不发音。
 
-     # #+NAME: pronounce-f-a
      # #+CAPTION: 法语音符表
      # #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      # | 音符名                    | 适用字母      | 例词                        |
@@ -485,7 +474,6 @@
 
 **** Español
 
-     #+NAME: pronounce-e-v
      #+CAPTION: 西班牙语元音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      | 字母组合 | 读音            | 例词           |
@@ -521,7 +509,6 @@
      - 除了以 n, s 以外的以辅音字母结尾的词，重音位于最后一个音节上，不用重音符号。
      - 上述两项以外的单词，重音都标出：á, é, í, ó, ú。
 
-     #+NAME: pronounce-e-c
      #+CAPTION: 西班牙语辅音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      | 字母组合                       | 读音                    | 例词                                            |
@@ -562,7 +549,6 @@
      - -ción 发音为\textipa{[sion]}。
      - w 用来拼写外来词，发音为\textipa{[w]}，如 watt, whisky。
 
-     # #+NAME: pronounce-e-a
      # #+CAPTION: 西班牙语音符表
      # #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      # | 音符名 | 适用字母         | 例词 |
@@ -573,7 +559,6 @@
 
 **** Italiano
 
-     #+NAME: pronounce-i-v
      #+CAPTION: 意大利语元音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      | 字母组合     | 读音           | 例词                                  |
@@ -611,7 +596,6 @@
      - 三个元音连在一起同时出现，其中包括元音 i 和 u 的为三合元音。
      - 二合元音、三合元音必须带有 i 或 u。
 
-     #+NAME: pronounce-i-c
      #+CAPTION: 意大利语辅音表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      | 字母组合                                              | 读音                    | 例词                                                                         |
@@ -652,7 +636,6 @@
      - 意大利语中 h 在任何位置都是不发音的，但是 h 起到指示发音的作用。
      - 双辅音要适当延长其发音的阻塞时间。辅音都能延长，除了\textipa{[z]}。
 
-     # #+NAME: pronounce-i-a
      # #+CAPTION: 意大利语音符表
      # #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align X|l|X
      # | 音符名 | 适用字母      | 例词 |
@@ -678,7 +661,6 @@
 
 **** Français
 
-     #+NAME: d-artical-f
      #+CAPTION: 法语定冠词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
      |      | 规则           | 单数 | 复数 |
@@ -691,7 +673,6 @@
 
 **** Español
 
-     #+NAME: d-artical-e
      #+CAPTION: 西班牙定语冠词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
      |      | 规则 | 单数 | 复数 |
@@ -702,7 +683,6 @@
 
 **** Italiano
 
-     #+NAME: d-artical-i
      #+CAPTION: 意大利语定冠词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
      |      | 规则                       | 单数 | 复数 |
@@ -714,7 +694,6 @@
      | 阴性 | 元音前                     | l'   | le   |
      |      | 辅音前                     | la   | le   |
 
-     #+NAME: i-artical-i
      #+CAPTION: 意大利语不定冠词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
      |      | 规则                       | 单数 | 复数  |
@@ -735,7 +714,6 @@
 **** Español
 
 **** Italiano
-     #+NAME: person-i
      #+CAPTION: 意大利语人称代词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
      |      | 人称 | 主格 | 直接宾语 | 间接宾语   |
@@ -825,17 +803,17 @@
 **** Español
 
 **** Italiano
-     #+NAME: verb-present-i
      #+CAPTION: 意大利语直陈式动词变位表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     | 人称    | -are  | -ere  | -ire |
-     |---------+-------+-------+------|
-     | io      | -o    | -o    | -o   |
-     | tu      | -i    | -i    | -i   |
-     | lui/lei | -a    | -e    | -e   |
-     | noi     | -iamo | -iamo | -iamo |
-     | voi     | -ate  | -ete  | -ite |
-     | loro    | -ano  | -ono  | -ono |
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
+     | 人称    | -are  | -ere  | -ire  | -ire *  |
+     |---------+-------+-------+-------+---------|
+     | io      | -o    | -o    | -o    | -isco   |
+     | tu      | -i    | -i    | -i    | -isci   |
+     | lui/lei | -a    | -e    | -e    | -isce   |
+     | noi     | -iamo | -iamo | -iamo | -iamo   |
+     | voi     | -ate  | -ete  | -ite  | -ite    |
+     | loro    | -ano  | -ono  | -ono  | -iscono |
+     - 动词有三类词尾，变化形式如表。部分 -ire 结尾的词比较特别，如：finire, capire, preferire, spedire , unire, pulire, chiarire, costruire 等。
 
 ** 副词
 
