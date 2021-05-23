@@ -655,6 +655,20 @@
 
 **** Italiano
 
+     #+CAPTION: 意大利语名词单复数表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     |      | 规则                | 单数 | 复数 |
+     |------+---------------------+------+------|
+     | 阳性 | 以 o 结尾的为阳性名词 | -o   | -i   |
+     |------+---------------------+------+------|
+     | 阴性 | 以 a 结尾的阳性名词   | -a   | -e   |
+     |      | 以 e 结尾的阳性名词   | -e   | -i   |
+
+     - 总体而言，o 变 i，a 变 e，e 变 i。
+     - 以 ca/ga 结尾的阴性名词，由于发音关系，变为 che/ghe，如 amica-amiche。
+     - 以 co/go 结尾的阳性名词，由于发音关系，变为 chi/ghi，如 lago-laghi；但也有改变发音，直接变成 ci/gi，如 amico-amici。
+     - 重音在末尾音节的，单复数不变，如 città，università。
+
 ** 冠词
 
 *** 概述
@@ -767,6 +781,28 @@
 **** Italiano
 
 ** 形容词
+
+*** 形容词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+     #+CAPTION: 意大利语形容词单复数表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X
+     | 形容词原形词尾 | 被修饰的名词 | 单数 | 例子            | 复数 | 例子            |
+     |----------------+--------------+------+-----------------+------+-----------------|
+     | -o             | 阳性名词     | -o   | il ragazzo alto | -i   | i ragazzi alti  |
+     |                | 阴性名词     | -a   | la ragazza alta | -e   | le ragazze alte |
+     |----------------+--------------+------+-----------------+------+-----------------|
+     | -e             | 不分阴阳性   | -e   |                 | -i   |                 |
+
+     # - 总体而言，o 变 i，a 变 e，e 变 i。
+     # - 以 ca/ga 结尾的阴性名词，由于发音关系，变为 che/ghe，如 amica-amiche。
+     # - 以 co/go 结尾的阳性名词，由于发音关系，变为 chi/ghi，如 lago-laghi；但也有改变发音，直接变成 ci/gi，如 amico-amici。
+     # - 重音在末尾音节的，单复数不变，如 città，università。
 
 *** 主有形容词
 
