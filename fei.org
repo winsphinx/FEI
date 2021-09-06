@@ -7,25 +7,24 @@
 #+LATEX_CLASS_OPTIONS: [UTF8,a4paper,titlepage,10pt]
 #+LATEX_HEADER: \usepackage[left=3.2cm,right=3.2cm,top=2.5cm,bottom=2.5cm]{geometry}
 #+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue}
-#+LATEX_HEADER: \usepackage{tipa}                         % 用于输入音标
-#+LATEX_HEADER: \usepackage[heading]{ctex}                % 用于处理中文
-#+LATEX_HEADER: \usepackage{rotfloat}                     % 用于图表排版
-#+LATEX_HEADER: \usepackage{booktabs}                     % 用于表格美化
-#+LATEX_HEADER: \usepackage{tabu}                         % 用于表格跨行
-#+LATEX_HEADER: \usepackage{longtable}                    % 用于表格跨页
-#+LATEX_HEADER: \usepackage{enumitem}                     % 用于多级列表
-#+LATEX_HEADER: \usepackage{makeidx}                      % 用于创建索引
+#+LATEX_HEADER: \usepackage{tipa}
+#+LATEX_HEADER: \usepackage[heading]{ctex}
+#+LATEX_HEADER: \usepackage{rotfloat}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{tabu}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{makeidx}
 
-#+LATEX_HEADER: \makeindex                                % 开始生成索引
-#+LATEX_HEADER: \tabulinesep=1.0mm                        % 设置表格间隔
-#+LATEX_HEADER: \setlistdepth{9}                          % 设置列表深度
-#+LATEX_HEADER: \renewlist{itemize}{itemize}{9}           % 设置列表层级
-#+LATEX_HEADER: \setlist[itemize]{label=$\circ$}          % 设置列表标记
+#+LATEX_HEADER: \makeindex
+#+LATEX_HEADER: \tabulinesep=1.0mm
+#+LATEX_HEADER: \setlistdepth{9}
+#+LATEX_HEADER: \renewlist{itemize}{itemize}{9}
+#+LATEX_HEADER: \setlist[itemize]{label=$\circ$}
 
-#+LATEX: \pagestyle{plain}                                % 定义页码位置
-#+LATEX: \newpage                                         % 目录之后换页
-#+LATEX: \setcounter{page}{1}                             % 正文重新计数
-#+LATEX: \pagenumbering{arabic}                           % 正文页码格式
+#+LATEX: \pagestyle{plain}
+#+LATEX: \newpage
+#+LATEX: \setcounter{page}{1}
+#+LATEX: \pagenumbering{arabic}
 
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t c:nil d:(not "LOGBOOK") date:t

@@ -16,6 +16,10 @@ jobs:
     - name: Set up Git repository
       uses: actions/checkout@v2
 
+    - name: Edit TeX file
+      run: |
+        sed -i 's/usepackage{longtable}/usepackage{longtable}[=v4.13]/' fei.tex
+
     - name: Build LaTeX
       uses: xu-cheng/latex-action@v2
       with:
