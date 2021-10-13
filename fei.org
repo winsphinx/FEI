@@ -656,14 +656,15 @@
 
      #+CAPTION: 意大利语名词单复数表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     |      | 规则                | 单数 | 复数 |
-     |------+---------------------+------+------|
+     |      | 规则                  | 单数 | 复数 |
+     |------+-----------------------+------+------|
      | 阳性 | 以 o 结尾的为阳性名词 | -o   | -i   |
-     |------+---------------------+------+------|
+     |      |                       | -a   | -i   |
+     |      |                       | -e   | -i   |
+     |------+-----------------------+------+------|
      | 阴性 | 以 a 结尾的阳性名词   | -a   | -e   |
      |      | 以 e 结尾的阳性名词   | -e   | -i   |
 
-     - 总体而言，o 变 i，a 变 e，e 变 i。
      - 以 ca/ga 结尾的阴性名词，由于发音关系，变为 che/ghe，如 amica-amiche。
      - 以 co/go 结尾的阳性名词，由于发音关系，变为 chi/ghi，如 lago-laghi；但也有改变发音，直接变成 ci/gi，如 amico-amici。
      - 重音在末尾音节的，单复数不变，如 città，università。
@@ -698,14 +699,14 @@
 
      #+CAPTION: 意大利语定冠词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     |      | 规则                       | 单数 | 复数 |
-     |------+----------------------------+------+------|
-     | 阳性 | 元音前                     | l'   | gli  |
-     |      | s+辅音, z, x, y, ps, gn 前 | lo   | gli  |
-     |      | 其他辅音前                 | il   | i    |
-     |------+----------------------------+------+------|
-     | 阴性 | 元音前                     | l'   | le   |
-     |      | 辅音前                     | la   | le   |
+     |      | 规则                       | 单数 | 复数                        |
+     |------+----------------------------+------+-----------------------------|
+     | 阳性 | 元音前                     | l'   | gl'(i 前) / gli(其他元音前) |
+     |      | s+辅音, z, x, y, ps, gn 前 | lo   | gli                         |
+     |      | 其他辅音前                 | il   | i                           |
+     |------+----------------------------+------+-----------------------------|
+     | 阴性 | 元音前                     | l'   | le(在 e 前可省音 l')           |
+     |      | 辅音前                     | la   | le                          |
 
      #+CAPTION: 意大利语不定冠词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
@@ -717,6 +718,20 @@
      |------+----------------------------+------+-------|
      | 阴性 | 元音前                     | un'  | delle |
      |      | 辅音前                     | una  | delle |
+
+     #+CAPTION: 意大利语缩合冠词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     | 介词 | il  | lo    | la    | i   | gli   | le    |
+     |------+-----+-------+-------+-----+-------+-------|
+     | a    | al  | allo  | alla  | ai  | agli  | alle  |
+     | di   | del | dello | della | dei | degli | delle |
+     | da   | dal | dallo | dalla | dai | dagli | dalle |
+     | in   | nel | nello | nella | nei | negli | nelle |
+     | su   | sul | sullo | sulla | sui | sugli | sulle |
+     | con  | col | -     | -     | coi | -     | -     |
+     | per  | pel | -     | -     | pei | -     | -     |
+
+     - con、per 的缩合形式不常用，通常还是用 con il, con i, pei il pei i。
 
 ** 代词
 
