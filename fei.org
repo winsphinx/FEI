@@ -744,33 +744,35 @@
 
 **** Italiano
      #+CAPTION: 意大利语人称代词表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
-     |      | 人称 | 主格 | 直接宾语 | 间接宾语   |
-     |------+------+------+----------+------------|
-     | 单数 | 我   | io   | mi       | mi         |
-     |      | 你   | tu   | ti       | ti         |
-     |      | 他   | lui  | lo       | gli        |
-     |      | 她   | lei  | la       | le         |
-     |------+------+------+----------+------------|
-     | 复数 | 我们 | noi  | ci       | ci         |
-     |      | 你们 | voi  | vi       | vi         |
-     |      | 他们 | loro | li       | loro / gli |
-     |      | 她们 | loro | le       | loro / gli |
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |      | 人称 | 主格 | 直接补语（重读） | 直接补语（非重读） | 间接补语（重读） | 间接补语（非重读） |
+     |------+------+------+------------------+--------------------+------------------+--------------------|
+     | 单数 | 我   | io   | me               | mi                 | a me             | mi                 |
+     |      | 你   | tu   | te               | ti                 | a te             | ti                 |
+     |      | 他   | lui  | lui/sé           | lo/si              | a lui/a sé       | gli/si             |
+     |      | 她   | lei  | lei/sé           | la/si              | a lei/a sé       | le/si              |
+     |------+------+------+------------------+--------------------+------------------+--------------------|
+     | 复数 | 我们 | noi  | noi              | ci                 | a noi            | ci                 |
+     |      | 你们 | voi  | voi              | vi                 | a voi            | vi                 |
+     |      | 他们 | loro | loro/sé          | li/si              | a loro/a sé      | loro/si            |
+     |      | 她们 | loro | loro/sé          | le/si              | a loro/a sé      | loro/si            |
 
      - 大写的第三人称阴性单数 Lei 和复数 Loro，可以分别表示尊称“您”和“您们”。口语中，常常用 voi 代替 Loro。
-     - lo/la/li/le/ne 分别代词作为直接宾语的阳性单数、阴性单数、阳性复数、阴性复数名词，表示全部。ne 表示部分或者一点儿也没有。
-       - Leggi tutti questi libri? - Sì, li leggo. / No, ne leggo solo alcuni. / No, non ne leggo affatto.
-       - 这些书你都读吗？是，我都读。/ 不，我只读一些。/ 不，我一本也不读。
-     - 一般情况下，直接宾语代词位于变位动词的前面。如果直接宾语代词与动词不定式一起使用，应与去掉 e 的动词原形连写，或者置于变位动词前。
-       - Lo conosco.  我认识他。
-       - La vogliamo visitare. / Vogliamo visitarla.  我们想要参观它。
+     - 直接补语的重读与非重读对比：La zia chiama voi.（阿姨叫的是你们。）/ La zia vi chiama.（阿姨叫你们。）
+     - 间接补语的重读与非重读对比：La zia dà un libro a me.（阿姨把一本书给我。）/ La zia mi dà un libro.（阿姨给我一本书。）
+     - lo/la/li/le/ne 分别代词作为直接补语的阳性单数、阴性单数、阳性复数、阴性复数名词，表示全部。ne 表示部分或者一点儿也没有。
+       Leggi tutti questi libri? - Sì, li leggo. / No, ne leggo solo alcuni. / No, non ne leggo affatto.（这些书你都读吗？是，我都读。/ 不，我只读一些。/ 不，我一本也不读。）
+     - 一般情况下，直接补语代词位于变位动词的前面。如果直接补语代词与动词不定式一起使用，应与去掉 e 的动词原形连写，或者置于变位动词前。
+       - Lo conosco.（我认识他。）
+       - La vogliamo visitare. / Vogliamo visitarla.（我们想要参观它。）
+     - 如果同时有间接补语和直接补语，放在动词后时，先间接后直接。
+       - Date a me il libro. → Datemelo.（你们把书给我。→ 你们把它给我。）
      - lo/la/li/le 用在变了位的动词 avere 前时，它们的前面要加上 ce，此处 ce 没有实际含义。
-       - Avete tutti i libri necessari? Sì, ce li abbiamo.
-       - 你们有所有必需的书籍吗？是的，我们有。
-     - 间接宾语代词代替由前置词 a 引出的间接宾语。通常位于变位动词前。
-       - Parlo ai miei amici. → Gli parlo.   我和我的朋友谈话。 → 我和他们谈话。
-     - 当间接宾语和直接宾语连用时，需要写成组合形式：
-       - Glieli puoi dare tu? 你能把它们给他吗？
+       Avete tutti i libri necessari? Sì, ce li abbiamo.（你们有所有必需的书籍吗？是的，我们有。）
+     - 间接补语代词代替由前置词 a 引出的间接宾语。通常位于变位动词前。
+       - Parlo ai miei amici. → Gli parlo.（我和我的朋友谈话。→ 我和他们谈话。）
+     - 当间接补语和直接补语连用时，需要写成组合形式：
+       - Glieli puoi dare tu?（你能把它们给他吗？）
        |     | lo     | la     | li     | le     |
        |-----+--------+--------+--------+--------|
        | mi  | me lo  | me la  | me li  | me le  |
@@ -779,13 +781,26 @@
        | vi  | ve lo  | ve la  | ve li  | ce le  |
        | gli | glielo | gliela | glieli | gliele |
 
-*** 主有代词
+*** 物主代词
 
 **** Français
 
 **** Español
 
 **** Italiano
+
+     #+CAPTION: 意大利语物主代词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
+     | 人称         | 阳性单数 | 阳性复数 | 阴性单数 | 阴性复数 |
+     |--------------+----------+----------+----------+----------|
+     | 单数第一人称 | mio      | miei     | mia      | mie      |
+     | 单数第二人称 | tuo      | tuoi     | tua      | tue      |
+     | 单数第三人称 | suo      | suoi     | sua      | sue      |
+     | 复数第一人称 | nostro   | nostri   | nostra   | nostre   |
+     | 复数第二人称 | vostro   | vostri   | vostra   | vostre   |
+     | 复数第三人称 | loro     | loro     | loro     | loro     |
+
+     - 即在物主形容词前加上相应的定冠词。La sua stanza e più nuova della mia.（他的房间比我的新。）
 
 *** 指示代词
 
@@ -869,6 +884,31 @@
 **** Español
 
 **** Italiano
+
+     #+CAPTION: 意大利语指示形容词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
+     | 指代 | 阳性单数 | 阳性复数 | 阴性单数 | 阴性复数 |
+     |------+----------+----------+----------+----------|
+     | 这   | questo   | questi   | questa   | queste   |
+     | 那   | quello   | quelli   | quella   | quelle   |
+
+     - quello 变化：在辅音开头的名词前要断音（quel），在元音开头的名词前要省音（quell'），在 s/z/gn 前不变（quello）。
+
+*** 疑问形容词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+     #+CAPTION: 意大利语疑问形容词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
+     |             | 变化                              |
+     |-------------+-----------------------------------|
+     | che 什么    | 不变                              |
+     | quale 哪个  | 数 quale/quali                    |
+     | quanto 多少 | 性数 quanto/quanta/quanti/quante  |
 
 ** 数词
 
