@@ -732,7 +732,7 @@
      | con  | col | -     | -     | coi | -     | -     |
      | per  | pel | -     | -     | pei | -     | -     |
 
-     - con、per 的缩合形式不常用，通常还是用 con il, con i, pei il pei i。
+     - con、per 的缩合形式不常用，通常还是用 con il、con i、pei il、pei i。
 
 ** 代词
 
@@ -765,21 +765,21 @@
      - 一般情况下，直接补语代词位于变位动词的前面。如果直接补语代词与动词不定式一起使用，应与去掉 e 的动词原形连写，或者置于变位动词前。
        - Lo conosco.（我认识他。）
        - La vogliamo visitare. / Vogliamo visitarla.（我们想要参观它。）
+     - 间接补语代词代替由前置词 a 引出的间接宾语。通常位于变位动词前。
+       - Parlo ai miei amici. → Gli parlo.（我和我的朋友谈话。→ 我和他们谈话。）
      - 如果同时有间接补语和直接补语，放在动词后时，先间接后直接。
        - Date a me il libro. → Datemelo.（你们把书给我。→ 你们把它给我。）
      - lo/la/li/le 用在变了位的动词 avere 前时，它们的前面要加上 ce，此处 ce 没有实际含义。
        Avete tutti i libri necessari? Sì, ce li abbiamo.（你们有所有必需的书籍吗？是的，我们有。）
-     - 间接补语代词代替由前置词 a 引出的间接宾语。通常位于变位动词前。
-       - Parlo ai miei amici. → Gli parlo.（我和我的朋友谈话。→ 我和他们谈话。）
      - 当间接补语和直接补语连用时，需要写成组合形式：
        - Glieli puoi dare tu?（你能把它们给他吗？）
-       |     | lo     | la     | li     | le     |
-       |-----+--------+--------+--------+--------|
-       | mi  | me lo  | me la  | me li  | me le  |
-       | ti  | te lo  | te la  | te li  | te le  |
-       | ci  | ce lo  | ce la  | ce li  | ce le  |
-       | vi  | ve lo  | ve la  | ve li  | ce le  |
-       | gli | glielo | gliela | glieli | gliele |
+       |     | lo     | la     | li     | le     | ne     |
+       |-----+--------+--------+--------+--------+--------|
+       | mi  | me lo  | me la  | me li  | me le  | me ne  |
+       | ti  | te lo  | te la  | te li  | te le  | te ne  |
+       | ci  | ce lo  | ce la  | ce li  | ce le  | ce ne  |
+       | vi  | ve lo  | ve la  | ve li  | ve le  | ve ne  |
+       | gli | glielo | gliela | glieli | gliele | gliene |
 
 *** 物主代词
 
@@ -809,6 +809,49 @@
 **** Español
 
 **** Italiano
+
+     #+CAPTION: 意大利语指示代词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
+     | 指代 | 阳性单数 | 阳性复数 | 阴性单数 | 阴性复数 |
+     |------+----------+----------+----------+----------|
+     | 这   | questo   | questi   | questa   | queste   |
+     | 那   | codesto  | codesti  | codesta  | codeste  |
+     | 那   | quello   | quelli   | quella   | quelle   |
+
+*** 疑问代词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+     #+CAPTION: 意大利语疑问代词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
+     |             | 变化                             |
+     |-------------+----------------------------------|
+     | che 什么    | 不变                             |
+     | chi 谁      | 不变                             |
+     | quale 哪个  | 数 quale/quali                   |
+     | quanto 多少 | 性数 quanto/quanta/quanti/quante |
+
+*** 关系代词
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+     #+CAPTION: 意大利语关系代词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X
+     |                   | 变化                                    | 例句                                                                         |
+     |-------------------+-----------------------------------------+------------------------------------------------------------------------------|
+     | che 主语/直接补语 | 不变                                    | Dammi il libro che è sul tavolo.（把在桌上的书给我。）                       |
+     | cui 其他补语      | 不变                                    | L'uomo, cui mi rivolgo, è gentil.（我求教的人很热情。）                      |
+     | chi 单数主语/补语 | 不变                                    | Chi non ha testa abbia gambe.（没脑子的人就多动腿。）                        |
+     | quale 主语/补语   | 性数 il quale/la quele/i quali/le quali | Il treno, col quale sono arrivato, era in ritardo.（我来时乘的火车晚点了。） |
+     | dove/donde 地点   | 不变                                    | La città dove abitiamo è molto grande.（我们居住的城市非常大。）                          |
 
 ** 形容词
 
@@ -848,12 +891,12 @@
      - 不同的人、物见之间比较时，通常用 di；同一个人、物的不同特性比较通常用 che。
      - 不规则形容词
        | 原级         | 比较级    | 最高级         |
-       | buono 好的   | migliore  | ottimo         |
-       | cattivo 坏的 | peggiore  | pessimo        |
-       | grande 大的  | maggiore  | massiomo       |
-       | piccolo 小的 | minore    | minimo         |
-       | alto 高的    | superiore | supremo, sommo |
-       | basso 低的   | inferiore | infimo         |
+       | 好的 buono   | migliore  | ottimo         |
+       | 坏的 cattivo | peggiore  | pessimo        |
+       | 大的 grande  | maggiore  | massiomo       |
+       | 小的 piccolo | minore    | minimo         |
+       | 高的 alto    | superiore | supremo, sommo |
+       | 低的 basso   | inferiore | infimo         |
 
 *** 物主形容词
 
@@ -890,6 +933,7 @@
      | 指代 | 阳性单数 | 阳性复数 | 阴性单数 | 阴性复数 |
      |------+----------+----------+----------+----------|
      | 这   | questo   | questi   | questa   | queste   |
+     | 那   | codesto  | codesti  | codesta  | codeste  |
      | 那   | quello   | quelli   | quella   | quelle   |
 
      - quello 变化：在辅音开头的名词前要断音（quel），在元音开头的名词前要省音（quell'），在 s/z/gn 前不变（quello）。
