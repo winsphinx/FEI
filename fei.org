@@ -655,16 +655,17 @@
 **** Italiano
 
      #+CAPTION: 意大利语名词单复数表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     |      | 规则                  | 单数 | 复数 |
-     |------+-----------------------+------+------|
-     | 阳性 | 以 o 结尾的为阳性名词 | -o   | -i   |
-     |      |                       | -a   | -i   |
-     |      |                       | -e   | -i   |
-     |------+-----------------------+------+------|
-     | 阴性 | 以 a 结尾的阳性名词   | -a   | -e   |
-     |      | 以 e 结尾的阳性名词   | -e   | -i   |
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X
+     |      | 单数 | 复数 |
+     |------+------+------|
+     | 阳性 | -o   | -i   |
+     |      | -a   | -i   |
+     |      | -e   | -i   |
+     |------+------+------|
+     | 阴性 | -a   | -e   |
+     |      | -e   | -i   |
 
+     - 以 a 或 e 结尾的，可能是阳性名词，也可能是阴性名词，要从冠词来区分。
      - 以 ca/ga 结尾的阴性名词，由于发音关系，变为 che/ghe，如 amica-amiche。
      - 以 co/go 结尾的阳性名词，由于发音关系，变为 chi/ghi，如 lago-laghi；但也有改变发音，直接变成 ci/gi，如 amico-amici。
      - 重音在末尾音节的，单复数不变，如 città，università。
@@ -806,19 +807,30 @@
 
      #+CAPTION: 意大利语形容词单复数表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X
-     | 形容词原形词尾 | 被修饰的名词 | 单数 | 例子            | 复数 | 例子            |
-     |----------------+--------------+------+-----------------+------+-----------------|
-     | -o             | 阳性名词     | -o   | il ragazzo alto | -i   | i ragazzi alti  |
-     |                | 阴性名词     | -a   | la ragazza alta | -e   | le ragazze alte |
-     |----------------+--------------+------+-----------------+------+-----------------|
-     | -e             | 不分阴阳性   | -e   |                 | -i   |                 |
+     | 形容词原形词尾 | 被修饰的名词 | 单数 | 例子              | 复数 | 例子              |
+     |----------------+--------------+------+-------------------+------+-------------------|
+     | -o             | 阳性名词     | -o   | il ragazzo alto   | -i   | i ragazzi alti    |
+     |                | 阴性名词     | -a   | la ragazza alta   | -e   | le ragazze alte   |
+     |----------------+--------------+------+-------------------+------+-------------------|
+     | -e             | 不分阴阳性   | -e   | il ragazzo volece | -i   | i ragazzi voleci  |
+     |                |              |      | la ragazza volece |      | le ragazze voleci |
 
-     # - 总体而言，o 变 i，a 变 e，e 变 i。
-     # - 以 ca/ga 结尾的阴性名词，由于发音关系，变为 che/ghe，如 amica-amiche。
-     # - 以 co/go 结尾的阳性名词，由于发音关系，变为 chi/ghi，如 lago-laghi；但也有改变发音，直接变成 ci/gi，如 amico-amici。
-     # - 重音在末尾音节的，单复数不变，如 città，università。
+     - 以 co 结尾的形容词，如果重音在倒数第二音节，变为 chi，如 bianco-bianchi。但有例外，amico-amici，nemico-nemici。如果重音在倒数第三音节，直接变为 ci，如 unico-unici。但也有例外，carico-carichi。
+     - 以 go 结尾的形容词，都变为 ghi，如 largo-larghi，lungo-longhi。
+     - 以 ca/ga 结尾的，变为 che/ghe，如 unica-uniche，amica-amiche。
 
-*** 主有形容词
+     #+CAPTION: 意大利语形容词等级表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X
+     | 级别       | 表达                        | 例子                                   |
+     |------------+-----------------------------+----------------------------------------|
+     | 同级       | così...come，tanto...quanto | Mario è così alto come Luigi.          |
+     | 较高级     | più...di，più...che         | Mario è più alto di Luigi.             |
+     | 较低级     | meno...di，meno...che       | Mario è meno alto di Luigi.            |
+     | 最高级     | 冠词+più                    | Mario è l'uomo più alto della classe.  |
+     | 最低级     | 冠词+meno                   | Mario è l'uomo meno alto della classe. |
+     | 绝对最高阶 | 形容词阳性复数+ssimo        | Mario è altissimo.                     |
+
+*** 物主形容词
 
 **** Français
 
