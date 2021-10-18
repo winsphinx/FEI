@@ -830,6 +830,16 @@
      | 最低级     | 冠词+meno                   | Mario è l'uomo meno alto della classe. |
      | 绝对最高阶 | 形容词阳性复数+ssimo        | Mario è altissimo.                     |
 
+     - 不同的人、物见之间比较时，通常用 di；同一个人、物的不同特性比较通常用 che。
+     - 不规则形容词
+       | 原级         | 比较级    | 最高级         |
+       | buono 好的   | migliore  | ottimo         |
+       | cattivo 坏的 | peggiore  | pessimo        |
+       | grande 大的  | maggiore  | massiomo       |
+       | piccolo 小的 | minore    | minimo         |
+       | alto 高的    | superiore | supremo, sommo |
+       | basso 低的   | inferiore | infimo         |
+
 *** 物主形容词
 
 **** Français
@@ -837,6 +847,20 @@
 **** Español
 
 **** Italiano
+
+     #+CAPTION: 意大利语物主形容词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
+     | 人称         | 阳性单数 | 阳性复数 | 阴性单数 | 阴性复数 |
+     |--------------+----------+----------+----------+----------|
+     | 单数第一人称 | mio      | miei     | mia      | mie      |
+     | 单数第二人称 | tuo      | tuoi     | tua      | tue      |
+     | 单数第三人称 | suo      | suoi     | sua      | sue      |
+     | 复数第一人称 | nostro   | nostri   | nostra   | nostre   |
+     | 复数第二人称 | vostro   | vostri   | vostra   | vostre   |
+     | 复数第三人称 | loro     | loro     | loro     | loro     |
+
+     - 物主形容词需要和被限定的名词的性数配合，还要与定冠词一致。如，il mio libro，la mia casa。
+     - 在亲属关系的单数名词前通常省略定冠词。如，mio fratello，tua sorella。但有形容词时，还要保留定冠词。如，il mio giovane fratello，la tua cara sorella。此外，loro 前的定冠词不省略，如 la loro zia。
 
 *** 指示形容词
 
