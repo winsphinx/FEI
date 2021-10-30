@@ -964,42 +964,63 @@
 
 **** Italiano
 
-     #+CAPTION: 意大利语基数词表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|l|X|l|X|l|X|l|X
-     | 数字 | 拼写    | 数字 | 拼写        | 数字 | 拼写         | 数字 | 拼写      |    数字 | 拼写                 |
-     |------+---------+------+-------------+------+--------------+------+-----------+---------+----------------------|
-     |    1 | uno     |   11 | undici      |   21 | ventuno      |      |           |     101 | centouno/centuno     |
-     |    2 | due     |   12 | dodici      |   22 | ventidue     |      |           |     111 | centoundici          |
-     |    3 | tre     |   13 | tredici     |   23 | ventitré     |   30 | trenta    |     120 | centoventi           |
-     |    4 | quattro |   14 | quattordici |   24 | ventiquattro |   40 | quaranta  |     200 | duecento             |
-     |    5 | cinque  |   15 | quindici    |   25 | venticinque  |   50 | cinquanta |   1.000 | mille                |
-     |    6 | six     |   16 | sedici      |   26 | ventisci     |   60 | sessanta  |   1.001 | milleuno/mille e uno |
-     |    7 | sette   |   17 | diciassette |   27 | ventisette   |   70 | settanta  |   1.150 | millecentocinquanta  |
-     |    8 | otto    |   18 | diciotto    |   28 | ventotto     |   80 | ottanta   |   2.000 | duemila              |
-     |    9 | nove    |   19 | diciannove  |   29 | ventinove    |   90 | novanta   | 100.000 | centomila            |
-     |   10 | dieci   |   20 | venti       |      |              |  100 | cento     | 200.000 | duecentomila         |
+     #+CAPTION: 意大利语数词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|l|X
+    |    数字 | 拼写                 | 数字     | 拼写                                  |
+    |---------+----------------------+----------+---------------------------------------|
+    |       1 | uno                  | 1°       | primo                                 |
+    |       2 | due                  | 2°       | scondo                                |
+    |       3 | tre                  | 3°       | terzo                                 |
+    |       4 | quattro              | 4°       | quarto                                |
+    |       5 | cinque               | 5°       | quinto                                |
+    |       6 | six                  | 6°       | sesto                                 |
+    |       7 | sette                | 7°       | settimo                               |
+    |       8 | otto                 | 8°       | ottavo                                |
+    |       9 | nove                 | 9°       | nono                                  |
+    |      10 | dieci                | 10°      | decimo                                |
+    |      11 | undici               | 11°      | undicesimo/undecimo                   |
+    |      12 | dodici               | 12°      | dodicesimo/duodecimo                  |
+    |      13 | tredici              | 13°      | tredicesimo/decimoterzo               |
+    |      14 | quattordici          | 14°      | quattordicesimo/decimoquarto          |
+    |      15 | quindici             | 15°      | quindicesimo/decimoquinto             |
+    |      16 | sedici               | 16°      | sedicesimo/decimosesto                |
+    |      17 | diciassette          | 17°      | diciassettesimo/decimosettimo         |
+    |      18 | diciotto             | 18°      | diciottesimo/decimoottavo             |
+    |      19 | diciannove           | 19°      | diciannovesimo/decimonono             |
+    |      20 | venti                | 20°      | ventesimo                             |
+    |      21 | ventuno              | 21°      | ventunesimo/ventesimoprimo            |
+    |      22 | ventidue             | 22°      | ventiduesimo/ventesimosecondo         |
+    |      23 | ventitré             | 23°      | ventitreesimo/ventesimoterzo          |
+    |      24 | ventiquattro         | 24°      | ventiquattresimo/ventesimoquarto      |
+    |      25 | venticinque          | 25°      | venticinquesimo/ventesimoquinto       |
+    |      26 | ventisci             | 26°      | ventiscesimo/ventesimosesto           |
+    |      27 | ventisette           | 27°      | ventisettesimo/ventesimosettimo       |
+    |      28 | ventotto             | 28°      | ventottesimo/ventesimoottavo          |
+    |      29 | ventinove            | 29°      | ventinovesimo/ventesimonono           |
+    |      30 | trenta               | 30°      | trentesimo                            |
+    |      40 | quaranta             | 40°      | quarantesimo                          |
+    |      50 | cinquanta            | 50°      | cinquantesimo                         |
+    |      60 | sessanta             | 60°      | sessantesimo                          |
+    |      70 | settanta             | 70°      | settantesimo                          |
+    |      80 | ottanta              | 80°      | ottantesimo                           |
+    |      90 | novanta              | 90°      | novantesimo                           |
+    |     100 | cento                | 100°     | centesimo                             |
+    |     101 | centouno/centuno     | 101°     | centesimoprimo                        |
+    |     111 | centoundici          | 111°     | centesimoundicesimo/centesimoundecimo |
+    |     120 | centoventi           | 120°     | centesimoventesimo                    |
+    |     200 | duecento             | 200°     | duecentesimo                          |
+    |   1.000 | mille                | 1.000°   | millesimo                             |
+    |   1.001 | milleuno/mille e uno | 1.001°   | millesimoprimo                        |
+    |   1.150 | millecentocinquanta  | 1.150°   | millesimocentesimocinquantesimo       |
+    |   2.000 | duemila              | 2.000°   | duemillesimo                          |
+    | 100.000 | centomila            | 100.000° | centomillesimo                        |
+    | 200.000 | duecentomila         | 200.000° | duecentomillesimo                     |
 
      - uno/una 有性的变化，如：uno libro，una sedia。而且“几十一”后面有名词时，需要断音，如：ventun libri，trentun sedie。
      - mille 需变成复数 mila，且连写。如：2.000：duemila，10.000：diecimila。
      - 更大的数字是名词，有数的变化。如 1.000.000：un milione，2.000.000：due milioni，1.000.000.000：un miliardo，2.000.000.000：due miliardi。并且后面不能直接跟名词，需要 di：due milioni di dollari。
      - 表达几点钟时，视作复数。Sono le sette.（七点。）
      - 小数读法：0,07（zero virgola zero sette）。其小数点为``,''，千分位为``.''，和中文相反。
-
-     #+CAPTION: 意大利语序数词表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|l|X|l|X|l|X|l|X
-     | 数字 | 拼写    | 数字 | 拼写                          | 数字 | 拼写                             | 数字 | 拼写          | 数字     | 拼写                                  |
-     |------+---------+------+-------------------------------+------+----------------------------------+------+---------------+----------+---------------------------------------|
-     | 1°   | primo   | 11°  | undicesimo/undecimo           | 21°  | ventunesimo/ventesimoprimo       |      |               | 101°     | centesimoprimo                        |
-     | 2°   | scondo  | 12°  | dodicesimo/duodecimo          | 22°  | ventiduesimo/ventesimosecondo    |      |               | 111°     | centesimoundicesimo/centesimoundecimo |
-     | 3°   | terzo   | 13°  | tredicesimo/decimoterzo       | 23°  | ventitreesimo/ventesimoterzo     | 30°  | trentesimo    | 120°     | centesimoventesimo                    |
-     | 4°   | quarto  | 14°  | quattordicesimo/decimoquarto  | 24°  | ventiquattresimo/ventesimoquarto | 40°  | quarantesimo  | 200°     | duecentesimo                          |
-     | 5°   | quinto  | 15°  | quindicesimo/decimoquinto     | 25°  | venticinquesimo/ventesimoquinto  | 50°  | cinquantesimo | 1.000°   | millesimo                             |
-     | 6°   | sesto   | 16°  | sedicesimo/decimosesto        | 26°  | ventiscesimo/ventesimosesto      | 60°  | sessantesimo  | 1.001°   | millesimoprimo                        |
-     | 7°   | settimo | 17°  | diciassettesimo/decimosettimo | 27°  | ventisettesimo/ventesimosettimo  | 70°  | settantesimo  | 1.150°   | millesimocentesimocinquantesimo       |
-     | 8°   | ottavo  | 18°  | diciottesimo/decimoottavo     | 28°  | ventottesimo/ventesimoottavo     | 80°  | ottantesimo   | 2.000°   | duemillesimo                          |
-     | 9°   | nono    | 19°  | diciannovesimo/decimonono     | 29°  | ventinovesimo/ventesimonono      | 90°  | novantesimo   | 100.000° | centomillesimo                        |
-     | 10°  | decimo  | 20°  | ventesimo                     |      |                                  | 100° | centesimo     | 200.000° | duecentomillesimo                     |
-
      - 序数词要与被计数名词保持性数一致。如：il primo giorno，la prima sera，i primi passi，le prime rose。
      - 分数读法：分子用基数词，分母用序数词，如：1/3 un terzo，2/3 due terzi，5/8 cinque ottavi。1/2 用 un mezzo。
      - 四则运算：
