@@ -40,7 +40,7 @@
   这三种语言同属 印欧语系-罗曼语族-西罗曼语支。
 
   #+CAPTION: 分布图
-  #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
+  #+ATTR_LATEX: :width 0.9\textwidth :placement [H]
   [[file:images/WorldMap.png]]
 
 *** 发展
@@ -92,7 +92,7 @@
      [[file:images/FamilyMap.png]]
 
      #+CAPTION: 演化图
-     #+ATTR_LATEX: :width 0.9\textwidth :float t :placement [H]
+     #+ATTR_LATEX: :width 0.9\textwidth :placement [H]
      [[file:images/FamilyMap.png]]
 
 **** 分支
