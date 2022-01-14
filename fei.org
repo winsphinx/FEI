@@ -1039,6 +1039,19 @@
 
 **** Italiano
 
+     #+CAPTION: 意大利语动词时式总表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     |        | 过去         | 现在   | 将来       |
+     |--------+--------------+--------+------------|
+     | 直陈式 | 近过去时     | 现在时 | 简单将来时 |
+     |        | 未完成过去时 |        | 先将来时   |
+     |        | 近愈过去时   |        |            |
+     |        | 远过去时     |        |            |
+     |        | 远愈过去时   |        |            |
+     | 命令式 |              |        |            |
+     | 条件式 |              |        |            |
+     | 虚拟式 |              |        |            |
+
      #+CAPTION: 意大利语直陈式动词变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
      | 人称    | -are  | -ere  | -ire  | -ire *  |
