@@ -1048,7 +1048,7 @@
      |        | 近愈过去时   |        |            |
      |        | 远过去时     |        |            |
      |        | 远愈过去时   |        |            |
-     | 命令式 |              |        |            |
+     | 命令式 |              | 现在时 |            |
      | 条件式 |              |        |            |
      | 虚拟式 |              |        |            |
 
@@ -1062,7 +1062,35 @@
      | noi     | -iamo | -iamo | -iamo | -iamo   |
      | voi     | -ate  | -ete  | -ite  | -ite    |
      | loro    | -ano  | -ono  | -ono  | -iscono |
-     - 动词有三类词尾，变化形式如表。部分 -ire 结尾的词比较特别，如：finire, capire, preferire, spedire , unire, pulire, chiarire, costruire 等。
+
+     - 动词主要有三类词尾，变化形式如表。
+     - 第三类以 -ire 结尾的动词有两种形式，部分用前一种形式，如：aprire, avvertire, coprire, dormire, fuggire, offrire, partire, seguire, sentire, servire, vestire 等，大部分采用第二种形式。
+     - 一些不规则动词：
+       | 人称              | io      | tu     | lui/lei | noi       | voi       | loro      |
+       |-------------------+---------+--------+---------+-----------+-----------+-----------|
+       | avere（有）       | ho      | hai    | ha      | abbiamo   | avete     | hanno     |
+       | essere（是）      | sono    | sei    | è       | siamo     | siete     | sono      |
+       | fare（做）        | faccio  | fai    | fa      | facciamo  | fate      | fanno     |
+       | dare（给）        | dò      | dai    | da      | diamo     | date      | danno     |
+       | rimanere（留）    | rimango | rimani | rimane  | rimaniamo | rimanete  | rimangono |
+       | tenere（取）      | tengo   | tieni  | tiene   | teniamo   | tenete    | tengono   |
+       | sapere（知道）    | so      | sai    | sa      | sappiamo  | sapete    | sanno     |
+       | dovere（应该）    | devo    | devi   | deve    | dobiamo   | dovete    | devono    |
+       | volere（愿意）    | voglio  | vuoi   | vuole   | vogliamo  | volete    | vogliono  |
+       | potere（能够）    | posso   | puoi   | può     | possiamo  | potete    | possono   |
+       | piacere（喜欢）   | piaccio | piaci  | piace   | piacciamo | piacete   | piacciono |
+       | nascere（出生）   | nasco   | nasci  | nasce   | nasciamo  | nascete   | nascono   |
+       | scegliere（选择） | scelgo  | scegli | sceglie | scegliamo | scegliete | scelgono  |
+       | cogliere（采集）  | colgo   | cogli  | coglie  | cogliamo  | cogliete  | colgono   |
+       | bere（喝）        | bevo    | bevi   | beve    | beviamo   | bevete    | bevono    |
+       | venir（来）       | vengo   | vieni  | viene   | veniamo   | venite    | vengono   |
+       | dire（说）        | dico    | dici   | dice    | diciamo   | dite      | dicono    |
+       | morire（死）      | muoio   | mori   | muore   | moriamo   | morite    | muoiono   |
+       | udire(听见）      | odo     | odi    | ode     | udiamo    | udite     | odono     |
+       | cucire（缝纫）    | cucio   | cuci   | cuce    | cuciamo   | cucite    | cuciono   |
+       | trarre（牵拉）    | traggo  | trai   | trae    | traiamo   | traete    | traggono  |
+       | porre（安放）     | pongo   | poni   | pone    | poniamo   | ponete    | pongono   |
+       | ridurre（减少）   | riduco  | riduci | riduce  | riduciamo | riducete  | riducono  |
 
 ** 副词
 
