@@ -855,7 +855,7 @@
 
 ** 形容词
 
-*** 形容词
+*** 形容词概述
 
 **** Français
 
@@ -1031,7 +1031,7 @@
 
 ** 动词
 
-*** 概述
+*** 动词时式
 
 **** Français
 
@@ -1052,26 +1052,27 @@
      | 条件式 |              |        |            |
      | 虚拟式 |              |        |            |
 
-     #+CAPTION: 意大利语直陈式动词变位表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
-     | 人称    | -are  | -ere  | -ire  | -ire *  |
-     |---------+-------+-------+-------+---------|
-     | io      | -o    | -o    | -o    | -isco   |
-     | tu      | -i    | -i    | -i    | -isci   |
-     | lui/lei | -a    | -e    | -e    | -isce   |
-     | noi     | -iamo | -iamo | -iamo | -iamo   |
-     | voi     | -ate  | -ete  | -ite  | -ite    |
-     | loro    | -ano  | -ono  | -ono  | -iscono |
+     #+CAPTION: 意大利语直陈式现在时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |        | io    | tu    | lui/lei | noi   | voi  | loro    |
+     |--------+-------+-------+---------+-------+------+---------|
+     | -are   | -o    | -i    | -a      | -iamo | -ate | -ano    |
+     | -ere   | -o    | -i    | -e      | -iamo | -ete | -ono    |
+     | -ire   | -o    | -i    | -e      | -iamo | -ite | -ono    |
+     | -ire * | -isco | -isci | -isce   | -iamo | -ite | -iscono |
 
+     - 直陈式现在时主要表示当前的动作或状态。
      - 动词主要有三类词尾，变化形式如表。
      - 第三类以 -ire 结尾的动词有两种形式，部分用前一种形式，如：aprire, avvertire, coprire, dormire, fuggire, offrire, partire, seguire, sentire, servire, vestire 等，大部分采用第二种形式。
      - 一些不规则动词：
-       | 人称              | io      | tu     | lui/lei | noi       | voi       | loro      |
+       |                   | io      | tu     | lui/lei | noi       | voi       | loro      |
        |-------------------+---------+--------+---------+-----------+-----------+-----------|
        | avere（有）       | ho      | hai    | ha      | abbiamo   | avete     | hanno     |
        | essere（是）      | sono    | sei    | è       | siamo     | siete     | sono      |
        | fare（做）        | faccio  | fai    | fa      | facciamo  | fate      | fanno     |
        | dare（给）        | dò      | dai    | da      | diamo     | date      | danno     |
+       | stare（在）       | sto     | stai   | sta     | stiamo    | state     | stanno    |
+       | andare（去）      | vado    | vai    | va      | andiamo   | andate    | vanno     |
        | rimanere（留）    | rimango | rimani | rimane  | rimaniamo | rimanete  | rimangono |
        | tenere（取）      | tengo   | tieni  | tiene   | teniamo   | tenete    | tengono   |
        | sapere（知道）    | so      | sai    | sa      | sappiamo  | sapete    | sanno     |
@@ -1091,6 +1092,40 @@
        | trarre（牵拉）    | traggo  | trai   | trae    | traiamo   | traete    | traggono  |
        | porre（安放）     | pongo   | poni   | pone    | poniamo   | ponete    | pongono   |
        | ridurre（减少）   | riduco  | riduci | riduce  | riduciamo | riducete  | riducono  |
+
+     #+CAPTION: 意大利语直陈式简单将来时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |      | io   | tu    | lui/lei | noi    | voi    | loro    |
+     |------+------+-------+---------+--------+--------+---------|
+     | -are | -erò | -erai | -erà    | -eremo | -erete | -eranno |
+     | -ere | -erò | -erai | -erà    | -eremo | -erete | -eranno |
+     | -ire | -irò | -irai | -irà    | -iremo | -irete | -iranno |
+
+     - 直陈式简单将来时主要表示将来要发生的动作或状态。
+     - 一些不规则动词：
+       |                  | io      | tu       | lui/lei | noi       | voi       | loro      |
+       |------------------+---------+----------+---------+-----------+-----------+-----------|
+       | avere（有）      | avrò    | avrai    | avrà    | avremo    | avrete    | avranno   |
+       | essere（是）     | sarò    | sarai    | sarà    | saremo    | sarete    | saranno   |
+       | fare（做）       | farò    | farai    | farà    | faremo    | farete    | faranno   |
+       | dare（给）       | darò    | darai    | darà    | daremo    | darete    | daranno   |
+       | stare（在）      | starò   | starai   | starà   | staremo   | starete   | staranno  |
+       | andare（去）     | andrò   | abdrai   | andrà   | andremo   | andrete   | andranno  |
+       | rimanere（留）   | rimarrò | rimarrai | rimarrà | rimarremo | rimarrete | rimaranno |
+       | tenere（取）     | terrò   | terrai   | terrà   | terremo   | terrete   | terranno  |
+       | sapere（知道）   | saprò   | saprai   | saprà   | sapremo   | saprete   | sapranno  |
+       | dovere（应该）   | dovrò   | dovrai   | dovrà   | dovremo   | dovrete   | dovranno  |
+       | volere（愿意）   | vorrò   | vorrai   | vorrà   | vorremo   | vorrete   | vorranno  |
+       | potere（能够）   | potrò   | potrai   | potrà   | potremo   | potrete   | potranno  |
+       | bere（喝）       | brrò    | berrai   | berrà   | berremo   | berrete   | berranno  |
+       | vivere（生活）   | vivrò   | vivrai   | vivrà   | vivremo   | vivrete   | vivranno  |
+       | vedere（看见）   | vedrò   | vedrai   | vedrà   | vedremo   | vedrete   | vedranno  |
+       | cadere（倒）     | cadrò   | cadrai   | cadrà   | cadremo   | cadrete   | cadranno  |
+       | parare（像）     | parrò   | parrai   | parrà   | parremo   | parrete   | parranno  |
+       | valere（值）     | varrò   | varrai   | varrà   | varremo   | varrete   | varranno  |
+       | venir（来）      | verrò   | verrai   | verrà   | verremo   | verrete   | verranno  |
+       | dire（说）       | dirò    | dirai    | dirà    | diremo    | direte    | diranno   |
+       | morire（死）     | morrò   | morrai   | morrà   | morremo   | morrete   | morranno  |
 
 ** 副词
 
