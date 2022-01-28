@@ -1043,7 +1043,7 @@
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
      |        | 过去         | 现在   | 将来       |
      |--------+--------------+--------+------------|
-     | 直陈式 | 近过去时     | 现在时 | 简单将来时 |
+     | 直陈式 | 近过去时     | [[意大利语直陈式现在时变位表][现在时]] | [[意大利语直陈式简单将来时变位表][简单将来时]] |
      |        | 未完成过去时 |        | 先将来时   |
      |        | 近愈过去时   |        |            |
      |        | 远过去时     |        |            |
@@ -1052,6 +1052,7 @@
      | 条件式 |              |        |            |
      | 虚拟式 |              |        |            |
 
+     #+NAME: 意大利语直陈式现在时变位表
      #+CAPTION: 意大利语直陈式现在时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      |        | io    | tu    | lui/lei | noi   | voi  | loro    |
@@ -1093,6 +1094,7 @@
        | porre（安放）     | pongo   | poni   | pone    | poniamo   | ponete    | pongono   |
        | ridurre（减少）   | riduco  | riduci | riduce  | riduciamo | riducete  | riducono  |
 
+     #+NAME: 意大利语直陈式简单将来时变位表
      #+CAPTION: 意大利语直陈式简单将来时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      |      | io   | tu    | lui/lei | noi    | voi    | loro    |
@@ -1126,6 +1128,41 @@
        | venir（来）      | verrò   | verrai   | verrà   | verremo   | verrete   | verranno  |
        | dire（说）       | dirò    | dirai    | dirà    | diremo    | direte    | diranno   |
        | morire（死）     | morrò   | morrai   | morrà   | morremo   | morrete   | morranno  |
+
+*** 形式
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+     #+NAME: 意大利语现在分词表
+     #+CAPTION: 意大利语现在分词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
+     | 原形词尾 | 现在分词词尾 |
+     |----------+--------------|
+     | -are     | -ante        |
+     | -ere     | -ente        |
+     | -ire     | -ente        |
+
+     #+NAME: 意大利语过去分词表
+     #+CAPTION: 意大利语过去分词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
+     | 原形词尾 | 现在分词词尾 |
+     |------+------|
+     | -are | -ato |
+     | -ere | -uto |
+     | -ire | -ito |
+
+     #+NAME: 意大利语副动词表
+     #+CAPTION: 意大利语副动词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
+     | 原形词尾 | 现在分词词尾 |
+     |----------+--------------|
+     | -are     | -ando        |
+     | -ere     | -endo        |
+     | -ire     | -endo        |
 
 ** 副词
 
