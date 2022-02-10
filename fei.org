@@ -1031,7 +1031,7 @@
 
 ** 动词
 
-*** 动词时式
+*** 时式
 
 **** Français
 
@@ -1041,16 +1041,16 @@
 
      #+CAPTION: 意大利语动词时式总表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     |        | 过去         | 现在   | 将来       |
-     |--------+--------------+--------+------------|
+     |        | 过去         | 现在                                   | 将来       |
+     |--------+--------------+----------------------------------------+------------|
      | 直陈式 | 近过去时     | [[意大利语直陈式现在时变位表][现在时]] | [[意大利语直陈式简单将来时变位表][简单将来时]] |
-     |        | 未完成过去时 |        | 先将来时   |
-     |        | 近愈过去时   |        |            |
-     |        | 远过去时     |        |            |
-     |        | 远愈过去时   |        |            |
-     | 命令式 |              | 现在时 |            |
-     | 条件式 |              |        |            |
-     | 虚拟式 |              |        |            |
+     |        | 未完成过去时 |                                        | [[意大利语直陈式先将来时变位表][先将来时]]   |
+     |        | 近愈过去时   |                                        |            |
+     |        | 远过去时     |                                        |            |
+     |        | 远愈过去时   |                                        |            |
+     | 命令式 |              | 现在时                                 |            |
+     | 条件式 |              |                                        |            |
+     | 虚拟式 |              |                                        |            |
 
      #+NAME: 意大利语直陈式现在时变位表
      #+CAPTION: 意大利语直陈式现在时变位表
@@ -1128,6 +1128,22 @@
        | venir（来）      | verrò   | verrai   | verrà   | verremo   | verrete   | verranno  |
        | dire（说）       | dirò    | dirai    | dirà    | diremo    | direte    | diranno   |
        | morire（死）     | morrò   | morrai   | morrà   | morremo   | morrete   | morranno  |
+
+     #+NAME: 意大利语直陈式先将来时变位表
+     #+CAPTION: 意大利语直陈式先将来时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |                   | io   | tu    | lui/lei | noi    | voi    | loro    |
+     |-------------------+------+-------+---------+--------+--------+---------|
+     | avere + 过去分词  | avrò | avrai | avrà    | avremo | avrete | avranno |
+     | essere + 过去分词 | sarò | sarai | sarà    | saremo | sarete | saranno |
+
+     - 直陈式先将来时主要表示在将来另一个动作或状态之前发生的动作或状态。
+     - 及物动词使用 avere 作助动词。
+       -
+     - 不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
+       -
+     - 对于情态动词，使用 avere 还是 essere，要根据其后的不定式动词决定。如果其后没有不定式动词时，使用 avere。
+       -
 
 *** 形式
 
