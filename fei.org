@@ -1041,16 +1041,12 @@
 
      #+CAPTION: 意大利语动词时式总表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     |        | 过去         | 现在   | 将来       |
-     |--------+--------------+--------+------------|
-     | 直陈式 | [[意大利语直陈式近过去时变位表][近过去时]]     | [[意大利语直陈式现在时变位表][现在时]] | [[意大利语直陈式简单将来时变位表][简单将来时]] |
-     |        | [[意大利语直陈式未完成过去时变位表][未完成过去时]] |        | [[意大利语直陈式先将来时变位表][先将来时]]   |
-     |        | 近愈过去时   |        |            |
-     |        | 远过去时     |        |            |
-     |        | 远愈过去时   |        |            |
-     | 命令式 |              | 现在时 |            |
-     | 条件式 |              |        |            |
-     | 虚拟式 |              |        |            |
+     |        | 过去                                                    | 现在                | 将来                    |
+     |--------+---------------------------------------------------------+---------------------+-------------------------|
+     | 直陈式 | [[意大利语直陈式远愈过去时变位表][远愈过去时]] <== [[意大利语直陈式远过去时变位表][远过去时]] <== [[意大利语直陈式近愈过去时变位表][近愈过去时]] <== [[意大利语直陈式未完成过去时变位表][未完成过去时]] | [[意大利语直陈式近过去时变位表][近过去时]] <== [[意大利语直陈式现在时变位表][现在时]] | [[意大利语直陈式先将来时变位表][先将来时]] <== [[意大利语直陈式简单将来时变位表][简单将来时]] |
+     | 命令式 |                                                         | 现在时              |                         |
+     | 条件式 |                                                         |                     |                         |
+     | 虚拟式 |                                                         |                     |                         |
 
      #+NAME: 意大利语直陈式现在时变位表
      #+CAPTION: 意大利语直陈式现在时变位表
@@ -1137,7 +1133,7 @@
      | avere 的简单将来时 + 过去分词  | avrò | avrai | avrà    | avremo | avrete | avranno |
      | essere 的简单将来时 + 过去分词 | sarò | sarai | sarà    | saremo | sarete | saranno |
 
-     - 直陈式先将来时主要表示在将来另一个动作或状态之前发生的动作或状态。
+     - 直陈式先将来时主要表示在另一个将来的动作或状态之前发生的动作或状态。
      - 及物动词使用 avere 作助动词。
        - Quando tornerò a case, la mamma avrà già preparato la cena.（等我回家时，妈妈已经做好饭了。）
      - 不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
@@ -1171,7 +1167,7 @@
      | -ere | -evo | -evi | -eva   | -evamo | -evate | -evano |
      | -ire | -ivo | -ivi | -iva   | -ivamo | -ivate | -ivano |
 
-     - 直陈式未完成过去时表示过去持续、经常、重复发生的动作或状态；或是出现在文学描述中。
+     - 直陈式未完成过去时表示过去持续、经常、重复发生的动作或状态；或是用在文学描述中。
      - 一些不规则动词：
        |                  | io        | tu        | lui/lei   | noi         | voi         | loro        |
        |------------------+-----------+-----------+-----------+-------------+-------------+-------------|
@@ -1191,6 +1187,33 @@
        | trarre（牵拉）   | traevo    | traevi    | traeva    | traevamo    | traevate    | traevano    |
        | porre（安放）    | ponevo    | ponevi    | poneva    | ponevamo    | ponevate    | ponevano    |
        | condurre（引导） | conducevo | conducevi | conduceva | conducevamo | conducevate | conducevano |
+
+     #+NAME: 意大利语直陈式近愈过去时变位表
+     #+CAPTION: 意大利语直陈式近愈过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |                                  | io    | tu    | lui/lei | noi     | voi     | loro    |
+     |----------------------------------+-------+-------+---------+---------+---------+---------|
+     | avere 的未完成过去时 + 过去分词  | avevo | avevi | aveva   | avevamo | avevate | avevano |
+     | essere 的未完成过去时 + 过去分词 | ero   | eri   | era     | eravamo | eravate | erano   |
+
+     - 直陈式近愈过去时主要表示在另一个过去的动作或状态之前发生的动作或状态。
+     - 及物动词使用 avere 作助动词；不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
+
+     #+NAME: 意大利语直陈式远过去时变位表
+     #+CAPTION: 意大利语直陈式远过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |                                  | io    | tu    | lui/lei | noi     | voi     | loro    |
+     |----------------------------------+-------+-------+---------+---------+---------+---------|
+     | avere 的未完成过去时 + 过去分词  | avevo | avevi | aveva   | avevamo | avevate | avevano |
+     | essere 的未完成过去时 + 过去分词 | ero   | eri   | era     | eravamo | eravate | erano   |
+
+     #+NAME: 意大利语直陈式远愈过去时变位表
+     #+CAPTION: 意大利语直陈式远愈过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |                                  | io    | tu    | lui/lei | noi     | voi     | loro    |
+     |----------------------------------+-------+-------+---------+---------+---------+---------|
+     | avere 的未完成过去时 + 过去分词  | avevo | avevi | aveva   | avevamo | avevate | avevano |
+     | essere 的未完成过去时 + 过去分词 | ero   | eri   | era     | eravamo | eravate | erano   |
 
 *** 形式
 
