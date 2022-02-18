@@ -1044,7 +1044,7 @@
      |        | 过去         | 现在   | 将来       |
      |--------+--------------+--------+------------|
      | 直陈式 | [[意大利语直陈式近过去时变位表][近过去时]]     | [[意大利语直陈式现在时变位表][现在时]] | [[意大利语直陈式简单将来时变位表][简单将来时]] |
-     |        | 未完成过去时 |        | [[意大利语直陈式先将来时变位表][先将来时]]   |
+     |        | [[意大利语直陈式未完成过去时变位表][未完成过去时]] |        | [[意大利语直陈式先将来时变位表][先将来时]]   |
      |        | 近愈过去时   |        |            |
      |        | 远过去时     |        |            |
      |        | 远愈过去时   |        |            |
@@ -1132,10 +1132,10 @@
      #+NAME: 意大利语直陈式先将来时变位表
      #+CAPTION: 意大利语直陈式先将来时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
-     |                   | io   | tu    | lui/lei | noi    | voi    | loro    |
-     |-------------------+------+-------+---------+--------+--------+---------|
-     | avere + 过去分词  | avrò | avrai | avrà    | avremo | avrete | avranno |
-     | essere + 过去分词 | sarò | sarai | sarà    | saremo | sarete | saranno |
+     |                                | io   | tu    | lui/lei | noi    | voi    | loro    |
+     |--------------------------------+------+-------+---------+--------+--------+---------|
+     | avere 的简单将来时 + 过去分词  | avrò | avrai | avrà    | avremo | avrete | avranno |
+     | essere 的简单将来时 + 过去分词 | sarò | sarai | sarà    | saremo | sarete | saranno |
 
      - 直陈式先将来时主要表示在将来另一个动作或状态之前发生的动作或状态。
      - 及物动词使用 avere 作助动词。
@@ -1149,8 +1149,8 @@
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      |                   | io   | tu  | lui/lei | noi     | voi   | loro    |
      |-------------------+------+-----+---------+---------+-------+---------|
-     | avere + 过去分词  | ho   | hai | ha      | abbiamo | avete | hanno   |
-     | essere + 过去分词 | sono | sei | è       | siamo   | siete | sono    |
+     | avere 的现在时 + 过去分词 | ho   | hai | ha      | abbiamo | avete | hanno   |
+     | essere 的现在时 + 过去分词 | sono | sei | è       | siamo   | siete | sono    |
 
      - 直陈式近过去时主要表示已经完成的、并且与现在有影响的动作或状态。
      - 及物动词使用 avere 作助动词。
@@ -1161,6 +1161,36 @@
        - Sono dovuto partire.（我得出发了。）
        - Ho dovuto partire.（我不得不出发了。）强调不得不的意味。
        - Sono potuto partire, mai lui non ha potuto.（我能走了，但他不能。）后半句没有不定式动词。
+
+     #+NAME: 意大利语直陈式未完成过去时变位表
+     #+CAPTION: 意大利语直陈式未完成过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |      | io   | tu   | lui/lei | noi    | voi    | loro   |
+     |------+------+------+---------+--------+--------+--------|
+     | -are | -avo | -avi | -ava    | -avamo | -avate | -avano |
+     | -ere | -evo | -evi | -eva   | -evamo | -evate | -evano |
+     | -ire | -ivo | -ivi | -iva   | -ivamo | -ivate | -ivano |
+
+     - 直陈式未完成过去时表示过去持续、经常、重复发生的动作或状态；或是出现在文学描述中。
+     - 一些不规则动词：
+       |                  | io        | tu        | lui/lei   | noi         | voi         | loro        |
+       |------------------+-----------+-----------+-----------+-------------+-------------+-------------|
+       | avere（有）      | avevo     | avevi     | aveva     | avevamo     | avevate     | avevano     |
+       | essere（是）     | ero       | eri       | era       | eravamo     | eravate     | erano       |
+       | fare（做）       | facevo    | facevi    | faceva    | facevamo    | facevate    | facevano    |
+       | dare（给）       | davo      | davi      | dava      | davamo      | davat       | davano      |
+       | rimanere（留）   | rimanevo  | rimanevi  | rimanevo  | rimanevamo  | rimanevate  | rimanevano  |
+       | tenere（取）     | tenevo    | tenevi    | teneva    | tenevamo    | tenevate    | tenevano    |
+       | sapere（知道）   | sapevo    | sapevi    | sapeva    | sapevamo    | sapevate    | sapevano    |
+       | dovere（应该）   | dovevo    | dovevi    | doveva    | dovevamo    | dovevate    | dovevano    |
+       | volere（愿意）   | volevo    | volevi    | voleva    | volevamo    | volevate    | volevano    |
+       | potere（能够）   | potevo    | potevi    | poteva    | potevamo    | potevate    | potevano    |
+       | nascere（出生）  | nascevo   | nascevi   | nasceva   | nascevamo   | nascevate   | nascevano   |
+       | dire（说）       | dicevo    | dicevi    | diceva    | dicevamo    | dicevate    | dicevano    |
+       | morire（死）     | morivo    | morivi    | moriva    | morivamo    | morivate    | morivano    |
+       | trarre（牵拉）   | traevo    | traevi    | traeva    | traevamo    | traevate    | traevano    |
+       | porre（安放）    | ponevo    | ponevi    | poneva    | ponevamo    | ponevate    | ponevano    |
+       | condurre（引导） | conducevo | conducevi | conduceva | conducevamo | conducevate | conducevano |
 
 *** 形式
 
