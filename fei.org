@@ -1039,14 +1039,44 @@
 
 **** Italiano
 
-     #+CAPTION: 意大利语动词时式总表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
-     |        | 过去                                                    | 现在                | 将来                    |
-     |--------+---------------------------------------------------------+---------------------+-------------------------|
-     | 直陈式 | [[意大利语直陈式远愈过去时变位表][远愈过去时]] <== [[意大利语直陈式远过去时变位表][远过去时]] <== [[意大利语直陈式近愈过去时变位表][近愈过去时]] <== [[意大利语直陈式未完成过去时变位表][未完成过去时]] | [[意大利语直陈式近过去时变位表][近过去时]] <== [[意大利语直陈式现在时变位表][现在时]] | [[意大利语直陈式先将来时变位表][先将来时]] <== [[意大利语直陈式简单将来时变位表][简单将来时]] |
-     | 命令式 |                                                         | 现在时              |                         |
-     | 条件式 |                                                         |                     |                         |
-     | 虚拟式 |                                                         |                     |                         |
+     意大利语动词的时式总览如下：
+     #+begin_src plantuml :file images/italian-verb.png :cmdline -charset utf-8 :exports results
+     @startmindmap
+     + 意大利语动词
+     ++ 直陈式 [Indicativo]
+     +++ 现在
+     ++++ 现在时 [Presente]
+     ++++ 现在完成时 [Passato prossimo，又译近过去时]
+     +++ 将来
+     ++++ 将来时 [Futuro semplice，又译简单将来时]
+     ++++ 将来完成时 [Futuro anteriore，又译先将来时]
+     +++ 过去
+     ++++ 过去时 [Imperfetto，又译未完成过去时]
+     ++++ 过去完成时 [Trapassato prossimo，又译近愈过去时]
+     +++ 遥远的过去
+     ++++ 远过去时 [Passato remoto]
+     ++++ 远过去完成时 [Trapassato remoto，又译远愈过去时]
+     ++ 命令式 [Imperativo]
+     +++ 现在
+     ++++ 现在时
+     ++ 条件式 [Condizionale]
+     ++ 虚拟式 [Congiuntivo]
+     ++ 不定式 [Infinitivo]
+     ++ 分词式 [Participio]
+     +++ 现在
+     ++++ 现在分词
+     +++ 过去
+     ++++ 过去分词
+     ++ 副动词 [Gerundio]
+     @endmindmap
+     #+end_src
+
+     #+RESULTS:
+     [[file:images/italian-verb.png]]
+
+     #+CAPTION: 意大利语动词时式图
+     #+ATTR_LATEX: :width 0.9\textwidth :placement [H]
+     [[file:images/italian-verb.png]]
 
      #+NAME: 意大利语直陈式现在时变位表
      #+CAPTION: 意大利语直陈式现在时变位表
@@ -1058,7 +1088,9 @@
      | -ire   | -o    | -i    | -e      | -iamo | -ite | -ono    |
      | -ire * | -isco | -isci | -isce   | -iamo | -ite | -iscono |
 
-     - 直陈式现在时主要表示当前的动作或状态。
+     - 直陈式现在时主要表示当前的动作或状态；或是立刻就要进行的动作。
+       - Guardo la televisione. 我在看电视。
+       - Vengo subito. 我马上来。
      - 动词主要有三类词尾，变化形式如表。
      - 第三类以 -ire 结尾的动词有两种形式，部分用前一种形式，如：aprire, avvertire, coprire, dormire, fuggire, offrire, partire, seguire, sentire, servire, vestire 等，大部分采用第二种形式。
      - 一些不规则动词：
@@ -1090,6 +1122,25 @@
        | porre（安放）     | pongo   | poni   | pone    | poniamo   | ponete    | pongono   |
        | ridurre（减少）   | riduco  | riduci | riduce  | riduciamo | riducete  | riducono  |
 
+     #+NAME: 意大利语直陈式近过去时变位表
+     #+CAPTION: 意大利语直陈式近过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     | 助动词 + 过去分词 | io   | tu  | lui/lei | noi     | voi   | loro  |
+     |-------------------+------+-----+---------+---------+-------+-------|
+     | avere 的现在时    | ho   | hai | ha      | abbiamo | avete | hanno |
+     | essere 的现在时   | sono | sei | è       | siamo   | siete | sono  |
+
+     - 直陈式近过去时主要表示已经完成的、并且接近现在或与现在有影响的动作或状态。
+       - Finalemente ha trovato le chiavi di casa. 他终于找到了家里的钥匙。
+     - 及物动词使用 avere 作助动词。
+       - Ho preparato la viligia.（我准备好了行李箱。）
+     - 不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
+       - Sono partiti ieri.（他们昨天出发。）
+     - 对于情态动词，使用 avere 还是 essere，要根据其后的不定式动词决定。但如果其后没有不定式动词时，或者需要强调情态动词的含义时，使用 avere。
+       - Sono dovuto partire.（我得出发了。）
+       - Ho dovuto partire.（我不得不出发了。）强调不得不的意味。
+       - Sono potuto partire, mai lui non ha potuto.（我能走了，但他不能。）后半句没有不定式动词。
+
      #+NAME: 意大利语直陈式简单将来时变位表
      #+CAPTION: 意大利语直陈式简单将来时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
@@ -1100,6 +1151,7 @@
      | -ire | -irò | -irai | -irà    | -iremo | -irete | -iranno |
 
      - 直陈式简单将来时主要表示将来要发生的动作或状态。
+       - Leggerò l'articolo questa sera. 我今晚读这篇文章。
      - 一些不规则动词：
        |                  | io      | tu       | lui/lei | noi       | voi       | loro      |
        |------------------+---------+----------+---------+-----------+-----------+-----------|
@@ -1128,35 +1180,14 @@
      #+NAME: 意大利语直陈式先将来时变位表
      #+CAPTION: 意大利语直陈式先将来时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
-     |                                | io   | tu    | lui/lei | noi    | voi    | loro    |
-     |--------------------------------+------+-------+---------+--------+--------+---------|
-     | avere 的简单将来时 + 过去分词  | avrò | avrai | avrà    | avremo | avrete | avranno |
-     | essere 的简单将来时 + 过去分词 | sarò | sarai | sarà    | saremo | sarete | saranno |
+     | 助动词 + 过去分词   | io   | tu    | lui/lei | noi    | voi    | loro    |
+     |---------------------+------+-------+---------+--------+--------+---------|
+     | avere 的简单将来时  | avrò | avrai | avrà    | avremo | avrete | avranno |
+     | essere 的简单将来时 | sarò | sarai | sarà    | saremo | sarete | saranno |
 
      - 直陈式先将来时主要表示在另一个将来的动作或状态之前发生的动作或状态。
-     - 及物动词使用 avere 作助动词。
-       - Quando tornerò a case, la mamma avrà già preparato la cena.（等我回家时，妈妈已经做好饭了。）
-     - 不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
-       - Quando tornerò a casa, la mamma sarà già andata via.（等我回家时，妈妈已经走了。）
-     - 对于情态动词，使用 avere 还是 essere，要根据其后的不定式动词决定。但如果其后没有不定式动词时，或者需要强调情态动词的含义时，使用 avere。
-
-     #+NAME: 意大利语直陈式近过去时变位表
-     #+CAPTION: 意大利语直陈式近过去时变位表
-     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
-     |                   | io   | tu  | lui/lei | noi     | voi   | loro    |
-     |-------------------+------+-----+---------+---------+-------+---------|
-     | avere 的现在时 + 过去分词 | ho   | hai | ha      | abbiamo | avete | hanno   |
-     | essere 的现在时 + 过去分词 | sono | sei | è       | siamo   | siete | sono    |
-
-     - 直陈式近过去时主要表示已经完成的、并且与现在有影响的动作或状态。
-     - 及物动词使用 avere 作助动词。
-       - Ho preparato la viligia.（我准备好了行李箱。）
-     - 不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
-       - Sono partiti ieri.（他们昨天出发。）
-     - 对于情态动词，使用 avere 还是 essere，要根据其后的不定式动词决定。但如果其后没有不定式动词时，或者需要强调情态动词的含义时，使用 avere。
-       - Sono dovuto partire.（我得出发了。）
-       - Ho dovuto partire.（我不得不出发了。）强调不得不的意味。
-       - Sono potuto partire, mai lui non ha potuto.（我能走了，但他不能。）后半句没有不定式动词。
+       - Appena sarò arrivato a Londra, ti telefenerò. 我一到伦敦就给你打电话。
+     - 及物动词使用 avere 作助动词；不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
 
      #+NAME: 意大利语直陈式未完成过去时变位表
      #+CAPTION: 意大利语直陈式未完成过去时变位表
@@ -1167,7 +1198,8 @@
      | -ere | -evo | -evi | -eva   | -evamo | -evate | -evano |
      | -ire | -ivo | -ivi | -iva   | -ivamo | -ivate | -ivano |
 
-     - 直陈式未完成过去时表示过去持续、经常、重复发生的动作或状态；或是用在文学描述中。
+     - 直陈式未完成过去时表示过去持续、经常、重复发生的动作或状态。
+       - I miei amici abitavano in questa via tanti anni fa. 我的朋友们多年前住在这条街上。
      - 一些不规则动词：
        |                  | io        | tu        | lui/lei   | noi         | voi         | loro        |
        |------------------+-----------+-----------+-----------+-------------+-------------+-------------|
@@ -1191,29 +1223,79 @@
      #+NAME: 意大利语直陈式近愈过去时变位表
      #+CAPTION: 意大利语直陈式近愈过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
-     |                                  | io    | tu    | lui/lei | noi     | voi     | loro    |
-     |----------------------------------+-------+-------+---------+---------+---------+---------|
-     | avere 的未完成过去时 + 过去分词  | avevo | avevi | aveva   | avevamo | avevate | avevano |
-     | essere 的未完成过去时 + 过去分词 | ero   | eri   | era     | eravamo | eravate | erano   |
+     | 助动词 + 过去分词     | io    | tu    | lui/lei | noi     | voi     | loro    |
+     |-----------------------+-------+-------+---------+---------+---------+---------|
+     | avere 的未完成过去时  | avevo | avevi | aveva   | avevamo | avevate | avevano |
+     | essere 的未完成过去时 | ero   | eri   | era     | eravamo | eravate | erano   |
 
      - 直陈式近愈过去时主要表示在另一个过去的动作或状态之前发生的动作或状态。
+       - Quando tornava non diceva dov'era stato. 他回家时总是不说他去过哪里。
      - 及物动词使用 avere 作助动词；不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
 
      #+NAME: 意大利语直陈式远过去时变位表
      #+CAPTION: 意大利语直陈式远过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
-     |                                  | io    | tu    | lui/lei | noi     | voi     | loro    |
-     |----------------------------------+-------+-------+---------+---------+---------+---------|
-     | avere 的未完成过去时 + 过去分词  | avevo | avevi | aveva   | avevamo | avevate | avevano |
-     | essere 的未完成过去时 + 过去分词 | ero   | eri   | era     | eravamo | eravate | erano   |
+     |      | io         | tu    | lui/lei   | noi   | voi   | loro            |
+     |------+------------+-------+-----------+-------+-------+-----------------|
+     | -are | -ai        | -asti | -ò        | -ammo | -aste | -arono          |
+     | -ere | -ei(-etti) | -esti | -é(-ette) | -emmo | -este | -erono(-ettero) |
+     | -ire | -ii        | -isti | -ì        | -immo | -iste | -irono          |
+
+     - 直陈式远过去时表示遥远的过去发生的动作或状态；或和现在没有关联的动作或状态。
+       - Aprii la lettere e la lessi rapidamente. 我打开了信并且快速的读信。
+     - 一些不规则动词：
+       |                   | io       | tu         | lui/lei  | noi        | voi        | loro       |
+       |-------------------+----------+------------+----------+------------+------------+------------|
+       | avere（有）       | ebbi     | avesti     | ebbe     | avemmo     | aveste     | ebbero     |
+       | essere（是）      | fai      | fosti      | fu       | fummo      | foste      | furono     |
+       | fare（做）        | faci     | facesti    | face     | facemmo    | faceste    | facero     |
+       | dare（给）        | diedi    | desti      | diede    | demmo      | deste      | diedero    |
+       | rimanere（留）    | rimasi   | rimanesti  | rimase   | rimanemmo  | rimaneste  | rimasero   |
+       | tenere（取）      | tenni    | tenesti    | tenne    | tenemmo    | teneste    | tennero    |
+       | vedere（看）      | vidi     | vedesti    | vide     | vedemmo    | vedeste    | videro     |
+       | sapere（知道）    | seppi    | sapesti    | seppe    | sapemmo    | sapeste    | seppero    |
+       | volere（愿意）    | volli    | volesti    | volle    | volemmo    | voleste    | vollero    |
+       | accendere（点亮） | accesi   | accendesti | accese   | accendemmo | accendeste | accesero   |
+       | accludere（附上） | acclusi  | accludesti | accluse  | accludemmo | accludeste | acclusero  |
+       | nascere（出生）   | nacqui   | nascesti   | nacque   | nascemmo   | nasceste   | nacquero   |
+       | vivere（活）      | vissi    | vivesti    | visse    | vivemmo    | viveste    | vissero    |
+       | leggere（读）     | lessi    | leggesti   | lesse    | leggemmo   | leggeste   | lessero    |
+       | scrivere（写）    | scrissi  | scrivesti  | scrisse  | scrivemmo  | scriveste  | scrissero  |
+       | rompere（打碎）   | ruppi    | rompesti   | ruppe    | rompemmo   | rompeste   | ruppero    |
+       | decidere（决定）  | decisi   | decidesti  | decise   | decidemmo  | decideste  | decisero   |
+       | tacere（沉默)     | tacqui   | tacesti    | tacque   | tacemmo    | taceste    | tacquero   |
+       | piacere（喜欢）   | piacqui  | piacesti   | piacque  | piacemmo   | piaceste   | piacquero  |
+       | mettere（放）     | misi     | mettesti   | mise     | mettemmo   | metteste   | misero     |
+       | appendere（挂）   | appesi   | appendesti | appese   | appendemmo | appendeste | appesero   |
+       | discutere（讨论） | discussi | discutesti | discusse | discutemmo | discuteste | discussero |
+       | cogliere（采集）  | colsi    | cogliesti  | colse    | cogliemmo  | coglieste  | colsero    |
+       | ardere（点燃）    | arsi     | ardesti    | arse     | ardemmo    | ardeste    | arsero     |
+       | assolvere（释放） | assolsi  | assolvesti | assolse  | assolvemmo | assolveste | assolsero  |
+       | cadere（掉落）    | caddi    | cadesti    | cadde    | cademmo    | cadeste    | caddero    |
+       | correre（跑）     | corsi    | corresti   | corse    | corremmo   | correste   | corsero    |
+       | crescere（生长）  | crebbi   | crescesti  | crebbe   | crescemmo  | cresceste  | crebbero   |
+       | dipendere（依靠） | dipesi   | dipendesti | dipese   | dipendemmo | dipendeste | dipesero   |
+       |                   |          |            |          |            |            |            |
+
+       | dire（说）        | dicevo    | dicevi     | diceva    | dicevamo    | dicevate    | dicevano    |
+       | trarre（牵拉）    | traevo    | traevi     | traeva    | traevamo    | traevate    | traevano    |
+       | porre（安放）     | ponevo    | ponevi     | poneva    | ponevamo    | ponevate    | ponevano    |
+       | condurre（引导）  | conducevo | conducevi  | conduceva | conducevamo | conducevate | conducevano |
+
+       | dovere（应该）    | dovevo    | dovevi     | doveva    | dovevamo    | dovevate    | dovevano    |
+       | potere（能够）    | potevo    | potevi     | poteva    | potevamo    | potevate    | potevano    |
 
      #+NAME: 意大利语直陈式远愈过去时变位表
      #+CAPTION: 意大利语直陈式远愈过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
-     |                                  | io    | tu    | lui/lei | noi     | voi     | loro    |
-     |----------------------------------+-------+-------+---------+---------+---------+---------|
-     | avere 的未完成过去时 + 过去分词  | avevo | avevi | aveva   | avevamo | avevate | avevano |
-     | essere 的未完成过去时 + 过去分词 | ero   | eri   | era     | eravamo | eravate | erano   |
+     | 助动词 + 过去分词     | io   | tu     | lui/lei | noi    | voi    | loro   |
+     |-----------------------+------+--------+---------+--------+--------+--------|
+     | avere 的远过去时 | ebbi | avesti | ebbe    | avemmo | aveste | ebbero |
+     | essere 的远过去时 | fai  | fosti  | fu      | fummo  | foste  | furono |
+
+     - 直陈式远愈过去时主要表示在另一个远过去时的动作或状态之前完成的动作或状态，必须与远过去时连用，出现在时间从句中。
+       - Quando ebbero finito il lavoro, partirono per la città. 他们干完了活，就出发进城了。
+     - 及物动词使用 avere 作助动词；不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
 
 *** 形式
 
