@@ -1046,16 +1046,16 @@
      ++ 直陈式 [Indicativo]
      +++ 现在
      ++++ 现在时 [Presente]
-     ++++ 现在完成时 [Passato prossimo，又译近过去时]
+     ++++ 近过去时 [Passato prossimo]
      +++ 将来
-     ++++ 将来时 [Futuro semplice，又译简单将来时]
-     ++++ 将来完成时 [Futuro anteriore，又译先将来时]
+     ++++ 简单将来时 [Futuro semplice]
+     ++++ 先将来时 [Futuro anteriore]
      +++ 过去
-     ++++ 过去时 [Imperfetto，又译未完成过去时]
-     ++++ 过去完成时 [Trapassato prossimo，又译近愈过去时]
+     ++++ 未完成过去时 [Imperfetto]
+     ++++ 近愈过去时 [Trapassato prossimo]
      +++ 遥远的过去
      ++++ 远过去时 [Passato remoto]
-     ++++ 远过去完成时 [Trapassato remoto，又译远愈过去时]
+     ++++ 远愈过去时 [Trapassato remoto]
      ++ 命令式 [Imperativo]
      +++ 现在
      ++++ 现在时
@@ -1287,7 +1287,7 @@
        | bere（喝）          | bevvi      | bevesti      | bevve      | bevemmo      | beveste      | bevvero      |
        | chiedere（要求）    | chiesi     | chiedesti    | chiese     | chiedemmo    | chiedeste    | chiesero     |
        | chiudere（关）      | chiusi     | chiudesti    | chiuse     | chiudemmo    | chiedeste    | chiusero     |
-       | togliere（摘）      | tolsi      | togliesti    | tolse      | togliemmo    | toglieste    | tolsero      |
+       | togliere（摘除）     | tolsi      | togliesti    | tolse      | togliemmo    | toglieste    | tolsero      |
        | cingere（围）       | cinsi      | cingesti     | cinse      | cingemmo     | cingeste     | cinsero      |
        | stringere（握）     | strinsi    | stringesti   | strinse    | stringemmo   | stringeste   | strinsero    |
        | vincere（赢）       | vinsi      | vincesti     | vinse      | vincemmo     | vinceste     | vinsero      |
@@ -1357,6 +1357,18 @@
      | -ere     | -ente        |
      | -ire     | -ente        |
 
+     - 现在分词一般用作形容词或名词化的形容词。
+       - Questo è un romanzo molto interessante.（这是一本很有趣的小说。）
+       - Questo è la mia aiutante.（这是我的助手。）
+     - 一些不规则动词：
+       |                  | 现在分词   |
+       |------------------+------------|
+       | dormire（睡觉）  | dormiente  |
+       | obbedire（服从） | obbediente |
+       | tradurre（翻译） | traducente |
+       | porre（安放）    | ponente    |
+       | trarre（拉）     | traente    |
+
      #+NAME: 意大利语过去分词表
      #+CAPTION: 意大利语过去分词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
@@ -1365,6 +1377,265 @@
      | -are | -ato |
      | -ere | -uto |
      | -ire | -ito |
+
+     - 过去分词可以用来构成复合时态，用 avere 或 essere 作助动词，以 essere 作助动词时，过去分词要和主语性数配合。如：
+       - Abbiamo sentito i rumori della pioggia.（我们听到了雨声。）
+       - Siamo passati per Napoli.（我们经过了那不勒斯。）
+     - 过去分词还可以用来构成被动语态，用 essere 做助动词，过去分词要和主语性数配合。在被动语态的复合时态中，通过 essere 体现，此时 essere 也要作性数配合。如：
+       - Io sono ladato.（我受到表扬。）
+       - Le demande sono state accolte dalla direzione.（申请被领导接受了。）
+     - 过去分词还可以用来做形容词修饰名词，此时要与被修饰名词保持性数一致。
+       - Questi sono bicchieri usati.（这些是用过的杯子。）
+     - 一些不规则动词：
+       |                          | 过去分词             |
+       |--------------------------+----------------------|
+       | affiggere（张贴）        | affisso              |
+       | riflettere（考虑）       | reflesso(reflettuto) |
+       | ardere（燃烧）           | arso                 |
+       | assistere（说明）        | assistito            |
+       | esistere（存在）         | esistito             |
+       | resistere（抵御）        | resistito            |
+       | peristere（坚持）        | persistito           |
+       | assolvere（释放）        | assolto              |
+       | risolvere（解决）        | risolto              |
+       | assumere（雇用）         | assunto              |
+       | riassumere（综述）       | riassunto            |
+       | presumere（预测）        | pressunto            |
+       | bere（喝）               | bevuto               |
+       | chiedere（问）           | chiesto              |
+       | richiedere（要求）       | richiesto            |
+       | chiudere（关）           | chiusto              |
+       | accludere（附上）        | accluso              |
+       | concludere（下结论）     | concluso             |
+       | alludere（映射）         | alluso               |
+       | escludere（排除）        | escluso              |
+       | illudere（幻想）         | illuso               |
+       | preludere（预想）        | preluso              |
+       | deludere（使灰心）       | deluso               |
+       | cingere（围）            | cinto                |
+       | fingere（假装）          | finto                |
+       | spingere（推、挤）       | spinto               |
+       | respingere（推迟、拒绝） | rispinto             |
+       | dipingere（绘画）        | dipinto              |
+       | tingere（染）            | tinto                |
+       | cogliere（抓）           | colto                |
+       | accogliere（迎接）       | accolto              |
+       | raccogliere（采集）      | raccolto             |
+       | togliere（摘除）         | tolto                |
+       | sciogliere（融化）       | sciolto              |
+       | compiere（完成）         | compiuto             |
+       | adempiere（完成）        | adempiuto            |
+       | concedere（让）          | concesso             |
+       | retrocedere（后退）      | retrocesso           |
+       | succedere（发生）        | successo             |
+       | conoscere（认识、了解）  | conosciuto           |
+       | riconoscere（承认）      | riconosciuto         |
+       | correre（跑）            | corso                |
+       | accorrere（赶来）        | accorso              |
+       | percorrere（经过）       | percorso             |
+       | soccorrere（援助）       | soccorso             |
+       | concorrere（竞争）       | concorso             |
+       | discorrere（谈话）       | discorso             |
+       | occorrere（需要）        | occorso              |
+       | scorrere（流）           | scorso               |
+       | trascorrere（度过）      | trascorso            |
+       | crescere（生长）         | cresciuto            |
+       | accrescere（增长）       | accresciuto          |
+       | decrescere（减弱）       | decresciuto          |
+       | increscere（增长）       | incresciuto          |
+       | rincrescere（使遗憾）    | rincresciuto         |
+       | cuocere（烹饪）          | cotto                |
+       | decidere（决定）         | deciso               |
+       | coincidere（巧合）       | coinciso             |
+       | incidere（凿刻）         | inciso               |
+       | suddividere（分）        | suddiso              |
+       | uccidere（杀）           | ucciso               |
+       | dividere（分）           | diviso               |
+       | condividere（分担）      | condiviso            |
+       | ridere（笑）             | riso                 |
+       | sorridere（微笑）        | sorriso              |
+       | fondere（熔铸）          | fuso                 |
+       | diffondere（传播）       | diffuso              |
+       | confondere（使混乱）     | confuso              |
+       | dirigere（领导）         | diretto              |
+       | erigere（竖立）          | eretto               |
+       | dissuadere（劝阻）       | dissuaso             |
+       | evadere（逃避）          | evaso                |
+       | invadere（入侵）         | invaso               |
+       | persuadere（说服）       | persuaso             |
+       | radere（刮、剃）         | raso                 |
+       | discutere（讨论）        | discusso             |
+       | incutere（引起）         | incuso               |
+       | distinguere（区分）      | distinto             |
+       | estinguere（熄灭）       | estinto              |
+       | distruggere（毁坏）      | distrutto            |
+       | struggere（折磨）        | strutto              |
+       | eccedere（过分）         | eccesso              |
+       | emergere（浮出）         | emerso               |
+       | detergere（洗净）        | deterso              |
+       | immergere（浸入）        | immerso              |
+       | sommergere（潜入）       | sommerso             |
+       | esigere（要求）          | esatto               |
+       | espellere（开除）        | espulso              |
+       | esplodere（爆炸）        | esploso              |
+       | rodere（啃、咬）         | roso                 |
+       | corrodere（腐蚀）        | corroso              |
+       | esprimere（表达）        | espresso             |
+       | imprimere（印）          | impresso             |
+       | opprimere（压迫）        | oppresso             |
+       | sopprimere（镇压）       | soppresso            |
+       | evolvere（进化）         | evoluto              |
+       | devolvere（转让）        | devoluto             |
+       | giungere（达到）         | giunto               |
+       | aggiungere（增加）       | aggiunto             |
+       | raggiungere（赶上）      | raggiunto            |
+       | soggiungere（加上）      | soggiunto            |
+       | ungere（抹油）           | unto                 |
+       | pungere（刺、扎）        | punto                |
+       | intendere（懂得）        | inteso               |
+       | tendere（倾向于）        | teso                 |
+       | attendere（等待）        | atteso               |
+       | fraintendere（误会）     | frainteso            |
+       | stendere（伸展）         | steso                |
+       | ledere（损害）           | leso                 |
+       | leggere（读）            | letto                |
+       | eleggere（选举）         | eletto               |
+       | reggere（统治）          | retto                |
+       | correggere（改正）       | corretto             |
+       | sorreggere（树立）       | sorretto             |
+       | proteggere（保护）       | protetto             |
+       | mettere（放）            | messo                |
+       | ammettere（承认）        | ammesso              |
+       | commettere（触犯）       | commesso             |
+       | compromettere（妥协）    | compromesso          |
+       | permettere（容许）       | permesso             |
+       | scomettere（打赌）       | scomesso             |
+       | promettere（辞退）       | promesso             |
+       | rimettere（重置）        | rimesso              |
+       | tramettere（转达）       | tramesso             |
+       | mordere（咬）            | morso                |
+       | muovere（移动）          | mosso                |
+       | commuovere（感动）       | commosso             |
+       | rimuovere（移动）        | rimosso              |
+       | promuovere（晋升）       | promosso             |
+       | nascere（出生）          | nato                 |
+       | rinascere（再生）        | rinato               |
+       | nuocere（损害）          | nociuto              |
+       | offendere（伤害）        | offeso               |
+       | accendere（点燃）        | acceso               |
+       | difendere（保卫）        | difeso               |
+       | parere（似乎）           | parso                |
+       | percuotere（击打）       | percosso             |
+       | scuotere（摇动）         | scosso               |
+       | riscuotere（领取）       | riscosso             |
+       | perdere（失去）          | perso                |
+       | disperdere（驱散）       | disperso             |
+       | piacere（使高兴）        | piaciuto             |
+       | compiacere（高兴）       | compiaciuto          |
+       | spiacere（遗憾）         | spiaciuto            |
+       | dispiacere（失意）       | dispiaciuto          |
+       | tacere（沉默）           | taciuto              |
+       | piangere（哭泣）         | pianto               |
+       | rimpiangere（惋惜）      | rimpianto            |
+       | frangere（粉碎）         | franto               |
+       | infrangere（打碎）       | infranto             |
+       | porgere（给）            | porto                |
+       | accorgersi（发现）       | accortosi            |
+       | sorgere（升起）          | sorto                |
+       | risorgere（重新升起）    | risorto              |
+       | insorgere（起义）        | insorto              |
+       | sporgere（伸出）         | sporto               |
+       | prendere（拿取）         | preso                |
+       | apprendere（得知）       | appreso              |
+       | sorprendere（使惊讶）    | sorpreso             |
+       | rendere（还）            | reso                 |
+       | dipendere（取决）        | dipeso               |
+       | spendere（花费）         | speso                |
+       | sospendere（中断）       | sospeso              |
+       | rimanere（留）           | rimasto              |
+       | rispondere（回答）       | risposto             |
+       | corrispondere（相符）    | corrisposto          |
+       | nascondere（躲藏）       | nascosto             |
+       | rompere（打碎）          | rotto                |
+       | corrompere（贿赂）       | corrotto             |
+       | interrompere（打断）     | interrotto           |
+       | irrompere（闯入）        | irrotto              |
+       | scegliere（选择）        | scelto               |
+       | scendere（下来）         | sceso                |
+       | discendere（下降）       | disceso              |
+       | scindere（分裂）         | scisso               |
+       | prescindere（追溯）      | prescisso            |
+       | scrivere（写）           | scritto              |
+       | descrivere（描写）       | descritto            |
+       | iscrivere（报名）        | iscritto             |
+       | prescrivere（开方子）    | prescritto           |
+       | sottoscrivere（签署）    | sottoscritto         |
+       | trascrivere（誊写）      | trascritto           |
+       | sedere（坐）             | seduto               |
+       | possedere（具有）        | posseduto            |
+       | presiedere（主持）       | presieduto           |
+       | spargere（撒）           | sparso               |
+       | spegnere（熄灭）         | spento               |
+       | stringere（紧握）        | stretto              |
+       | costringere（强迫）      | costretto            |
+       | ristringere（紧缩）      | ristretto            |
+       | tenere（取）             | tenuto               |
+       | appartenere（属于）      | appartenuto          |
+       | astenere（戒除）         | astenuto             |
+       | contenere（包含）        | contenuto            |
+       | detenere（关押）         | detenuto             |
+       | mantenere（保持）        | mantenuto            |
+       | ritenere（认为）         | ritenuto             |
+       | ottenere（获得）         | ottenuto             |
+       | sostenere（支持）        | sostenuto            |
+       | intrattenere（交谈）     | intrattenuto         |
+       | trattenere（挽留）       | tratenuto            |
+       | torcere（拧）            | torto                |
+       | contorcere（扭曲）       | contorto             |
+       | distorcere（弯曲）       | distorto             |
+       | estorcere（勒索）        | estorto              |
+       | ritorcere（反击）        | ritorto              |
+       | valere（价值）           | valso                |
+       | equivalere（等于）       | equivalso            |
+       | prevalere（胜出）        | prevalso             |
+       | vedere（看见）           | visto                |
+       | intravedere（瞥见）      | intravisto           |
+       | prevedere（预见）        | previsto             |
+       | provvedere（筹措）       | provveduto           |
+       | rivedere（再见）         | riveduto             |
+       | vincere（赢）            | vinto                |
+       | convincere（说服）       | convinto             |
+       | rivincere（获胜）        | rivinto              |
+       | vivere（生活）           | vissuto              |
+       | convivere（同居）        | convissuto           |
+       | riivere（新生）          | rivissuto            |
+       | sopravvivere（幸存）     | sopravvissuto        |
+       | volgere（转向）          | volto                |
+       | avvolger（卷、裹）       | avvolto              |
+       | capovolgere（颠覆）      | capovolto            |
+       | rivolgere（颠倒）        | rivolto              |
+       | sconvolgere（搅乱）      | sconvolto            |
+       | svolgere（展开）         | svolto               |
+       | travolgere（颠倒）       | travolto             |
+       | aprire（打开）           | aperto               |
+       | dire（说）               | ditto                |
+       | offrire（献）            | offerto              |
+       | venire（来）             | venuto               |
+       | morire（死）             | morto                |
+       | tradurre（翻译）         | tradotto             |
+       | dedurre（推测）          | dedotto              |
+       | produrre（生产）         | prodotto             |
+       | introdurre（引入）       | introdotto           |
+       | ridurre（减少）          | ridotto              |
+       | porre（安放）            | posto                |
+       | esporre（展示）          | esposto              |
+       | imporre（强加）          | imposto              |
+       | opporre（反对）          | opposto              |
+       | trarre（拉、拖）         | tratto               |
+       | astrarre（去除）         | astratto             |
+       | sottrarre（扣除）        | sottratto            |
+       | attrarre（吸引）         | attratto             |
+       | distrarre（使分心）      | distratto            |
 
      #+NAME: 意大利语副动词表
      #+CAPTION: 意大利语副动词表
