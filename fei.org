@@ -775,10 +775,10 @@
        - La vogliamo visitare. / Vogliamo visitarla.（我们想要参观它。）
      - 间接补语代词代替由前置词 a 引出的间接宾语。通常位于变位动词前。
        - Parlo ai miei amici. → Gli parlo.（我和我的朋友谈话。→ 我和他们谈话。）
-     - 如果同时有间接补语和直接补语，放在动词后时，先间接后直接。
-       - Date a me il libro. → Datemelo.（你们把书给我。→ 你们把它给我。）
      - lo/la/li/le 用在变了位的动词 avere 前时，它们的前面要加上 ce，此处 ce 没有实际含义。
        Avete tutti i libri necessari? Sì, ce li abbiamo.（你们有所有必需的书籍吗？是的，我们有。）
+     - 如果同时有间接补语和直接补语，放在动词后时，先间接后直接。
+       - Date a me il libro. → Datemelo.（你们把书给我。→ 你们把它给我。）
      - 当间接补语和直接补语连用时，需要写成组合形式：
        - Glieli puoi dare tu?（你能把它们给他吗？）
        |     | lo     | la     | li     | le     | ne     |
@@ -862,19 +862,20 @@
      | 同级       | così...come，tanto...quanto | Mario è così alto come Luigi.          |
      | 较高级     | più...di，più...che         | Mario è più alto di Luigi.             |
      | 较低级     | meno...di，meno...che       | Mario è meno alto di Luigi.            |
-     | 最高级     | 冠词+più                    | Mario è l'uomo più alto della classe.  |
-     | 最低级     | 冠词+meno                   | Mario è l'uomo meno alto della classe. |
-     | 绝对最高阶 | 形容词阳性复数+ssimo        | Mario è altissimo.                     |
+     | 相对最高级   | 冠词+più                    | Mario è l'uomo più alto della classe.  |
+     | 相对最低级   | 冠词+meno                   | Mario è l'uomo meno alto della classe. |
+     | 绝对最高级 | 形容词阳性复数+ssimo        | Mario è altissimo.                     |
 
      - 不同的人、物见之间比较时，通常用 di；同一个人、物的不同特性比较通常用 che。
      - 不规则形容词
-       | 原级         | 比较级    | 最高级         |
-       | 好的 buono   | migliore  | ottimo         |
-       | 坏的 cattivo | peggiore  | pessimo        |
-       | 大的 grande  | maggiore  | massiomo       |
-       | 小的 piccolo | minore    | minimo         |
-       | 高的 alto    | superiore | supremo, sommo |
-       | 低的 basso   | inferiore | infimo         |
+       | 原级            | 比较级    | 最高级         |
+       |-----------------+-----------+----------------|
+       | buono（好的）   | migliore  | ottimo         |
+       | cattivo（坏的） | peggiore  | pessimo        |
+       | grande（大的）  | maggiore  | massiomo       |
+       | piccolo（小的） | minore    | minimo         |
+       | alto（高的）    | superiore | supremo, sommo |
+       | basso（低的）   | inferiore | infimo         |
 
      #+CAPTION: 意大利语物主形容词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
@@ -888,7 +889,7 @@
      | 复数第三人称 | loro     | loro     | loro     | loro     |
 
      - 物主形容词需要和被限定的名词的性数配合，还要与定冠词一致。如，il mio libro，la mia casa。
-     - 在亲属关系的单数名词前通常省略定冠词。如，mio fratello，tua sorella。但有形容词时，还要保留定冠词。如，il mio giovane fratello，la tua cara sorella。此外，loro 前的定冠词不省略，如 la loro zia。
+     - 在亲属关系的名词单数前通常省略定冠词，复数前不能省略。如，mio fratello，tua sorella，i miei fratelli，le tue sorelle。但有形容词时，还要保留定冠词。如，il mio giovane fratello，la tua cara sorella。此外，loro 前的定冠词不省略，如 la loro zia。
 
      #+CAPTION: 意大利语指示形容词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
@@ -902,11 +903,11 @@
 
      #+CAPTION: 意大利语疑问形容词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
-     |             | 变化                              |
-     |-------------+-----------------------------------|
-     | che 什么    | 不变                              |
-     | quale 哪个  | 数 quale/quali                    |
-     | quanto 多少 | 性数 quanto/quanta/quanti/quante  |
+     |                | 变化                             |
+     |----------------+----------------------------------|
+     | che（什么）    | 不变                             |
+     | quale（哪个）  | 数 quale/quali                   |
+     | quanto（多少） | 性数 quanto/quanta/quanti/quante |
 
 ** 数词
 
