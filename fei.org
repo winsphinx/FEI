@@ -810,6 +810,12 @@
      | 那   | codesto  | codesti  | codesta  | codeste  |
      | 那   | quello   | quelli   | quella   | quelle   |
 
+     - ciò，相当于 questa/codesta/quella cosa，没有性数变化，用于指代事物。
+       - Tutti hanno notato ciò.（大家都注意到这一点。）
+     - ne，可以指代人或物，表示部分的意思。和人称代词连用时，放在人称代词后面。
+       - Vuoi ancora dell'acqua? - No, non ne voglio più.（你还要水吗？- 不，我不想要了。）
+       - Te ne parleremo domani.（我明天再跟你谈这个。）
+
      #+CAPTION: 意大利语疑问代词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
      |             | 变化                             |
@@ -1037,7 +1043,6 @@
      #+ATTR_LATEX: :width 0.9\textwidth :placement [H]
      [[file:images/italian-verb.png]]
 
-     #+NAME: 意大利语直陈式现在时变位表
      #+CAPTION: 意大利语直陈式现在时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      |        | io    | tu    | lui/lei | noi   | voi  | loro    |
@@ -1083,7 +1088,6 @@
        | porre（安放）     | pongo   | poni   | pone    | poniamo   | ponete    | pongono   |
        | ridurre（减少）   | riduco  | riduci | riduce  | riduciamo | riducete  | riducono  |
 
-     #+NAME: 意大利语直陈式近过去时变位表
      #+CAPTION: 意大利语直陈式近过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      | 助动词 + 过去分词 | io   | tu  | lui/lei | noi     | voi   | loro  |
@@ -1102,7 +1106,6 @@
        - Ho dovuto partire.（我不得不出发了。）强调不得不的意味。
        - Sono potuto partire, mai lui non ha potuto.（我能走了，但他不能。）后半句没有不定式动词。
 
-     #+NAME: 意大利语直陈式简单将来时变位表
      #+CAPTION: 意大利语直陈式简单将来时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      |      | io   | tu    | lui/lei | noi    | voi    | loro    |
@@ -1135,12 +1138,11 @@
        | vedere（看见）   | vedrò   | vedrai   | vedrà   | vedremo   | vedrete   | vedranno  |
        | cadere（倒）     | cadrò   | cadrai   | cadrà   | cadremo   | cadrete   | cadranno  |
        | parare（像）     | parrò   | parrai   | parrà   | parremo   | parrete   | parranno  |
-       | valere（值）     | varrò   | varrai   | varrà   | varremo   | varrete   | varranno  |
+       | valere（价值）   | varrò   | varrai   | varrà   | varremo   | varrete   | varranno  |
        | venir（来）      | verrò   | verrai   | verrà   | verremo   | verrete   | verranno  |
        | dire（说）       | dirò    | dirai    | dirà    | diremo    | direte    | diranno   |
        | morire（死）     | morrò   | morrai   | morrà   | morremo   | morrete   | morranno  |
 
-     #+NAME: 意大利语直陈式先将来时变位表
      #+CAPTION: 意大利语直陈式先将来时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      | 助动词 + 过去分词   | io   | tu    | lui/lei | noi    | voi    | loro    |
@@ -1152,7 +1154,6 @@
        - Appena sarò arrivato a Londra, ti telefenerò.（我一到伦敦就给你打电话。）
      - 及物动词使用 avere 作助动词；不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
 
-     #+NAME: 意大利语直陈式未完成过去时变位表
      #+CAPTION: 意大利语直陈式未完成过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      |      | io   | tu   | lui/lei | noi    | voi    | loro   |
@@ -1185,7 +1186,6 @@
        | porre（安放）    | ponevo    | ponevi    | poneva    | ponevamo    | ponevate    | ponevano    |
        | condurre（引导） | conducevo | conducevi | conduceva | conducevamo | conducevate | conducevano |
 
-     #+NAME: 意大利语直陈式近愈过去时变位表
      #+CAPTION: 意大利语直陈式近愈过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      | 助动词 + 过去分词     | io    | tu    | lui/lei | noi     | voi     | loro    |
@@ -1197,7 +1197,6 @@
        - Quando tornava non diceva dov'era stato.（他回家时总是不说他去过哪里。）
      - 及物动词使用 avere 作助动词；不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
 
-     #+NAME: 意大利语直陈式远过去时变位表
      #+CAPTION: 意大利语直陈式远过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      |      | io         | tu    | lui/lei   | noi   | voi   | loro            |
@@ -1220,13 +1219,13 @@
       | dare（给）          | diedi      | desti        | diede      | demmo        | deste        | diedero      |
       | rimanere（留）      | rimasi     | rimanesti    | rimase     | rimanemmo    | rimaneste    | rimasero     |
       | tenere（取）        | tenni      | tenesti      | tenne      | tenemmo      | teneste      | tennero      |
-      | vedere（看）        | vidi       | vedesti      | vide       | vedemmo      | vedeste      | videro       |
+      | vedere（看见）       | vidi       | vedesti      | vide       | vedemmo      | vedeste      | videro       |
       | sapere（知道）      | seppi      | sapesti      | seppe      | sapemmo      | sapeste      | seppero      |
       | volere（愿意）      | volli      | volesti      | volle      | volemmo      | voleste      | vollero      |
       | accendere（点亮）   | accesi     | accendesti   | accese     | accendemmo   | accendeste   | accesero     |
       | accludere（附上）   | acclusi    | accludesti   | accluse    | accludemmo   | accludeste   | acclusero    |
       | nascere（出生）     | nacqui     | nascesti     | nacque     | nascemmo     | nasceste     | nacquero     |
-      | vivere（活）        | vissi      | vivesti      | visse      | vivemmo      | viveste      | vissero      |
+      | vivere（生活）      | vissi      | vivesti      | visse      | vivemmo      | viveste      | vissero      |
       | leggere（读）       | lessi      | leggesti     | lesse      | leggemmo     | leggeste     | lessero      |
       | scrivere（写）      | scrissi    | scrivesti    | scrisse    | scrivemmo    | scriveste    | scrissero    |
       | rompere（打碎）     | ruppi      | rompesti     | ruppe      | rompemmo     | rompeste     | ruppero      |
@@ -1297,7 +1296,6 @@
       | trarre（牵拉）      | trassi     | traesti      | trasse     | traemmo      | traeste      | trassro      |
       | porre（安放）       | posi       | ponesti      | pose       | ponemmo      | poneste      | posero       |
 
-     #+NAME: 意大利语直陈式远愈过去时变位表
      #+CAPTION: 意大利语直陈式远愈过去时变位表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
      | 助动词 + 过去分词     | io   | tu     | lui/lei | noi    | voi    | loro   |
@@ -1309,13 +1307,85 @@
        - Quando ebbero finito il lavoro, partirono per la città.（他们干完了活，就出发进城了。）
      - 及物动词使用 avere 作助动词；不及物动词、自反动词使用 essere 作助动词。此时，过去分词需要和主语的性数一致。
 
+     #+CAPTION: 意大利语命令式现在时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |        | io | tu    | lui/lei | noi   | voi  | loro    |
+     |--------+----+-------+---------+-------+------+---------|
+     | -are   | /  | -a    | -i      | -iamo | -ate | -ino    |
+     | -ere   | /  | -i    | -a      | -iamo | -ete | -ano    |
+     | -ire   | /  | -i    | -a      | -iamo | -ite | -ano    |
+     | -ire * | /  | -isci | -isca   | -iamo | -ite | -iscano |
+
+     - 命令式只有现在时。
+       - Aiutatemi!  （你们帮帮我！）
+     - 命令式第二人称单数否定式用动词不定式。
+       - Non restare lì.（别呆在那里！）
+     - 命令式中的自反人称代词 si 在动词前，其他在动词后连写。
+       - Si svegli, signora, non dorma!（太太，醒一醒，别睡了！）
+       - Svegliati, bambina, non dormire!（小姑娘，醒一醒，别睡了！）
+     - 一些不规则动词：
+       #+CAPTION: 意大利语命令式现在时不规则动词变位表
+       #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+       |              | io | tu   | lui/lei | noi     | voi     | loro    |
+       |--------------+----+------+---------+---------+---------+---------|
+       | avere（有）  | /  | abbi | abbia   | abbiamo | abbiate | abbiano |
+       | essere（是） | /  | sii  | sia     | siamo   | siate   | siano   |
+       | andare（去） | /  | va   |         |         |         |         |
+       | dare（给）   | /  | da   |         |         |         |         |
+       | stare（在）  | /  | sta  |         |         |         |         |
+       | fare（做）   | /  | fa   |         |         |         |         |
+       | dire（说）   | /  | di   |         |         |         |         |
+
+     #+CAPTION: 意大利语条件式现在时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |      | io    | tu      | lui/lei | noi     | voi     | loro      |
+     |------+-------+---------+---------+---------+---------+-----------|
+     | -are | -erei | -eresti | -erebbe | -eremmo | -ereste | -erebbero |
+     | -ere | -erei | -eresti | -erebbe | -eremmo | -ereste | -erebbero |
+     | -ire | -irei | -iresti | -irebbe | -iremmo | -ireste | -irebbero |
+
+     - 条件式现在时用来表示现在或将来可能会发生的事情。从句用虚拟式未完成时。
+       - Parlerei con te se tu volessi.（我像和你谈谈，要是你愿意。）
+     - 还可以表示婉转、客气的愿望、邀请、劝告等。
+       - Vorrei vivere a Roma!（我多想生活在罗马！）
+     - 一些不规则动词：
+       #+CAPTION: 意大利语条件式现在时不规则动词变位表
+       #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+       |                | io       | tu         | lui/lei    | noi        | voi        | loro         |
+       |----------------+----------+------------+------------+------------+------------+--------------|
+       | avere（有）    | avrei    | avresti    | avrebbe    | avremmo    | avreste    | avrebbero    |
+       | essere（是）   | sarei    | saresti    | sarebbe    | saremmo    | sareste    | sarebbero    |
+       | andare（去）   | andrei   | andresti   | andrebbe   | andremmo   | andreste   | andrebbero   |
+       | venire（来）   | verrei   | verresti   | verrebbe   | verremmo   | verreste   | verrebbero   |
+       | dare（给）     | darei    | daresti    | darebbe    | daremmo    | dareste    | darebbero    |
+       | fare（做）     | farei    | faresti    | farebbe    | faremmo    | fareste    | farebbero    |
+       | tenere（取）   | terrei   | terresti   | terrebbe   | terremmo   | terreste   | terrebbero   |
+       | vedere（看见） | vedrei   | vedresti   | vedrebbe   | vedremmo   | vedreste   | vedrebbero   |
+       | rimanere（留） | rimarrei | rimarresti | rimarrebbe | rimarremmo | rimarreste | rimarrebbero |
+       | dovere（应该） | dovrei   | dovresti   | dovrebbe   | dovremmo   | dovreste   | dovrebbero   |
+       | potere（能够） | potrei   | potresti   | potrebbe   | potremmo   | potreste   | potrebbero   |
+       | volere（愿意） | vorrei   | vorresti   | vorrebbe   | vorremmo   | vorreste   | vorrebbero   |
+       | sapere（知道） | saprei   | sapresti   | saprebbe   | sapremmo   | sapreste   | saprebbero   |
+       | parere（似乎） | parrei   | parresti   | parrebbe   | parremmo   | parreste   | parrebbero   |
+       | valere（价值） | varrei   | varresti   | varrebbe   | varremmo   | varreste   | varrebbero   |
+       | vivere（生活） | vivrei   | vivresti   | vivrebbe   | vivremmo   | vivreste   | vivrebbero   |
+       | morire（死）   | morrei   | morresti   | morrebbe   | morremmo   | morreste   | morrebbero   |
+
+     #+CAPTION: 意大利语条件式过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     | 助动词 + 过去分词    | io    | tu      | lui/lei | noi     | voi     | loro      |
+     |----------------------+-------+---------+---------+---------+---------+-----------|
+     | avere 的条件式现在时  | avrei | avresti | avrebbe | avremmo | avreste | avrebbero |
+     | essere 的条件式现在时 | sarei | saresti | sarebbe | saremmo | sareste | sarebbero |
+
+     - 条件式过去时用来表示过去已经不可能发生的事情。从句用虚拟式愈过去时。
+       - Se avessi studiato di più, saresti stato promosso.（要是你更用功些，你就晋升了。）
+     - 表示没有可能实现的愿望。
+       - Come ti avrei voluto incontrare!（我多想能够遇见过你！）
 
 
 
 
-
-
-     #+NAME: 意大利语现在分词表
      #+CAPTION: 意大利语现在分词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
      | 原形词尾 | 现在分词词尾 |
@@ -1338,7 +1408,6 @@
        | porre（安放）    | ponente    |
        | trarre（拉）     | traente    |
 
-     #+NAME: 意大利语过去分词表
      #+CAPTION: 意大利语过去分词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
      | 原形词尾 | 现在分词词尾 |
@@ -1608,7 +1677,6 @@
       | attrarre（吸引）         | attratto             |
       | distrarre（使分心）      | distratto            |
 
-     #+NAME: 意大利语副动词表
      #+CAPTION: 意大利语副动词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
      | 原形词尾 | 现在分词词尾 |
