@@ -1219,7 +1219,7 @@
       | dare（给）          | diedi      | desti        | diede      | demmo        | deste        | diedero      |
       | rimanere（留）      | rimasi     | rimanesti    | rimase     | rimanemmo    | rimaneste    | rimasero     |
       | tenere（取）        | tenni      | tenesti      | tenne      | tenemmo      | teneste      | tennero      |
-      | vedere（看见）       | vidi       | vedesti      | vide       | vedemmo      | vedeste      | videro       |
+      | vedere（看见）      | vidi       | vedesti      | vide       | vedemmo      | vedeste      | videro       |
       | sapere（知道）      | seppi      | sapesti      | seppe      | sapemmo      | sapeste      | seppero      |
       | volere（愿意）      | volli      | volesti      | volle      | volemmo      | voleste      | vollero      |
       | accendere（点亮）   | accesi     | accendesti   | accese     | accendemmo   | accendeste   | accesero     |
@@ -1253,7 +1253,7 @@
       | bere（喝）          | bevvi      | bevesti      | bevve      | bevemmo      | beveste      | bevvero      |
       | chiedere（要求）    | chiesi     | chiedesti    | chiese     | chiedemmo    | chiedeste    | chiesero     |
       | chiudere（关）      | chiusi     | chiudesti    | chiuse     | chiudemmo    | chiedeste    | chiusero     |
-      | togliere（摘除）    | tolsi      | togliesti    | tolse      | togliemmo    | toglieste    | tolsero      |
+      | togliere（切除）    | tolsi      | togliesti    | tolse      | togliemmo    | toglieste    | tolsero      |
       | cingere（围）       | cinsi      | cingesti     | cinse      | cingemmo     | cingeste     | cinsero      |
       | stringere（握）     | strinsi    | stringesti   | strinse    | stringemmo   | stringeste   | strinsero    |
       | vincere（赢）       | vinsi      | vincesti     | vinse      | vincemmo     | vinceste     | vinsero      |
@@ -1345,7 +1345,7 @@
      | -ire | -irei | -iresti | -irebbe | -iremmo | -ireste | -irebbero |
 
      - 条件式现在时用来表示现在或将来可能会发生的事情。从句用虚拟式未完成时。
-       - Parlerei con te se tu volessi.（我像和你谈谈，要是你愿意。）
+       - Parlerei con te se tu volessi.（我想和你谈谈，要是你愿意。）
      - 还可以表示婉转、客气的愿望、邀请、劝告等。
        - Vorrei vivere a Roma!（我多想生活在罗马！）
      - 一些不规则动词：
@@ -1383,8 +1383,109 @@
      - 表示没有可能实现的愿望。
        - Come ti avrei voluto incontrare!（我多想能够遇见过你！）
 
+     #+CAPTION: 意大利语虚拟式现在时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |        | io    | tu    | lui/lei | noi   | voi   | loro    |
+     |--------+-------+-------+---------+-------+-------+---------|
+     | -are   | -i    | -i    | -i      | -iamo | -iate | -ino    |
+     | -ere   | -a    | -a    | -a      | -iamo | -iate | -ano    |
+     | -ire   | -a    | -a    | -a      | -iamo | -iate | -ano    |
+     | -ire * | -isca | -isca | -isca   | -iamo | -iate | -iscano |
 
+     - 虚拟式现在时表示祈求、规劝、鼓励、诅咒、让步等语气。
+       - Che tu sia benedetto!（愿你吉祥！）
+     - 在从句中表示一种观点、看法、假设、愿望、怀疑、希望、期待、祝贺等主观动作或状态。
+       - Credo che sia ora di tornare a casa.（我认为该是回家的时候了。）
+     - 一些不规则动词：
+       #+CAPTION: 意大利语虚拟式现在时不规则动词变位表
+       #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+       |                    | io      | tu      | lui/lei | noi        | voi        | loro      |
+       |--------------------+---------+---------+---------+------------+------------+-----------|
+       | avere（有）        | abbia   | abbia   | abbia   | abbiamo    | abbiate    | abbiano   |
+       | essere（是）       | sia     | sia     | sia     | siamo      | siate      | siano     |
+       | stare（在）        | stia    | stia    | stia    | stiamo     | stiate     | stiano    |
+       | dare（给）         | dia     | dia     | dia     | diamo      | diate      | diano     |
+       | fare（做）         | faccia  | faccia  | faccia  | facciamo   | facciate   | facciano  |
+       | venire（来）       | venga   | venga   | venga   | veniamo    | veniate    | veniano   |
+       | dire（说）         | dica    | dica    | dica    | diciamo    | diciate    | diciano   |
+       | sapere（知道）     | sappia  | sappia  | sappia  | sappiamo   | sappiate   | sappiano  |
+       | volere（愿意）     | voglia  | voglia  | voglia  | vogliamo   | vogliate   | vogliano  |
+       | dovere（应该)      | dobba   | dobba   | dobba   | dobbiamo   | dobbiate   | dobbiano  |
+       | potere（能够）     | possa   | possa   | possa   | possiamo   | possiate   | possano   |
+       | andare（去）       | vada    | vada    | vada    | andiamo    | andiate    | andano    |
+       | nascere（出生）    | nasca   | nasca   | nasca   | nasciamo   | nasciate   | nascano   |
+       | morire（死）       | muoia   | muoia   | muoia   | moriamo    | moriate    | muoriano  |
+       | uscire（出）       | esca    | esca    | sca     | usciamo    | usciate    | uscano    |
+       | salire（登）       | salga   | salga   | salga   | saliamo    | saliate    | salgano   |
+       | rimanere（留）     | rimanga | rimanga | rimanga | rimaniamo  | rimaniate  | rimangano |
+       | apparire（出现）   | appaia  | appaia  | appaia  | appariamo  | appaiate   | appaiano  |
+       | giacere（躺）      | giaccia | giaccia | giaccia | giaciamo   | giaciate   | giacciano |
+       | piacere（喜欢）    | piaccia | piaccia | piaccia | piacciamo  | piacciate  | piacciano |
+       | parere（似乎）     | paia    | paia    | paia    | paiamo     | paiate     | paiano    |
+       | valere（价值）     | valga   | valga   | valga   | valiamo    | valiate    | valgano   |
+       | bere（喝）         | beva    | beva    | beva    | beviamo    | beviate    | bevano    |
+       | cogliere（采集）   | colga   | colga   | colga   | cogliamo   | cogliate   | colgano   |
+       | tacere（沉默）     | taccia  | taccia  | taccia  | taciamo    | taciate    | tacciano  |
+       | scegliere（选择）  | scelga  | scelga  | scelga  | scegliamo  | scegliate  | scelgano  |
+       | tenere（取）       | tenga   | tenga   | tenga   | teniamo    | teniate    | tengono   |
+       | trarre（牵拉）     | tragga  | tragga  | tragga  | traiamo    | traiate    | traggano  |
+       | cuocere（烹饪）    | cuocia  | cuocia  | cuocia  | cociamo    | cociate    | cuociano  |
+       | togliere（切除）   | tolga   | tolga   | tolga   | togliamo   | togliate   | tolgano   |
+       | nuocere（损害）    | noccia  | noccia  | noccia  | nociamo    | nociate    | nocciano  |
+       | sciogliere（融化） | sciolga | sciolga | sciolga | sciogliamo | scioglaite | sciolgano |
+       | spegnere（熄灭）   | spenga  | spenga  | spenga  | spegniamo  | spegniate  | spengano  |
+       | porre（安放）      | ponga   | ponga   | ponga   | poniamo    | poniate    | pongano   |
 
+     #+CAPTION: 意大利语虚拟式过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     | 助动词 + 过去分词     | io    | tu    | lui/lei | noi     | voi     | loro      |
+     |-----------------------+-------+-------+---------+---------+---------+-----------|
+     | avere 的虚拟式现在时  | abbia | abbia | abbia   | abbiamo | abbiate | abbiano   |
+     | essere 的虚拟式现在时 | sia   | sia   | sia     | siamo   | siate   | siano     |
+
+     - 虚拟式过去时表示怀疑、疑问的语气。
+       - Che abbia perduto il treno?（他不会是误了火车吧？）
+     - 在从句中表示一种观点、看法、假设、愿望、怀疑、希望、期待、祝贺等主观动作或状态。
+       - Non so se siano arrivati gli ospiti.（我不知道客人是否已经到了。）
+
+     #+CAPTION: 意大利语虚拟式未完成过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     |        | io    | tu    | lui/lei | noi     | voi   | loro    |
+     |--------+-------+-------+---------+---------+-------+---------|
+     | -are   | -assi | -assi | -asse   | -assimo | -aste | -assero |
+     | -ere   | -essi | -essi | -esse   | -essimo | -este | -essero |
+     | -ire   | -issi | -issi | -isse   | -issimo | -iste | -issero |
+
+     - 虚拟式未完成过去时表示一种未遂的心愿、祝愿、祈求等。
+       - Oh, potessi un giorno rivederti!（但愿有一天能再见到你！（不一定能见到））
+     - 主句是条件式，从句用虚拟式未完成过去时。
+       - Parlerei con te se tu volessi.（我想和你谈谈，要是你愿意。）
+     - 一些不规则动词：
+       #+CAPTION: 意大利语虚拟式未完成过去时不规则动词变位表
+       #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+       |                  | io         | tu         | lui/lei    | noi          | voi       | loro         |
+       |------------------+------------+------------+------------+--------------+-----------+--------------|
+       | avere（有）      | avessi     | avessi     | avesse     | avessimo     | aveste    | avessero     |
+       | essere（是）     | fossi      | fossi      | fosse      | fossimo      | foste     | fossero      |
+       | stare（在）      | stessi     | stessi     | stesse     | stessimo     | steste    | stessero     |
+       | dare（给）       | dessi      | dessi      | desse      | dessimo      | deste     | dessero      |
+       | fare（做）       | facessi    | facessi    | facesse    | facessimo    | faceste   | facessero    |
+       | dire（说）       | dicessi    | dicessi    | dicesse    | dicessimo    | diceste   | dicessero    |
+       | condurre（引导） | conducessi | conducessi | conducesse | conducessimo | conducste | conducessero |
+       | trarre（牵拉）   | traessi    | traessi    | traesse    | traessimo    | traeste   | traessero    |
+       | porre（安放）    | ponessi    | ponessi    | ponesse    | ponessimo    | poneste   | ponessero    |
+
+     #+CAPTION: 意大利语虚拟式愈过去时变位表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
+     | 助动词 + 过去分词           | io     | tu     | lui/lei | noi      | voi    | loro     |
+     |-----------------------------+--------+--------+---------+----------+--------+----------|
+     | avere 的虚拟式未完成过去时  | avessi | avessi | avesse  | avessimo | aveste | avessero |
+     | essere 的虚拟式未完成过去时 | fossi  | fossi  | fosse   | fossimo  | foste  | fossero  |
+
+     - 虚拟式愈过去时表示一种未遂的心愿、祝愿、祈求等。
+       - Non l'avessi mai detto!（就当我没说过！（但我已经说了））
+     - 主句是条件式，从句用虚拟式愈过去时。
+       - Se avessi studiato di più, saresti stato promosso.（要是你更用功些，你就晋升了。）
 
      #+CAPTION: 意大利语现在分词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
@@ -1461,7 +1562,7 @@
       | cogliere（抓）           | colto                |
       | accogliere（迎接）       | accolto              |
       | raccogliere（采集）      | raccolto             |
-      | togliere（摘除）         | tolto                |
+      | togliere（切除）        | tolto                |
       | sciogliere（融化）       | sciolto              |
       | compiere（完成）         | compiuto             |
       | adempiere（完成）        | adempiuto            |
