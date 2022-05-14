@@ -753,7 +753,7 @@
 
      #+CAPTION: 意大利语人称代词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X|X|X
-     |      | 人称 | 主格 | 直接补语（重读） | 直接补语（非重读） | 间接补语（重读） | 间接补语（非重读） |
+     |      | 人称 | 主格 | 直接宾语（重读） | 直接宾语（非重读） | 间接宾语（重读） | 间接宾语（非重读） |
      |------+------+------+------------------+--------------------+------------------+--------------------|
      | 单数 | 我   | io   | me               | mi                 | a me             | mi                 |
      |      | 你   | tu   | te               | ti                 | a te             | ti                 |
@@ -766,20 +766,20 @@
      |      | 她们 | loro | loro/sé          | le/si              | a loro/a sé      | loro/si            |
 
      - 大写的第三人称阴性单数 Lei 和复数 Loro，可以分别表示尊称“您”和“您们”。口语中，常常用 voi 代替 Loro。
-     - 直接补语的重读与非重读对比：La zia chiama voi.（阿姨叫的是你们。）/ La zia vi chiama.（阿姨叫你们。）
-     - 间接补语的重读与非重读对比：La zia dà un libro a me.（阿姨把一本书给我。）/ La zia mi dà un libro.（阿姨给我一本书。）
-     - lo/la/li/le/ne 分别代词作为直接补语的阳性单数、阴性单数、阳性复数、阴性复数名词，表示全部。ne 表示部分或者一点儿也没有。
+     - 直接宾语的重读与非重读对比：La zia chiama voi.（阿姨叫的是你们。）/ La zia vi chiama.（阿姨叫你们。）
+     - 间接宾语的重读与非重读对比：La zia dà un libro a me.（阿姨把一本书给我。）/ La zia mi dà un libro.（阿姨给我一本书。）
+     - lo/la/li/le/ne 分别代词作为直接宾语的阳性单数、阴性单数、阳性复数、阴性复数名词，表示全部。ne 表示部分或者一点儿也没有。
        Leggi tutti questi libri? - Sì, li leggo. / No, ne leggo solo alcuni. / No, non ne leggo affatto.（这些书你都读吗？是，我都读。/ 不，我只读一些。/ 不，我一本也不读。）
-     - 一般情况下，直接补语代词位于变位动词的前面。如果直接补语代词与动词不定式一起使用，应与去掉 e 的动词原形连写，或者置于变位动词前。
+     - 一般情况下，直接宾语代词位于变位动词的前面。如果直接宾语代词与动词不定式一起使用，应与去掉 e 的动词原形连写，或者置于变位动词前。
        - Lo conosco.（我认识他。）
        - La vogliamo visitare. / Vogliamo visitarla.（我们想要参观它。）
-     - 间接补语代词代替由前置词 a 引出的间接宾语。通常位于变位动词前。
+     - 间接宾语代词代替由前置词 a 引出的间接宾语。通常位于变位动词前。
        - Parlo ai miei amici. → Gli parlo.（我和我的朋友谈话。→ 我和他们谈话。）
      - lo/la/li/le 用在变了位的动词 avere 前时，它们的前面要加上 ce，此处 ce 没有实际含义。
        Avete tutti i libri necessari? Sì, ce li abbiamo.（你们有所有必需的书籍吗？是的，我们有。）
-     - 如果同时有间接补语和直接补语，放在动词后时，先间接后直接。
+     - 如果同时有间接宾语和直接宾语，放在动词后时，先间接后直接。
        - Date a me il libro. → Datemelo.（你们把书给我。→ 你们把它给我。）
-     - 当间接补语和直接补语连用时，需要写成组合形式：
+     - 当间接宾语和直接宾语连用时，需要写成组合形式：
        - Glieli puoi dare tu?（你能把它们给他吗？）
        |     | lo     | la     | li     | le     | ne     |
        |-----+--------+--------+--------+--------+--------|
@@ -829,10 +829,10 @@
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X
      |                   | 变化                                    | 例句                                                                         |
      |-------------------+-----------------------------------------+------------------------------------------------------------------------------|
-     | che 主语/直接补语 | 不变                                    | Dammi il libro che è sul tavolo.（把在桌上的书给我。）                       |
-     | cui 其他补语      | 不变                                    | L'uomo, cui mi rivolgo, è gentil.（我求教的人很热情。）                      |
-     | chi 单数主语/补语 | 不变                                    | Chi non ha testa abbia gambe.（没脑子的人就多动腿。）                        |
-     | quale 主语/补语   | 性数 il quale/la quele/i quali/le quali | Il treno, col quale sono arrivato, era in ritardo.（我来时乘的火车晚点了。） |
+     | che 主语/直接宾语 | 不变                                    | Dammi il libro che è sul tavolo.（把在桌上的书给我。）                       |
+     | cui 其他宾语      | 不变                                    | L'uomo, cui mi rivolgo, è gentil.（我求教的人很热情。）                      |
+     | chi 单数主语/宾语 | 不变                                    | Chi non ha testa abbia gambe.（没脑子的人就多动腿。）                        |
+     | quale 主语/宾语   | 性数 il quale/la quele/i quali/le quali | Il treno, col quale sono arrivato, era in ritardo.（我来时乘的火车晚点了。） |
      | dove/donde 地点   | 不变                                    | La città dove abitiamo è molto grande.（我们居住的城市非常大。）                          |
 
 ** 形容词
@@ -1525,6 +1525,8 @@
        - Le demande sono state accolte dalla direzione.（申请被领导接受了。）
      - 过去分词还可以用来做形容词修饰名词，此时要与被修饰名词保持性数一致。
        - Questi sono bicchieri usati.（这些是用过的杯子。）
+     - 有些过去分词和冠词连用，可以作为名词使用。
+       - Non bisogna dimenticare il passato.（不应该忘记过去。）
      - 一些不规则动词：
       #+CAPTION: 意大利语过去分词不规则动词变位表
       #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
@@ -1785,6 +1787,23 @@
      | -are     | -ando        |
      | -ere     | -endo        |
      | -ire     | -endo        |
+
+     - 副动词不能独立存在，常用在复合句中，修饰主句动词所表示的时间、原因、方式、条件、让步等。
+       - Passando una bella giornata sulla spiaggia, ci si diverte molto.（在海滩上渡过了美好的一天，玩得很痛快。）
+     - 一些不规则动词：
+      #+CAPTION: 意大利语副动词不规则动词变位表
+      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
+       |                  | 副动词     |
+       |------------------+------------|
+       | dire（说）       | dicendo    |
+       | bere（喝）       | bevendo    |
+       | fare（做）       | facendo    |
+       | tradurre（翻译） | traducendo |
+       | opporre（反对）  | opponendo  |
+       | attrarre（吸引） | attraendo  |
+       | condurre（引导） | conducendo |
+       | imporre（加强）  | imponendo  |
+       | trarre（牵）     | traendo    |
 
 ** 副词
 
