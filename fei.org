@@ -899,13 +899,19 @@
 
      #+CAPTION: 意大利语指示形容词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X|X
-     | 指代 | 阳性单数 | 阳性复数 | 阴性单数 | 阴性复数 |
-     |------+----------+----------+----------+----------|
-     | 这   | questo   | questi   | questa   | queste   |
-     | 那   | codesto  | codesti  | codesta  | codeste  |
-     | 那   | quello   | quelli   | quella   | quelle   |
+     | 指代 | 阳性单数    | 阳性复数    | 阴性单数 | 阴性复数 |
+     |------+-------------+-------------+----------+----------|
+     | 这   | questo      | questi      | questa   | queste   |
+     | 那   | codesto     | codesti     | codesta  | codeste  |
+     | 那   | quel/quello | quei/quegli | quella   | quelle   |
 
-     - quello 变化：在辅音开头的名词前要断音（quel），在元音开头的名词前要省音（quell'），在 s/z/gn 前不变（quello）。
+     - quello 变化：在辅音开头的名词前要断音（quel），在元音开头的名词前要省音（quell'），在 s/z/gn 前不变（quello）。如：
+       | 定冠词               | 指示形容词                  |
+       |----------------------+-----------------------------|
+       | il cane - i cani     | quel cane - quei cani       |
+       | lo zio - gli zii     | quello zio - quegli zii     |
+       | l'occhio - gli occhi | quell'occhio - quegli occhi |
+       | l'inno - gl'inni     | quell'inno - quegl'inni     |
 
      #+CAPTION: 意大利语疑问形容词表
      #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X
