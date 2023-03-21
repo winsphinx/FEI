@@ -1825,11 +1825,43 @@
 
 *** 介词
 
+    介词，又称前置词，用来表示各种词类之间的关系。
+
 **** Français
 
 **** Español
 
 **** Italiano
+
+     #+CAPTION: 意大利语介词表
+     #+ATTR_LATEX: :environment longtabu :width 0.9\textwidth :placement [H] :booktabs t :align l|X|X|X
+     | 介词         | 意义           | 用法                       | 例子                                                                        |
+     |--------------+----------------+----------------------------+-----------------------------------------------------------------------------|
+     | di           | 的             | 所属、材料、原因、方式     | È il disco del mio amico.（这是我朋友的唱片。）                             |
+     | da           | 被             | 被动句的施动者             | Lo studente è lodato da tutti.（该学生受到大家的赞扬。）                    |
+     |              | 从             | 来自某个地点               | Vengo da Firenze.（我从佛罗伦萨来。）                                       |
+     |              | 去             | 去谁家、去谁那里           | Vado dall'avvocato.（我到律师那里去。）                                     |
+     |              | 时长           | 持续时间                   | Sono arrivato da tre giorni.（我到了三天了。）                              |
+     |              | 用途           | 用途、原因                 | La nostra camera da letto è al primo piano.（我们的卧室在二层。）           |
+     |              | 目的           | 目的、方式                 | Non avevamo più nulla da mangiare.（那时我们没有什么可吃的了。）            |
+     | a            | 给             | 间接补语                   | Danno i cioccolatini ai bambini.（他们把巧克力给孩子们。）                  |
+     |              | 在、向         | 位于或去向某个地点         | Vi aspettano a casa.（他们在家里等你们。）                                  |
+     |              | 在             | 在某个时间                 | Ci vediamo alle otto.（我们八点见面。）                                     |
+     | in           | 在             | 在大洲、地区、国家等地点用 | La moda italiana è molto apprezzata in Cina.（意大利服饰在中国很时尚。）    |
+     |              | 在             | 地点或状态                 | Siamo in vacanze.（我们在度假。）                                           |
+     |              | 在             | 表示时间                   | Sono nato in 1975.（我生于 1975 年。）                                      |
+     |              | 用             | 交通工具、语言             | Preferisco viaggiare in treno.（我更喜欢乘火车旅行。）                      |
+     | per          | 为了、因为     | 目的、原因、手段           | C'è chi vive per mangiare.（有人活着为了吃。）                              |
+     |              | 时长           | 延续的时间                 | Lo cercammo per tre giorni interi.（我们找了他整整三天。）                  |
+     |              | 去             | 经过、去向                 | Partiremo domani per Venezia.（我们明天动身去威尼斯。）                     |
+     | con          | 和……一起     | 随同                       | Siamo bene con loro.（我们和他们相处很好。）                                |
+     |              | 用             | 方式、工具                 | Quell'uomo parla sempre con gli occhi chiusi.（那个男人说话总是闭着眼睛。） |
+     | tra/fra      | 之间           | 两个地点之间               | Tra le due città c'è molta differenza.（两个城市之间又很大差距。）          |
+     |              | 之后           | 某个时间之后               | Ci vedremo fra due mesi.（我们两个月后见。）                                |
+     | su           | 在……上       | 地点、时间                 | Il dizionario è sul tavolo.（字典在桌子上。）                               |
+     |              | 关于、朝向     | 论题、方向、接近           | È uscito un libro su Napoleone.（出版了一本关于拿破仑的书。）               |
+     | verso        | 向             | 趋向某个地点、接近某个时间 | I ragazzi andarono verso il ponte.（小伙子们向桥走去。）                    |
+     | senza/tranne | 没有、除……外 | 排除                       | Cammina senza cappello.（他不戴帽子走路。）                                 |
 
 * 句法
 
