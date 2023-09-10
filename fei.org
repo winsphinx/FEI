@@ -1865,6 +1865,22 @@
 
 * 句法
 
+*** 简单句
+
+**** Français
+
+**** Español
+
+**** Italiano
+
+*** 复合句
+
+**** Français
+
+**** Español
+
+**** Italiano
+
 #+LATEX: \newpage
 * 附录
 
